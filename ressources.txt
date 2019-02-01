@@ -1,0 +1,7 @@
+https://www.cse.iitk.ac.in/users/nsrivast/HCC/Recommender_systems_handbook.pdf 
+
+http://www-connex.lip6.fr/~dias/introRS.pdf
+
+https://github.com/cedias/practicalRS/blob/master/Reco%201.ipynb
+
+https://github.com/cedias/practicalNLP/blob/master/NLP%201.ipynb
