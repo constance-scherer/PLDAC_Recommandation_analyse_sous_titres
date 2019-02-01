@@ -1,0 +1,36 @@
+Semaine du 28/01
+
+Ensemble de fichiers de sous-titres (fichiers texte) = > sac de mots
+	- on récupère tous les mots présents et on crée un dictionnaire de tous ces mots (de taille d)
+
+	- première approche : représenter un document par un vecteur de taille d où un 1 représente la présence d'un mot dans le document et un 0 son absence
+		=> ça nous donne une matrice pleine de 0 (et on n'aime pas ça) (sparse)
+		=> table de hachage (hash table)
+		* pour former le dictionnaire : scikit-learn -> CountVectorizer
+
+	- une partie des mots du dictionnaire se retrouve dans tous les documents (mots très courants = stopwords), pas pertinent de les garder (même pas bien)
+		=> prétraitement pour les retirer pour ne garder que des mots discriminants
+		* pour le traitement du langage (voir cours RITAL) : nltk + tf-idf
+
+	- on veut une mesure de similarité entre les différents documents
+		* distance euclidienne pas pertinente car beaucoup de mots à 0 = grande similarité alors qu'on veut une similarité sur les mots présents
+		=> cosinus (produit scalaire : pour deux documents i et j, on calcule [(di . dj)/(||di||*||dj||)] ce qui nous donne la similarité sur les mots présents)
+
+	- première classification : regrouper les épisodes d'une série voire d'une saison d'une série 
+
+
+
+
+Tuto NLP (Natural Language Processing) -> https://github.com/cedias/practicalNLP/blob/master/NLP%201.ipynb
+
+Tuto recommandation/filtrage collaboratif -> https://github.com/cedias/practicalRS/blob/master/Reco%201.ipynb
+
+Cours sur les sytèmes de recommandation -> http://www-connex.lip6.fr/~dias/introRS.pdf
+
+Recommender Systems Handbook -> https://www.cse.iitk.ac.in/users/nsrivast/HCC/Recommender_systems_handbook.pdf 
+
+
+
+
+
+
