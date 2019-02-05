@@ -1,0 +1,22 @@
+Compte-rendu du 5/02/2019
+
+- faire attention à l'encodage !
+
+- test de différentes listes de stopwords 
+	* celle de nltk
+	* celle de sklearn
+	* les deux en même temps (avec quelques mots en plus)
+	* plusieurs trouvées sur internet (avec beaucoup plus de mots)
+		+ http://www.lextek.com/manuals/onix/stopwords1.html (~430)
+		+ https://github.com/Alir3z4/stop-words/blob/master/english.txt (~1300)
+		+ https://github.com/fozziethebeat/S-Space/blob/master/data/english-stop-words-large.txt (~600)
+
+	testées sur le premier épisode de Lost dans un premier temps puis sur toute la première saison
+	la combinaison de celles de nltk+sklearn ainsi que certains mots (comme "yeah" ou "don" pour don't par exemple) donne des résultats qui paraissent pertinents
+	la liste de 430 mots (+ quelques uns) donnent des résultats qui semblent pertinents également
+	les deux listes plus longues trouvées sur internet n'ont pas donné de résultats très satisfaisants - on les garde potentiellement pour la suite 
+
+- classement des mots en fonction du tf-idf 
+"tf–idf or TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus." (Wikipédia)
+
+- factoriser/raciniser les mots (pluriel, même racines, ...) 
