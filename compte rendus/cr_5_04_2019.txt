@@ -2,6 +2,8 @@ Compte-rendu du 5/02/2019
 
 - faire attention à l'encodage !
 
+- mots les plus présents par épisode/saison.
+
 - test de différentes listes de stopwords 
 	* celle de nltk
 	* celle de sklearn
@@ -17,6 +19,6 @@ Compte-rendu du 5/02/2019
 	les deux listes plus longues trouvées sur internet n'ont pas donné de résultats très satisfaisants - on les garde potentiellement pour la suite 
 
 - classement des mots en fonction du tf-idf 
-"tf–idf or TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus." (Wikipédia)
+"tf–idf or TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus." (Wikipédia). ---> Test avec document = épisode, corpus = saison.
 
-- factoriser/raciniser les mots (pluriel, même racines, ...) 
+- factoriser/raciniser les mots (pluriel, même racines, ...) : stemming.
