@@ -1,0 +1,23 @@
+Compte-rendu rdv 8/02/2019
+
+- preprocessing des fichiers
+        * passer par des regex pour affiner le contenu qu'on veut garder
+                -> caractères bizarres (notes de musique, #, ...)
+        * potentiellement garder les time-code pour la suite du projet
+        * à terme, avoir une nouvelle base propre des sous-titres
+        * penser à virer les séries pas en anglais
+                -> calculer l'indice d'un texte
+
+- similarité
+        * calculer les similarités entre deux épisodes
+                -> distance euclidienne (normalement pas ouf)
+                -> cosinus
+
+- classification
+        * clustering sur les épisodes
+
+- représentation
+        * stocker les vecteurs des tf-idf dans des sparse matrix (sklearn)
+
+- code
+        * coder les fonctions dans un module plutôt que d'utiliser des notebooks
