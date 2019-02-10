@@ -11,7 +11,8 @@ def verifier_ligne(ligne):
     l = ligne.lower()
     if "addic7ed" in l:
         return False
-    
+    #if l.startswith("sync"):
+        #return False
     for regex in liste_regex:
         if re.match(regex, ligne):
             return False
