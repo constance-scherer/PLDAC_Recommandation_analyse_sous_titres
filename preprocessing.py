@@ -21,8 +21,8 @@ def verifier_ligne(ligne):
 def transformer_ligne(ligne):
     """str -> str
     effectue transformation souhaitees sur la ligne"""
-    opening_tag_regex =  r'^<*[a-zA-Z]+>' #to get rid of opening tag
-    closing_tag_regex = r'<(/)*[a-zA-Z]+>$' #to get rif of closing tag
+    opening_tag_regex =  r'^<[a-zA-Z]+>' #to get rid of opening tag
+    closing_tag_regex = r'</[a-zA-Z]+>$' #to get rif of closing tag
     new_line = re.sub(opening_tag_regex, '', ligne)
     new_line = re.sub(closing_tag_regex, '', ligne)
     return new_line
