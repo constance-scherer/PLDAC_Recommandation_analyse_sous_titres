@@ -1,6 +1,7 @@
 import os
 import re
 from textblob import TextBlob
+from nltk.stem import WordNetLemmatizer
 
 def verifier_ligne(ligne):
     """return True si la ligne est un sous-titre, False sinon"""
@@ -23,7 +24,9 @@ def transformer_ligne(ligne):
     """str -> str
     effectue transformation souhaitees sur la ligne"""
     tag_regex = r'<(/)*[a-zA-Z]+>' #to get rif of tags
+    alphanum_regex = r'\W+'  #get rid of non alphanumeric characters
     new_line = re.sub(tag_regex, '', ligne)
+    new_line = re.sub(r'\W+', ' ', new_line)
     return new_line
 
 def scan_folder(parent_folder, corp):
@@ -39,6 +42,7 @@ def scan_folder(parent_folder, corp):
             
             texte = ""
             for ligne in lignes :
+                #ligne = ligne.lower()
                 if verifier_ligne(ligne):
                     new_line = transformer_ligne(ligne)
                     texte += new_line
@@ -59,9 +63,14 @@ def get_corpus(parent_folder):
     res = scan_folder(parent_folder, c)
     return res
 
-
 def stemming(str_input):
     blob = TextBlob(str_input.lower())
     tokens = blob.words
     words = [token.stem() for token in tokens]
+    return words
+
+def lemmatizing(str_input):
+    lemmatizer = WordNetLemmatizer()
+    tokens = nltk.word_tokenize(str_input)
+    words = [lemmatizer.lemmatize(word, pos="v") for word in tokens]
     return words
