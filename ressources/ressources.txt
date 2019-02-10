@@ -6,4 +6,7 @@ https://github.com/cedias/practicalRS/blob/master/Reco%201.ipynb
 
 https://github.com/cedias/practicalNLP/blob/master/NLP%201.ipynb
 
+Stemming and Lemmatization
 http://jonathansoma.com/lede/algorithms-2017/classes/more-text-analysis/counting-and-stemming/
+
+https://www.datacamp.com/community/tutorials/stemming-lemmatization-python
