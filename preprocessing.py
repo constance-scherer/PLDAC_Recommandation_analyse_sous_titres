@@ -1,5 +1,6 @@
 import os
 import re
+from textblob import TextBlob
 
 def verifier_ligne(ligne):
     """return True si la ligne est un sous-titre, False sinon"""
@@ -21,10 +22,8 @@ def verifier_ligne(ligne):
 def transformer_ligne(ligne):
     """str -> str
     effectue transformation souhaitees sur la ligne"""
-    opening_tag_regex =  r'^<[a-zA-Z]+>' #to get rid of opening tag
-    closing_tag_regex = r'</[a-zA-Z]+>$' #to get rif of closing tag
-    new_line = re.sub(opening_tag_regex, '', ligne)
-    new_line = re.sub(closing_tag_regex, '', ligne)
+    tag_regex = r'<(/)*[a-zA-Z]+>' #to get rif of tags
+    new_line = re.sub(tag_regex, '', ligne)
     return new_line
 
 def scan_folder(parent_folder, corp):
@@ -59,3 +58,10 @@ def get_corpus(parent_folder):
     c = []
     res = scan_folder(parent_folder, c)
     return res
+
+
+def stemming(str_input):
+    blob = TextBlob(str_input.lower())
+    tokens = blob.words
+    words = [token.stem() for token in tokens]
+    return words

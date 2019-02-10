@@ -5,3 +5,5 @@ http://www-connex.lip6.fr/~dias/introRS.pdf
 https://github.com/cedias/practicalRS/blob/master/Reco%201.ipynb
 
 https://github.com/cedias/practicalNLP/blob/master/NLP%201.ipynb
+
+http://jonathansoma.com/lede/algorithms-2017/classes/more-text-analysis/counting-and-stemming/
