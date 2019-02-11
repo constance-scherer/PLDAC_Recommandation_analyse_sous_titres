@@ -1,5 +1,6 @@
 import os
 import re
+import nltk
 from textblob import TextBlob
 from nltk.stem import WordNetLemmatizer
 
@@ -31,7 +32,6 @@ def transformer_ligne(ligne):
 
 def scan_folder(parent_folder, corp):
     """retourne corpus des textes contenus dans parent_folder sous forme de liste de string"""
-    
     # iterate over all the files in directory 'parent_folder'
     for file_name in os.listdir(parent_folder):
         if file_name.endswith(".txt"):
@@ -57,20 +57,38 @@ def scan_folder(parent_folder, corp):
     return corp
 
 
-#pour eviter les variables globales
+#pour eviter les variables globales utiliser get_corpus qui appelle scan_folder
 def get_corpus(parent_folder):
+    """retourne corpus des textes contenus dans parent_folder sous forme de liste de string"""
     c = []
     res = scan_folder(parent_folder, c)
     return res
 
-def stemming(str_input):
+def stemming_tokenizer(str_input):
     blob = TextBlob(str_input.lower())
     tokens = blob.words
     words = [token.stem() for token in tokens]
     return words
 
-def lemmatizing(str_input):
+def lemmatizing_tokenizer(str_input):
     lemmatizer = WordNetLemmatizer()
     tokens = nltk.word_tokenize(str_input)
     words = [lemmatizer.lemmatize(word, pos="v") for word in tokens]
+    return words
+
+def lemmatizing_tokenizer_v2(str_input):
+    words = []
+    wnl = WordNetLemmatizer()
+    tokens_tagged =pos_tag(word_tokenize(str_input))
+    for word, tag in tokens_tagged:
+        if tag.startswith("NN"):
+            word = wnl.lemmatize(word, pos='n')
+        elif tag.startswith('VB'):
+            word = wnl.lemmatize(word, pos='v')
+        elif tag.startswith('JJ'):
+            word = wnl.lemmatize(word, pos='a')
+        else:
+            pass
+        words.append(word)
+
     return words

@@ -6,7 +6,18 @@ https://github.com/cedias/practicalRS/blob/master/Reco%201.ipynb
 
 https://github.com/cedias/practicalNLP/blob/master/NLP%201.ipynb
 
-Stemming and Lemmatization
+=== Stemming and Lemmatization ===
+
 http://jonathansoma.com/lede/algorithms-2017/classes/more-text-analysis/counting-and-stemming/
 
 https://www.datacamp.com/community/tutorials/stemming-lemmatization-python
+
+https://stackoverflow.com/questions/39361976/apply-multiple-pos-argument-in-lemmatization
+
+=== Stanford Tokenizer ===
+
+https://nlp.stanford.edu/software/tokenizer.shtml
+
+=== List of English contraction ===
+
+https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions
