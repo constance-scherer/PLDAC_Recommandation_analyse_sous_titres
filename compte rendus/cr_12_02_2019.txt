@@ -1,0 +1,41 @@
+Compte rendu du 12/02/2019
+
+- clustering entre deux séries (1 saison par série) :
+	* premier essai : représentation des épisodes par tf-idf mais calculés sur l'ensemble du vocabulaire des deux séries => trop facile à classifier
+
+	* deuxième essai : calculs des tf-idf séparément 
+		-> entre deux séries très différentes : très bons résultats
+		-> entre deux séries très similaires : résultats moins bons
+
+	* troisième essai : on veut enlever les noms propres => on récupère pour chaque épisode les n mots au plus grand tf-idf et on enlève tous ces mots
+	on s'attend à ce que l'accuracy baisse lorsque n augmente et c'est plus ou moins ce que l'on obtient.
+
+	* questions : est-ce que façon correcte de faire le clustering ? comment les kmeans fonctionne ? pour virer les noms propres, on fait par tf-idf les plus grands mais judicieux ? quand s'arrêter ?
+
+
+- lemmatisation 
+	* on utilise pos_tag dans nltk mais problème de reconnaissance de tag (ex : 'ran' est reconnu comme un nom (NN) au lieu d'un VBD)
+		-> des solutions sur internet disent qu'il faut retrain sur une autre base
+
+	* on rajoute dans les stopwords la liste des contractions (ex : 'gonna') tokenisés pour les enlever du vocabulaire.
+
+	* questions : quand est-ce qu'on lemmatise ? quand est-ce qu'on stem ? meilleure solution que ce qu'on a ?
+
+
+-> Comment virer les dossiers dans lesquels les sous-titres ne sont pas en anglais ?
+-> comment virer les mots dans un fichier qui sont dans un autre alphabet / autre langue ?
+Lost - Saison 6 - Ep 3 (What Kate Does)
+-> Sparse Matrix
+
++ Mettre au propre fichier preprocessing.py
++ Idem avec un fichier pour le clustering
++ Idem avec un fichier pour les tf-idf ?
+
+Mesure de similarité à la main
+- produit scalaire
+- cosinus
+- euclide
+- ...
+
+https://www.music-map.com/ pour l'affichage ?
+
