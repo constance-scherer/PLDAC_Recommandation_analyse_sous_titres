@@ -21,3 +21,8 @@ https://nlp.stanford.edu/software/tokenizer.shtml
 === List of English contractions ===
 
 https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions
+
+=== Sparse matrices tutorial ===
+
+https://machinelearningmastery.com/sparse-matrices-for-machine-learning/
+
