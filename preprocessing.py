@@ -1,8 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import os
 import re
 import nltk
 from textblob import TextBlob
 from nltk.stem import WordNetLemmatizer
+from nltk.tag import pos_tag
+from nltk.tokenize import word_tokenize
 
 def verifier_ligne(ligne):
     """return True si la ligne est un sous-titre, False sinon"""
@@ -23,17 +27,17 @@ def verifier_ligne(ligne):
 
 def transformer_ligne(ligne):
     """str -> str
-    effectue transformation souhaitees sur la ligne"""
+    effectue transformations souhaitees sur la ligne"""
     tag_regex = r'<(/)*[a-zA-Z]+>' #to get rif of tags
     alphanum_regex = r'\W+'  #get rid of non alphanumeric characters
     new_line = re.sub(tag_regex, '', ligne)
-    new_line = re.sub(r'\W+', ' ', new_line)
+    new_line = re.sub(alphanum_regex, ' ', new_line)
     return new_line
 
 def scan_folder(parent_folder, corp):
     """retourne corpus des textes contenus dans parent_folder sous forme de liste de string"""
     # iterate over all the files in directory 'parent_folder'
-    for file_name in os.listdir(parent_folder):
+    for file_name in sorted(os.listdir(parent_folder)):
         if file_name.endswith(".txt"):
             path = parent_folder+"/"+file_name
             fichier = open(path, "r")

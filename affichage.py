@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import pandas as pd
 
 def get_hist(df, x_axis, y_axis, titre, colour, font_size=None, horizontal=False):
