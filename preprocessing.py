@@ -40,7 +40,7 @@ def scan_folder(parent_folder, corp):
     for file_name in sorted(os.listdir(parent_folder)):
         if file_name.endswith(".txt"):
             path = parent_folder+"/"+file_name
-            fichier = open(path, "r")
+            fichier = open(path, "r", encoding="utf-8")
             lignes = fichier.readlines()
             fichier.close()
             
@@ -96,3 +96,45 @@ def lemmatizing_tokenizer_v2(str_input):
         words.append(word)
 
     return words
+
+
+def nbSeriesCorpus(path):
+    return sum(os.path.isdir(os.path.join(path, i)) for i in sorted(os.listdir(path)))
+
+
+def getShowDictList(path):
+    liste_dico_series = []
+    if nbSeriesCorpus(path) != 1:
+        filenames= sorted(os.listdir(path)) # get all files' and folders' names in the current directory
+        for filename in filenames: # loop through all the files and folders
+            if os.path.isdir(os.path.join(os.path.abspath(path), filename)): # check whether the current object is a folder or not
+                show_path = path+"/"+filename
+                liste = []
+                nb_saisons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
+                for i in range(1, nb_saisons+1):
+                    if i < 10:
+                        path_saison = show_path+"/0"+str(i)
+                    else:
+                        path_saison = show_path+"/"+str(i)
+                    nb_eps_saison = len(fnmatch.filter(os.listdir(path_saison), '*.txt'))
+                    liste.append(nb_eps_saison)
+                l = np.cumsum(liste)
+                seasons_list = list(range(1, nb_saisons+1))
+                dico_serie = dict(zip(seasons_list, l))  # key : season id value : max index for this season (maxInd+1 actually) in dataframe
+                liste_dico_series.append(dico_serie)
+    else:
+        liste = []
+        nb_saisons = sum(os.path.isdir(os.path.join(path, i)) for i in sorted(os.listdir(path)))
+        for i in range(1, nb_saisons+1):
+            if i < 10:
+                path_saison = path+"/0"+str(i)
+            else:
+                path_saison = path+"/"+str(i)
+            nb_eps_saison = len(fnmatch.filter(os.listdir(path_saison), '*.txt'))
+            liste.append(nb_eps_saison)
+        l = np.cumsum(liste)
+        seasons_list = list(range(1, nb_saisons+1))
+        dico_serie = dict(zip(seasons_list, l))
+        liste_dico_series.append(dico_serie)
+
+    return liste_dico_series
