@@ -39,4 +39,4 @@ Mesure de similarité à la main
 
 https://www.music-map.com/ pour l'affichage ?
 
-A faire : virer les fichier grab.txt et info.txt !
+A faire : virer les fichiers grab.txt et info.txt !
