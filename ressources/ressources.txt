@@ -31,3 +31,7 @@ https://machinelearningmastery.com/sparse-matrices-for-machine-learning/
 http://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/
 
 https://stackoverflow.com/questions/17627219/whats-the-fastest-way-in-python-to-calculate-cosine-similarity-given-sparse-mat
+
+=== Netflix Recommendation ===
+
+https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429
