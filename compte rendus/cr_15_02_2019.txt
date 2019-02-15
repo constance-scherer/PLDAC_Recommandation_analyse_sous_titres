@@ -1,0 +1,24 @@
+Compte rendu du RDV du 15/02/2019
+
+- encoding :
+	* script linux
+	* module python
+
+	-> une fois que le problème d'encoding est réglé, on utilise Encoder normalized pour mettre n'importe quel caractère sous sa forme la plus simple (genre virer les accents)
+
+- pour les trucs pas en anglais :
+	* si on a des parties de sous-titres dans une autre langue, on vire
+	* pour virer les séries pas en anglais, on utilise la méthode des stopwords
+
+- lemmatiser/stem : on oublie la lemmatisation (trop couteux), on garde le stem pour l'instant mais pas sûr
+
+- prepocessing : faire en sorte d'avoir une fonction hyper paramétrique (avoir la possibilité d'activer ou de désactiver les différentes options afin de construire un tableau de résultats par rapport aux différents paramètres)
+
+- classification : partir sur de la classification supervisée
+	* Naive Bayes 
+	* Perceptron
+	* kNN : plutôt pour les épisodes
+	-> regarder les différentes distances ?
+
+- clustering : plutôt sur un grand nombre de séries afin de voir émerger des genres (ex : séries policières, historiques, médicales, etc.)
+
