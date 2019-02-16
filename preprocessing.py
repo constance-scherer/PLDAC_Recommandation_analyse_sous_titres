@@ -5,10 +5,16 @@ import re
 import nltk
 import fnmatch
 import numpy as np
+import pandas as pd
 from textblob import TextBlob
 from nltk.stem import WordNetLemmatizer
 from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from remove_empty_folders import *
+from language_detector import *
+from remove_empty_folders import *
 
 def verifier_ligne(ligne):
     """return True si la ligne est un sous-titre, False sinon"""
@@ -36,77 +42,169 @@ def transformer_ligne(ligne):
     new_line = re.sub(alphanum_regex, ' ', new_line)
     return new_line
 
-def scan_folder(parent_folder, corp):
-    """retourne corpus des textes contenus dans parent_folder sous forme de liste de string"""
-    # iterate over all the files in directory 'parent_folder'
-    for file_name in sorted(os.listdir(parent_folder)):
-        if file_name.endswith(".txt"):
-            path = parent_folder+"/"+file_name
-            fichier = open(path, "r", encoding="utf-8")
-            lignes = fichier.readlines()
-            fichier.close()
-            
-            texte = ""
-            for ligne in lignes :
-                #ligne = ligne.lower()
-                if verifier_ligne(ligne):
-                    new_line = transformer_ligne(ligne)
-                    texte += new_line
-            corp.append(texte)
-        
-        else:
-            current_path = "".join((parent_folder, "/", file_name))
-            if os.path.isdir(current_path):
-                # if we're checking a sub-directory, recall this method
-                scan_folder(current_path, corp)
+
+def getRidOfGrabInfo(path):
+    filenames= sorted(os.listdir(path)) 
+    # loop through all the files and folders
+    for filename in filenames:
+    # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+            path_folder = path+"/"+filename
+            l = fnmatch.filter(sorted(os.listdir(path_folder)), '*.txt')
+            if l != []:
+                for useless_file in l:
+                    os.remove(path_folder+"/"+useless_file)
+
+
+def getRidOfNonEnglishEpisodes(path):
+    # get all files' and folders' names in the current directory
+    filenames= sorted(os.listdir(path)) 
+    # loop through all the files and folders
+    for filename in filenames:
+         # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                show_path = path+"/"+filename
+                nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
+                
+                for i in range(1, nb_seasons+1):
+                    if i < 10:
+                        season_path = show_path+"/0"+str(i)
+                    else:
+                        season_path = show_path+"/"+str(i)
+                    
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
+                        if not isEnglish(episode_path):
+                            os.remove(episode_path)
+
+def removeFilesAndFoldersThatNeedToGo(path):
+    getRidOfGrabInfo(path)
+    getRidOfNonEnglishEpisodes(path)
+    removeEmptyFolders(path, removeRoot=True)
+
+
+def get_corpus_as_episodes(path):
+    """each text in corpus is an episode"""
+    corpus = []
     
-    return corp
+    # get all files' and folders' names in the current directory
+    filenames= sorted(os.listdir(path)) 
 
-
-#pour eviter les variables globales utiliser get_corpus qui appelle scan_folder
-def get_corpus(parent_folder):
-    """retourne corpus des textes contenus dans parent_folder sous forme de liste de string"""
-    c = []
-    res = scan_folder(parent_folder, c)
-    return res
-
-def stemming_tokenizer(str_input):
-    blob = TextBlob(str_input.lower())
-    tokens = blob.words
-    words = [token.stem() for token in tokens]
-    return words
-
-def lemmatizing_tokenizer(str_input):
-    lemmatizer = WordNetLemmatizer()
-    tokens = nltk.word_tokenize(str_input)
-    words = [lemmatizer.lemmatize(word, pos="v") for word in tokens]
-    return words
-
-def lemmatizing_tokenizer_v2(str_input):
-    words = []
-    wnl = WordNetLemmatizer()
-    tokens_tagged =pos_tag(word_tokenize(str_input))
-    for word, tag in tokens_tagged:
-        if tag.startswith("NN"):
-            word = wnl.lemmatize(word, pos='n')
-        elif tag.startswith('VB'):
-            word = wnl.lemmatize(word, pos='v')
-        elif tag.startswith('JJ'):
-            word = wnl.lemmatize(word, pos='a')
-        else:
-            pass
-        words.append(word)
-
-    return words
-
-
-def nbSeriesCorpus(path):
-    return sum(os.path.isdir(os.path.join(path, i)) for i in sorted(os.listdir(path)))
-
-
-def getShowDictList(path):
-    liste_dico_series = []
+    # loop through all the files and folders
+    for filename in filenames:
+         # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                show_path = path+"/"+filename
+                nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
+                
+                for i in range(1, nb_seasons+1):
+                    if i < 10:
+                        season_path = show_path+"/0"+str(i)
+                    else:
+                        season_path = show_path+"/"+str(i)
+                    
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
     
+                        f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
+                        lines = f.readlines()
+                        f.close()
+                        text =""
+                        for line in lines :
+                            line = line.lower()
+                            if verifier_ligne(line):
+                                new_line = transformer_ligne(line)
+                                text += new_line
+                        corpus.append(text)
+                            
+    return corpus
+
+def get_corpus_as_seasons(path):
+    """each text in corpus is a season"""
+    corpus = []
+    
+    # get all files' and folders' names in the current directory
+    filenames= sorted(os.listdir(path)) 
+
+    # loop through all the files and folders
+    for filename in filenames:
+         # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                show_path = path+"/"+filename
+                nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
+                
+                for i in range(1, nb_seasons+1):
+                    text =""
+                    if i < 10:
+                        season_path = show_path+"/0"+str(i)
+                    else:
+                        season_path = show_path+"/"+str(i)
+                    
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
+    
+                        f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
+                        lines = f.readlines()
+                        f.close()
+                        for line in lines :
+                            line = line.lower()
+                            if verifier_ligne(line):
+                                new_line = transformer_ligne(line)
+                                text += new_line
+                    corpus.append(text)
+                            
+    return corpus
+
+def get_corpus_as_shows(path):
+    """each text in corpus is a show"""
+    corpus = []
+    
+    # get all files' and folders' names in the current directory
+    filenames= sorted(os.listdir(path)) 
+
+    # loop through all the files and folders
+    for filename in filenames:
+         # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                text =""
+                show_path = path+"/"+filename
+                nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
+                
+                for i in range(1, nb_seasons+1):
+                    if i < 10:
+                        season_path = show_path+"/0"+str(i)
+                    else:
+                        season_path = show_path+"/"+str(i)
+                    
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
+    
+                        f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
+                        lines = f.readlines()
+                        f.close()
+                        for line in lines :
+                            line = line.lower()
+                            if verifier_ligne(line):
+                                new_line = transformer_ligne(line)
+                                text += new_line
+        corpus.append(text)
+                            
+    return corpus
+
+def get_corpus(path, texts_as="episodes"):
+    if texts_as == "seasons":
+        return get_corpus_as_seasons(path)
+    if texts_as == "shows":
+        return get_corpus_as_shows(path)
+    
+    return get_corpus_as_episodes(path)           
+
+
+
+def getDicts(path):
+    res = dict() #  keys : show id     values: dict(key:id season, value: nb  ep season)
+    res2 = dict() # keys : show id     values: show title
+    j = 1
     filenames= sorted(os.listdir(path)) # get all files' and folders' names in the current directory
     for filename in filenames: # loop through all the files and folders
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)): # check whether the current object is a folder or not
@@ -120,9 +218,24 @@ def getShowDictList(path):
                     path_saison = show_path+"/"+str(i)
                 nb_eps_saison = len(fnmatch.filter(os.listdir(path_saison), '*.txt'))
                 liste.append(nb_eps_saison)
-            l = np.cumsum(liste)
+            #l = np.cumsum(liste)
+            l = list(liste)
             seasons_list = list(range(1, nb_saisons+1))
-            dico_serie = dict(zip(seasons_list, l))  # key : season id value : max index for this season (maxInd+1 actually) in dataframe
-            liste_dico_series.append(dico_serie)
+            dico_serie = dict(zip(seasons_list, l))
+            res[j] = dico_serie
+            res2[j] = filename
+            j += 1
     
-    return liste_dico_series
+    return res, res2
+
+
+def getTfidfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+    X = vectorizer.fit_transform(corpus)
+    return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
+
+def getTfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
+    vectorizer = CountVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+    X = vectorizer.fit_transform(corpus)
+    return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
+            

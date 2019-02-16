@@ -16,7 +16,6 @@ def _calc_ratios(text):
     words = [word.lower() for word in tokens]
 
     for lang in stopwords.fileids():
-        print(lang)
         stopwords_set = set(stopwords.words(lang))
         words_set = set(words)
         common_words = words_set.intersection(stopwords_set)
@@ -37,3 +36,11 @@ def detect_language(text):
     second_most_common_words = ratios[second_most_rated_language]
 
     return most_rated_language
+
+
+def isEnglish(path):
+    f = open(path, 'r',encoding='utf-8', errors='ignore')
+    text = f.read()
+    f.close()
+    language = detect_language(text)
+    return language == "english"
