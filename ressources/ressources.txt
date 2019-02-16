@@ -43,3 +43,11 @@ https://github.com/hafidmermouri/nltk-language-detection/blob/master/app.py
 === Remove empty folders ===
 
 https://gist.github.com/jacobtomlinson/9031697#file-remove_empty_folders-py
+
+=== An Intro to Natural Language Processing in Python: Framing Text Classification in Familiar Terms ===
+
+https://medium.com/civis-analytics/an-intro-to-natural-language-processing-in-python-framing-text-classification-in-familiar-terms-33778d1aa3ca
+
+=== cosine similarity in k-means ===
+
+https://stats.stackexchange.com/questions/299013/cosine-distance-as-similarity-measure-in-kmeans

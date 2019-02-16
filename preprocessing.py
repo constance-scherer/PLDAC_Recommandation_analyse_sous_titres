@@ -42,6 +42,34 @@ def transformer_ligne(ligne):
     new_line = re.sub(alphanum_regex, ' ', new_line)
     return new_line
 
+def stemming_tokenizer(str_input):
+    blob = TextBlob(str_input.lower())
+    tokens = blob.words
+    words = [token.stem() for token in tokens]
+    return words
+
+def lemmatizing_tokenizer(str_input):
+    lemmatizer = WordNetLemmatizer()
+    tokens = nltk.word_tokenize(str_input)
+    words = [lemmatizer.lemmatize(word, pos="v") for word in tokens]
+    return words
+
+def lemmatizing_tokenizer_v2(str_input):
+    words = []
+    wnl = WordNetLemmatizer()
+    tokens_tagged =pos_tag(word_tokenize(str_input))
+    for word, tag in tokens_tagged:
+        if tag.startswith("NN"):
+            word = wnl.lemmatize(word, pos='n')
+        elif tag.startswith('VB'):
+            word = wnl.lemmatize(word, pos='v')
+        elif tag.startswith('JJ'):
+            word = wnl.lemmatize(word, pos='a')
+        else:
+            pass
+        words.append(word)
+
+    return words
 
 def getRidOfGrabInfo(path):
     filenames= sorted(os.listdir(path)) 
@@ -96,13 +124,8 @@ def get_corpus_as_episodes(path):
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
-                
-                for i in range(1, nb_seasons+1):
-                    if i < 10:
-                        season_path = show_path+"/0"+str(i)
-                    else:
-                        season_path = show_path+"/"+str(i)
-                    
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
                     for episode in sorted(os.listdir(season_path)):
                         episode_path = season_path+"/"+episode
     
@@ -132,14 +155,9 @@ def get_corpus_as_seasons(path):
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
-                
-                for i in range(1, nb_seasons+1):
-                    text =""
-                    if i < 10:
-                        season_path = show_path+"/0"+str(i)
-                    else:
-                        season_path = show_path+"/"+str(i)
-                    
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
+                    text = ""
                     for episode in sorted(os.listdir(season_path)):
                         episode_path = season_path+"/"+episode
     
@@ -155,6 +173,8 @@ def get_corpus_as_seasons(path):
                             
     return corpus
 
+
+
 def get_corpus_as_shows(path):
     """each text in corpus is a show"""
     corpus = []
@@ -168,14 +188,8 @@ def get_corpus_as_shows(path):
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 text =""
                 show_path = path+"/"+filename
-                nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
-                
-                for i in range(1, nb_seasons+1):
-                    if i < 10:
-                        season_path = show_path+"/0"+str(i)
-                    else:
-                        season_path = show_path+"/"+str(i)
-                    
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
                     for episode in sorted(os.listdir(season_path)):
                         episode_path = season_path+"/"+episode
     
@@ -209,17 +223,12 @@ def getDicts(path):
     for filename in filenames: # loop through all the files and folders
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)): # check whether the current object is a folder or not
             show_path = path+"/"+filename
-            liste = []
+            l = []
             nb_saisons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
-            for i in range(1, nb_saisons+1):
-                if i < 10:
-                    path_saison = show_path+"/0"+str(i)
-                else:
-                    path_saison = show_path+"/"+str(i)
-                nb_eps_saison = len(fnmatch.filter(os.listdir(path_saison), '*.txt'))
-                liste.append(nb_eps_saison)
-            #l = np.cumsum(liste)
-            l = list(liste)
+            for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
+                    nb_eps_saison = len(fnmatch.filter(os.listdir(season_path), '*.txt'))
+                    l.append(nb_eps_saison)
             seasons_list = list(range(1, nb_saisons+1))
             dico_serie = dict(zip(seasons_list, l))
             res[j] = dico_serie
