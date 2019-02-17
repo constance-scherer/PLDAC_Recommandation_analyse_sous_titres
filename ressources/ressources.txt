@@ -51,3 +51,6 @@ https://medium.com/civis-analytics/an-intro-to-natural-language-processing-in-py
 === cosine similarity in k-means ===
 
 https://stats.stackexchange.com/questions/299013/cosine-distance-as-similarity-measure-in-kmeans
+
+=== files list TFIDF ===
+https://stackoverflow.com/questions/51422688/sklearn-tfidf-on-large-corpus-of-documents
