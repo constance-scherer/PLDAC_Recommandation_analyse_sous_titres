@@ -93,13 +93,8 @@ def getRidOfNonEnglishEpisodes(path):
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
-                
-                for i in range(1, nb_seasons+1):
-                    if i < 10:
-                        season_path = show_path+"/0"+str(i)
-                    else:
-                        season_path = show_path+"/"+str(i)
-                    
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
                     for episode in sorted(os.listdir(season_path)):
                         episode_path = season_path+"/"+episode
                         if not isEnglish(episode_path):
