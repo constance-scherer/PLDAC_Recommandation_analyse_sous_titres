@@ -12,9 +12,9 @@ from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from remove_empty_folders import *
-from language_detector import *
-from remove_empty_folders import *
+from utils.remove_empty_folders import *
+from utils.language_detector import *
+from utils.remove_empty_folders import *
 
 def verifier_ligne(ligne):
     """return True si la ligne est un sous-titre, False sinon"""
@@ -23,8 +23,7 @@ def verifier_ligne(ligne):
     
     liste_regex = [timestamp_regex, subnumber_regex]
 
-    l = ligne.lower()
-    if "addic7ed" in l:
+    if "addic7ed" in ligne:
         return False
     #if l.startswith("sync"):
         #return False
@@ -36,14 +35,14 @@ def verifier_ligne(ligne):
 def transformer_ligne(ligne):
     """str -> str
     effectue transformations souhaitees sur la ligne"""
-    tag_regex = r'<(/)*[a-zA-Z]+>' #to get rif of tags
+    tag_regex = r'<(/)*(.)+>' #to get rif of tags
     alphanum_regex = r'\W+'  #get rid of non alphanumeric characters
     new_line = re.sub(tag_regex, '', ligne)
     new_line = re.sub(alphanum_regex, ' ', new_line)
     return new_line
 
 def stemming_tokenizer(str_input):
-    blob = TextBlob(str_input.lower())
+    blob = TextBlob(str_input)
     tokens = blob.words
     words = [token.stem() for token in tokens]
     return words
@@ -129,10 +128,7 @@ def get_corpus_as_episodes(path):
                         f.close()
                         text =""
                         for line in lines :
-                            line = line.lower()
-                            if verifier_ligne(line):
-                                new_line = transformer_ligne(line)
-                                text += new_line
+                            text += line
                         corpus.append(text)
                             
     return corpus
@@ -160,10 +156,7 @@ def get_corpus_as_seasons(path):
                         lines = f.readlines()
                         f.close()
                         for line in lines :
-                            line = line.lower()
-                            if verifier_ligne(line):
-                                new_line = transformer_ligne(line)
-                                text += new_line
+                            text += line
                     corpus.append(text)
                             
     return corpus
@@ -192,10 +185,7 @@ def get_corpus_as_shows(path):
                         lines = f.readlines()
                         f.close()
                         for line in lines :
-                            line = line.lower()
-                            if verifier_ligne(line):
-                                new_line = transformer_ligne(line)
-                                text += new_line
+                            text += line
         corpus.append(text)
                             
     return corpus
@@ -233,13 +223,49 @@ def getDicts(path):
     return res, res2
 
 
+def createCleanedData(path, new_dir):
+    
+    removeFilesAndFoldersThatNeedToGo(path)
+    filenames= sorted(os.listdir(path)) 
+    path_length = len(path)
+    for filename in filenames:
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                show_path = path+"/"+filename
+                nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
+                    text = ""
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
+                        new_path = new_dir+episode_path[path_length:]
+                        f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
+                        lines = f.readlines()
+                        f.close()
+                        for line in lines :
+                            line = line.lower()
+                            if verifier_ligne(line):
+                                new_line = transformer_ligne(line)
+                                text += new_line
+                        os.makedirs(os.path.dirname(new_path), exist_ok=True)
+                        with open(new_path, "w", encoding="utf-8") as f:
+                            f.write(text)
+
+
 def getTfidfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
     X = vectorizer.fit_transform(corpus)
     return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
+    
+def getTfidfSparseMat(corpus, my_stopwords=None, my_tokenizer=None):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+    return vectorizer.fit_transform(corpus)
 
 def getTfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
     vectorizer = CountVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
     X = vectorizer.fit_transform(corpus)
     return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
+    
+def getTfSparseMat(corpus, my_stopwords=None, my_tokenizer=None):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+    return vectorizer.fit_transform(corpus)
             
