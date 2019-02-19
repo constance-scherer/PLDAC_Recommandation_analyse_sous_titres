@@ -1,0 +1,13 @@
+Compte rendu du 19_02_2019
+
+- encoding :
+	* avec des modules python pour détecter l'encoding :
+		ça marche pas trop mal, mais on est pas sur de l'encoding que ça retourne et ça prend beaucoup de temps 
+
+	* avec script linux :
+		ça marche très bien et c'est plus facile pour recréer une base entièrement encodée en UTF-8
+		certains fichiers ne peuvent pas être convertis (encoding de base = 'binary' ou 'unknown-utf8') mais ces fichiers peuvent être ouvert dans python avec l'option encoding='utf-8' sans que ça produise d'erreurs.
+
+	* normalisation : ça marche nickel
+
+
