@@ -234,13 +234,14 @@ def createCleanedData(path, new_dir):
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
                 for season in sorted(os.listdir(show_path)):
                     season_path = show_path+"/"+season
-                    text = ""
+                    
                     for episode in sorted(os.listdir(season_path)):
                         episode_path = season_path+"/"+episode
                         new_path = new_dir+episode_path[path_length:]
                         f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
                         lines = f.readlines()
                         f.close()
+                        text = ""
                         for line in lines :
                             line = line.lower()
                             if verifier_ligne(line):
