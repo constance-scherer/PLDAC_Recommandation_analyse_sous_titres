@@ -1,5 +1,6 @@
 Compte rendu du 19_02_2019
 
+
 - encoding :
 	* avec des modules python pour détecter l'encoding :
 		ça marche pas trop mal, mais on est pas sur de l'encoding que ça retourne et ça prend beaucoup de temps 
@@ -9,5 +10,19 @@ Compte rendu du 19_02_2019
 		certains fichiers ne peuvent pas être convertis (encoding de base = 'binary' ou 'unknown-utf8') mais ces fichiers peuvent être ouvert dans python avec l'option encoding='utf-8' sans que ça produise d'erreurs.
 
 	* normalisation : ça marche nickel
+	
+- detection de langue :
+	
+	* on utilise la methode des stopwords pour virer ce qui n'est pas en anglais
+
+- on vire également les dossiers vides
+
+
+
+- Tests classification d'épisodes dans la bonne série avec Naive Bayes
+
+- Recommandation de séries à partir d'une matrice de similarités cosinus entre séries
+
+- Détection de blocs correspondant à des saisons dans une matrice de similarités cosinus entre épisodes d'une même série
 
 
