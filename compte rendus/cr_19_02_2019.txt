@@ -25,4 +25,6 @@ Compte rendu du 19_02_2019
 
 - Détection de blocs correspondant à des saisons dans une matrice de similarités cosinus entre épisodes d'une même série
 
+- Tentative, pas encore concluante mais à peine commencée, de recommandation avec Naive Bayes
+
 
