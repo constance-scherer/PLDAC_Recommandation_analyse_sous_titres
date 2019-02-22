@@ -54,3 +54,7 @@ https://stats.stackexchange.com/questions/299013/cosine-distance-as-similarity-m
 
 === files list TFIDF ===
 https://stackoverflow.com/questions/51422688/sklearn-tfidf-on-large-corpus-of-documents
+
+
+=== Avoiding labels overlap ===
+https://github.com/Phlya/adjustText
