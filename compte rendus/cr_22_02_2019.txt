@@ -1,0 +1,21 @@
+Compte rendu du 22/02/2019
+
+- affichage des matrices 
+	* imshow (very good!)
+	* multi dimensional scaling
+	* tsne
+
+- recommandation 
+	* revoir naivesBayes
+	* SVM
+
+- word clouds
+	* récupérer les poids des classifieurs 
+	* afficher les mots avec les plus gros poids
+
+- scrapping de données
+	* trouver les bons sites web pour récupérer les notes des utilisateurs pour les séries
+		https://www.rottentomatoes.com/
+		
+	* checker les API 
+	* NE PAS FAIRE DE BOUCLES FOR
