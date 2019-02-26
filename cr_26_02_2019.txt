@@ -1,0 +1,15 @@
+Compte rendu du 26/02/2019
+
+- WordCloud :  les mots les plus présents sont les noms propres, ce qui était attendu. 
+	pas ouf pour la recommandation : pour palier ce problème, plusieurs solutions s'offrent à nous :
+		* NER (Named Entity Recognition) : malheureusement, assez peu efficace avec nos corpus. En effet, nous travaillons avec du texte en minuscule et nous n'avons pas réussi à trouver un bon tagger.
+		* retirer les mots avec les plus grands tf-idf (par exemple retirer les 5 mots dont les tf-idf sont les 
+
+- Récupérer les ratings des utilisateurs sur des séries :
+	* rotten tomatoes
+	* imdb
+	* tv show time
+	* metacritic
+	pour récupérer des données
+	-> API : pas ouf ouf, pour rotten tomatoes, assez peu de choses avec l'API, pour IMDB c'est payant.
+	-> scraping : ça parait bien mais va falloir trouver les pages. ce qui est compliqué, c'est de trouver des pages avec toutes les notes d'un utilisateur et que pour les séries (pas les films). ou alors on regarde pour chaque série la page avec les ratings et regrouper les utilisateurs après ?
