@@ -269,4 +269,8 @@ def getTfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
 def getTfSparseMat(corpus, my_stopwords=None, my_tokenizer=None):
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
     return vectorizer.fit_transform(corpus)
-            
+    
+def getTfidfSparseMatAndDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+    X = vectorizer.fit_transform(corpus)
+    return X, pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())           
