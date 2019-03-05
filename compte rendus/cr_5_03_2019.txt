@@ -1,0 +1,29 @@
+Compte-rendu du 5/03/2019
+
+- Scraping :
+	* Metacritic :
+		- on a pu récupérer toutes les notes pour une série (donc pour toutes les saisons de la séries, on a parcouru toutes les pages possibles de reviews utilisateurs)
+		et ça marche très bien
+
+		- les url de metacritic sont de la forme <url_de_base>+<nom_série> donc on a voulu voir combien de série on pouvait atteindre facilement (c'est-à-dire avec un traitement minimum sur les noms des séries qu'on a dans la base de sous-titres)
+			-> enlever les chiffres et les '_' du début
+			-> remplacer les '_' dans le titre par des '-''
+			-> enlever quand il y avait la date entre parenthèses
+			-> lower
+		avec ce traitement, on obtient pour l'instant au moins 1179 séries dont les pages existent sur Metacritic (ce qui est raisonnable au vu de la taille de notre base)
+		une fois qu'on sera sûr du résultat final, on pourra aller récupérer toutes les séries qui nous intéressent
+
+		- in fine, on voudrait un dictionnaire {username : {serie1 : liste_notes}} dans ce genre là pour pouvoir faire des fichiers 
+			-> par utilisateur : username.txt qui contient les lignes nom_serie note_moyenne (très certainement)
+			-> par série : nom_serie.txt (le même nom que dans la base de sous-titres ?) qui contient des lignes username note_moyenne
+
+	* IMDB :
+		- pour scraper sur IMDB, il faut passer par l'API OMDB (http://www.omdbapi.com/) qui permet de récupérer les ID des séries que l'on veut (parce que sinon les url IMDB ne sont pas explicites). 
+
+		- sur la page des reviews utilisateurs d'une série, plusieurs obstacles :
+			-> parfois, les reviews n'ont pas de note (mais on peut sort par review rating directement dans l'url)
+			-> toutes les reviews ne sont pas sur différentes pages mais sous un 'load more' donc il faut voir comment on fait pour passer outre
+
+		- sinon, les notes sont par série donc ça c'est chouette, pas besoin de faire de moyenne et potentiellement plus d'utilisateurs/séries donc good
+
+		- il faut voir si c'est facile de récupérer les usernames et les notes mais ça devrait pas poser trop de problèmes ça.
