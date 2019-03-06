@@ -1,0 +1,3 @@
+new-girl 10.0
+homeland 10.0
+awake 10.0

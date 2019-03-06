@@ -1,0 +1,12 @@
+damages 10.0
+the-dresden-files 9.0
+dirt 8.0
+criminal-minds 10.0
+friday-night-lights 10.0
+the-nine 10.0
+heartland 7.0
+bones 10.0
+heroes 10.0
+prison-break 10.0
+how-i-met-your-mother 10.0
+drive 10.0

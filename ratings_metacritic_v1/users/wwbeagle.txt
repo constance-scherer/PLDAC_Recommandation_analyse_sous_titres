@@ -1,0 +1,2 @@
+rectify 10.0
+resurrection 0.0

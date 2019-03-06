@@ -1,0 +1,9 @@
+mad-men 10.0
+downton-abbey 6.0
+game-of-thrones 10.0
+freaks-and-geeks 8.0
+breaking-bad 9.0
+the-newsroom 5.0
+six-feet-under 6.0
+the-wire 8.0
+parenthood 6.0

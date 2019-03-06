@@ -1,0 +1,5 @@
+game-of-thrones 10.0
+doctor-who 5.0
+falling-skies 2.0
+the-wire 10.0
+archer 10.0

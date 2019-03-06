@@ -1,0 +1,2 @@
+gossip-girl 1.0
+mayday 1.0

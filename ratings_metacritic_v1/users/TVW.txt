@@ -1,0 +1,3 @@
+longmire 10.0
+major-crimes 1.0
+zoo 1.0

@@ -1,0 +1,3 @@
+heroes 9.5
+arrow 10.0
+two-and-a-half-men 10.0

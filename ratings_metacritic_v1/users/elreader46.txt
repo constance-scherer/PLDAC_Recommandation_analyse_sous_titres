@@ -1,0 +1,5 @@
+the-walking-dead 10.0
+american-horror-story 10.0
+whitney 5.0
+smash 10.0
+true-blood 9.0

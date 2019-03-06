@@ -1,0 +1,3 @@
+the-walking-dead 0.0
+lost 10.0
+the-leftovers 10.0

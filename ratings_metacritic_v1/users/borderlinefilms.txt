@@ -1,0 +1,8 @@
+mad-men 9.0
+game-of-thrones 8.0
+girls 4.0
+breaking-bad 7.0
+true-detective 7.0
+halt-and-catch-fire 6.0
+manhattan 10.0
+the-good-wife 9.5

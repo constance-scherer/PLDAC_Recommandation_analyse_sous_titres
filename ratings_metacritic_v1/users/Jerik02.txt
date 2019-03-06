@@ -1,0 +1,3 @@
+the-walking-dead 2.75
+game-of-thrones 10.0
+revolution 1.0

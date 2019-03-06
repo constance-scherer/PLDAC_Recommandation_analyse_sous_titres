@@ -1,0 +1,9 @@
+the-walking-dead 10.0
+doctor-who 10.0
+once-upon-a-time 10.0
+being-human 10.0
+hemlock-grove 10.0
+sleepy-hollow 9.0
+once-upon-a-time-in-wonderland 10.0
+supernatural 10.0
+pretty-little-liars 10.0

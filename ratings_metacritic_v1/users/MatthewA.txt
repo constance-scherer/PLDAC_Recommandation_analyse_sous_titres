@@ -1,0 +1,2 @@
+generation-kill 10.0
+sit-down-shut-up 8.0

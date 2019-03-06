@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+fringe 10.0
+ghost-adventures 10.0

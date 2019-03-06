@@ -1,0 +1,3 @@
+rectify 10.0
+almost-royal 0.0
+louie 10.0

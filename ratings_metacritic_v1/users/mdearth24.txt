@@ -1,0 +1,13 @@
+the-walking-dead 9.0
+game-of-thrones 7.5
+american-horror-story 2.0
+the-secret-circle 4.0
+pan-am 6.0
+hell-on-wheels 4.0
+breaking-bad 10.0
+revolution 8.0
+heroes 1.0
+glee 7.0
+sons-of-anarchy 10.0
+the-vampire-diaries 7.0
+two-and-a-half-men 0.0

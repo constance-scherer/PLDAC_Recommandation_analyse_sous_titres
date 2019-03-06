@@ -1,0 +1,3 @@
+reaper 10.0
+kings 8.0
+deadwood 10.0

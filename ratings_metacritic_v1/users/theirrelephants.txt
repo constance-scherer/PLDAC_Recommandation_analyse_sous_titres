@@ -1,0 +1,2 @@
+stargate-sg-1 10.0
+stargate-atlantis 8.0

@@ -1,0 +1,13 @@
+doctor-who 10.0
+girls 8.5
+orange-is-the-new-black 8.0
+looking 8.0
+broad-city 10.0
+fargo 10.0
+inside-amy-schumer 9.0
+the-affair 3.0
+jane-the-virgin 10.0
+togetherness 8.0
+catastrophe 9.0
+american-crime 6.0
+crazy-ex-girlfriend 8.0

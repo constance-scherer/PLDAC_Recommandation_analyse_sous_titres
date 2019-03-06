@@ -1,0 +1,2 @@
+ascension 10.0
+scorpion 10.0

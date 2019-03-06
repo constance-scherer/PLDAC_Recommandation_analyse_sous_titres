@@ -1,0 +1,3 @@
+hustle 8.0
+sleeper-cell 9.0
+nurse-jackie 2.0

@@ -1,0 +1,5 @@
+the-walking-dead 7.0
+breaking-bad 10.0
+arrow 6.0
+parks-and-recreation 9.0
+dexter 7.0

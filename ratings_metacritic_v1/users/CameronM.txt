@@ -1,0 +1,2 @@
+lost 8.0
+breaking-bad 10.0

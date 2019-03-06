@@ -1,0 +1,2 @@
+fringe 10.0
+dollhouse 7.0

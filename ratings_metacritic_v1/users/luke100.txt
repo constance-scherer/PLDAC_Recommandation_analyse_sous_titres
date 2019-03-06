@@ -1,0 +1,5 @@
+twin-peaks 2.0
+breaking-bad 10.0
+hannibal 9.0
+better-call-saul 10.0
+mr-robot 9.0

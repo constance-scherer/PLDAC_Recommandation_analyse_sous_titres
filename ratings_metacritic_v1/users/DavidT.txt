@@ -1,0 +1,3 @@
+lost 10.0
+bones 10.0
+ugly-betty 10.0

@@ -1,0 +1,3 @@
+black-sails 0.0
+fargo 10.0
+manhattan 0.0

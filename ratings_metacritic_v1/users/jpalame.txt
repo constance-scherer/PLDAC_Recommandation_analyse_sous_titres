@@ -1,0 +1,5 @@
+true-detective 10.0
+helix 7.0
+enlisted 8.0
+black-sails 7.0
+looking 8.0

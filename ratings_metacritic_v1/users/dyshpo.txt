@@ -1,0 +1,7 @@
+jersey-shore 2.0
+king-maxwell 5.0
+wayward-pines 2.0
+scorpion 1.0
+american-crime 1.0
+texas-rising 4.0
+the-sopranos 10.0

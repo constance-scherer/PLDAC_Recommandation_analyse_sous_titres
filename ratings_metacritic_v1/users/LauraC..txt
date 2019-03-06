@@ -1,0 +1,2 @@
+leverage 10.0
+swingtown 10.0

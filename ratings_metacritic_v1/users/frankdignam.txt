@@ -1,0 +1,5 @@
+friends 10.0
+breaking-bad 9.0
+how-i-met-your-mother 2.0
+seinfeld 9.0
+dexter 10.0

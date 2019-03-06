@@ -1,0 +1,2 @@
+leverage 10.0
+scorpion 6.0

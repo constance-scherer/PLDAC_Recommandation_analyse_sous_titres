@@ -1,0 +1,3 @@
+ringer 6.0
+up-all-night 2.0
+startalk 8.0

@@ -1,0 +1,9 @@
+house 8.0
+criminal-minds 8.0
+breaking-bad 10.0
+heroes 9.0
+dollhouse 9.0
+better-off-ted 9.0
+how-i-met-your-mother 10.0
+sons-of-anarchy 10.0
+rome 10.0

@@ -1,0 +1,3 @@
+transparent 0.0
+amish-mafia 0.0
+sons-of-anarchy 0.0

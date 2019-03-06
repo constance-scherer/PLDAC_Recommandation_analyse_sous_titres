@@ -1,0 +1,3 @@
+greek 7.0
+huff 10.0
+dollhouse 10.0

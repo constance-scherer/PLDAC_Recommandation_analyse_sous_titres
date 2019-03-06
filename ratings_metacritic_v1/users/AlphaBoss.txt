@@ -1,0 +1,4 @@
+firefly 10.0
+defiance 8.0
+stargate-universe 9.0
+dexter 9.0

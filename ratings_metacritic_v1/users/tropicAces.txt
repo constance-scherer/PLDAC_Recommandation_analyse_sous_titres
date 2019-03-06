@@ -1,0 +1,2 @@
+mob-city 8.0
+blue-mountain-state 8.0

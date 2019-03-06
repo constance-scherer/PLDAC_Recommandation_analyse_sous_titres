@@ -1,0 +1,6 @@
+the-walking-dead 8.0
+alphas 0.5
+falling-skies 10.0
+terra-nova 10.0
+last-resort 10.0
+fear-the-walking-dead 10.0

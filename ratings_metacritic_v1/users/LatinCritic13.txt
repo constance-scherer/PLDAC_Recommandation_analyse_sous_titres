@@ -1,0 +1,2 @@
+banshee 8.0
+true-detective 9.0

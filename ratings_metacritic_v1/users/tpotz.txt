@@ -1,0 +1,3 @@
+the-strain 10.0
+wayward-pines 0.0
+blindspot 9.0

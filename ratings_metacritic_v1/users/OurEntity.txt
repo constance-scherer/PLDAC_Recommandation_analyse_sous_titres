@@ -1,0 +1,2 @@
+suits 10.0
+powers 9.0

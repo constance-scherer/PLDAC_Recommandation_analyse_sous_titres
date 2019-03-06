@@ -1,0 +1,2 @@
+red-dwarf 10.0
+clone-high-usa 10.0

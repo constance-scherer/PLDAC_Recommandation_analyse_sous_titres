@@ -1,0 +1,8 @@
+men-in-trees 5.0
+heroes 7.0
+jericho 3.0
+kidnapped 8.0
+smith 6.0
+the-wire 10.0
+studio-60-on-the-sunset-strip 9.0
+30-rock 7.0

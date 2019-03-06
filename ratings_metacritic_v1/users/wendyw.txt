@@ -1,0 +1,4 @@
+reunion 10.0
+leverage 10.0
+defying-gravity 10.0
+windfall 10.0

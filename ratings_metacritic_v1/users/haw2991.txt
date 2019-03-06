@@ -1,0 +1,15 @@
+downton-abbey 7.0
+game-of-thrones 9.0
+girls 7.666666666666667
+true-blood 5.0
+hello-ladies 7.0
+looking 7.0
+transparent 9.0
+silicon-valley 9.0
+the-leftovers 4.0
+power 4.0
+olive-kitteridge 10.0
+deadwood 10.0
+rome 8.5
+two-and-a-half-men 2.0
+pretty-little-liars 3.0

@@ -1,0 +1,2 @@
+game-of-thrones 10.0
+banshee 10.0

@@ -1,0 +1,8 @@
+pawn-stars 1.0
+regular-show 8.0
+storage-wars 1.0
+weed-country 5.0
+amish-mafia 0.0
+futurama 10.0
+the-boondocks 4.0
+childrens-hospital 0.0

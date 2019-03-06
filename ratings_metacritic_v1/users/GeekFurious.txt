@@ -1,0 +1,2 @@
+enlightened 6.0
+orphan-black 10.0

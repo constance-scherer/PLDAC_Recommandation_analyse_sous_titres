@@ -1,0 +1,4 @@
+defiance 6.0
+under-the-dome 1.0
+sleepy-hollow 7.0
+almost-human 7.0

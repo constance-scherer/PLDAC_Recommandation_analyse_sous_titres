@@ -1,0 +1,5 @@
+south-park 10.0
+game-of-thrones 7.0
+family-guy 6.0
+trailer-park-boys 10.0
+extras 9.0

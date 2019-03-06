@@ -1,0 +1,6 @@
+silicon-valley 10.0
+fargo 8.0
+black-box 10.0
+gang-related 0.0
+the-night-shift 0.0
+the-leftovers 1.0

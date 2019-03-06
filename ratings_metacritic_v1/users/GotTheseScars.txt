@@ -1,0 +1,9 @@
+sherlock 9.0
+sherlock 9.0
+the-walking-dead 8.333333333333334
+game-of-thrones 10.0
+homeland 9.0
+girls 8.0
+kings 9.0
+band-of-brothers 10.0
+rome 8.5

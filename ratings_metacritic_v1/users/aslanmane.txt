@@ -1,0 +1,6 @@
+rectify 10.0
+helix 2.0
+dominion 0.0
+finding-carter 0.0
+backstrom 1.0
+unreal 9.0

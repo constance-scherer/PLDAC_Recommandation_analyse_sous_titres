@@ -1,0 +1,5 @@
+the-walking-dead 7.0
+game-of-thrones 8.5
+breaking-bad 9.0
+lucky-louie 8.0
+louie 9.333333333333334

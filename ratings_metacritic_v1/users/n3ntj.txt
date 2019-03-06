@@ -1,0 +1,4 @@
+chicago-fire 10.0
+brooklyn-nine-nine 10.0
+law-order-uk 10.0
+chicago-pd 10.0

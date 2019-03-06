@@ -1,0 +1,3 @@
+breaking-bad 10.0
+entourage 8.0
+two-and-a-half-men 4.0

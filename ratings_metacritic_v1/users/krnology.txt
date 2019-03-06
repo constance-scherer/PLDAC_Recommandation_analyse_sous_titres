@@ -1,0 +1,4 @@
+suits 9.0
+girls 4.0
+southland 9.0
+justified 8.333333333333334

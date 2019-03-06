@@ -1,0 +1,6 @@
+mad-men 10.0
+game-of-thrones 10.0
+american-horror-story 2.0
+twin-peaks 8.0
+arrested-development 10.0
+the-wire 9.5

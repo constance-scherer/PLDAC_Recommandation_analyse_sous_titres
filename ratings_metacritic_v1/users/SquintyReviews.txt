@@ -1,0 +1,8 @@
+the-walking-dead 8.0
+american-horror-story 8.0
+gravity-falls 10.0
+arrow 7.0
+the-leftovers 9.0
+heroes-reborn 5.0
+izombie 7.0
+moonbeam-city 6.0

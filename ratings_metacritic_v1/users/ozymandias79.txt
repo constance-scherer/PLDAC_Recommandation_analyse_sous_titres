@@ -1,0 +1,17 @@
+the-walking-dead 6.0
+game-of-thrones 4.333333333333333
+breaking-bad 6.0
+arrow 8.0
+the-americans 7.333333333333333
+true-blood 6.0
+under-the-dome 2.0
+peaky-blinders 6.0
+sleepy-hollow 8.0
+brooklyn-nine-nine 8.0
+resurrection 4.0
+the-leftovers 3.0
+extant 5.0
+intruders 6.0
+the-man-in-the-high-castle 8.0
+dexter 7.0
+archer 4.0

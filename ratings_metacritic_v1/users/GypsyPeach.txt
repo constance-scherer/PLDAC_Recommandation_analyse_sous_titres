@@ -1,0 +1,7 @@
+family-guy 0.0
+ncis 8.0
+house 9.0
+lost 3.0
+bones 7.0
+dexter 5.0
+rizzoli-isles 8.0

@@ -1,0 +1,3 @@
+revenge 0.0
+parks-and-recreation 10.0
+the-good-wife 10.0

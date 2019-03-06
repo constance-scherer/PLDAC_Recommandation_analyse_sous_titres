@@ -1,0 +1,9 @@
+my-name-is-earl 10.0
+the-riches 10.0
+the-tudors 9.0
+psych 10.0
+prison-break 10.0
+studio-60-on-the-sunset-strip 10.0
+big-love 10.0
+30-rock 0.0
+weeds 9.0

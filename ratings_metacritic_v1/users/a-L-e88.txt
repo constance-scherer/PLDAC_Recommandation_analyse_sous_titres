@@ -1,0 +1,3 @@
+game-of-thrones 7.0
+breaking-bad 10.0
+rectify 10.0

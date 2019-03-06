@@ -1,0 +1,2 @@
+conviction 8.0
+october-road 10.0

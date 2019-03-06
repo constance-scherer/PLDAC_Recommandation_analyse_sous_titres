@@ -1,0 +1,2 @@
+longmire 10.0
+hemlock-grove 10.0

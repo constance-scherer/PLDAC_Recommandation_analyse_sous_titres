@@ -1,0 +1,4 @@
+spongebob-squarepants 0.0
+enlightened 0.0
+regular-show 10.0
+the-americans 10.0

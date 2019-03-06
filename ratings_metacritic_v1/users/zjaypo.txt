@@ -1,0 +1,3 @@
+fresh-off-the-boat 10.0
+weird-loners 10.0
+resident-advisors 10.0

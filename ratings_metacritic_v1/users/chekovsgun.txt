@@ -1,0 +1,4 @@
+house 6.8
+the-following 0.0
+dexter 6.0
+24 3.0

@@ -1,0 +1,10 @@
+sherlock 9.333333333333334
+sherlock 9.333333333333334
+the-walking-dead 7.5
+game-of-thrones 9.0
+lost 5.666666666666667
+breaking-bad 8.8
+true-blood 4.285714285714286
+true-detective 9.0
+dexter 6.75
+24 8.333333333333334

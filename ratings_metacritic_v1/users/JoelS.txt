@@ -1,0 +1,2 @@
+fringe 5.0
+psych 9.0

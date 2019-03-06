@@ -1,0 +1,12 @@
+downton-abbey 9.0
+game-of-thrones 7.0
+outcasts 5.0
+falling-skies 6.0
+terra-nova 6.0
+breaking-bad 9.5
+longmire 8.0
+revolution 4.0
+better-call-saul 9.0
+the-man-in-the-high-castle 8.0
+mr-robot 8.0
+the-closer 9.0

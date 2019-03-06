@@ -1,0 +1,4 @@
+homeland 3.0
+the-following 0.0
+the-americans 10.0
+orphan-black 5.0

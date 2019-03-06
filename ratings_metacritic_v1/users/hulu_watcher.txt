@@ -1,0 +1,2 @@
+smash 1.0
+awake 10.0

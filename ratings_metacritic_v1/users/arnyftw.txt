@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+breaking-bad 10.0
+elementary 8.0

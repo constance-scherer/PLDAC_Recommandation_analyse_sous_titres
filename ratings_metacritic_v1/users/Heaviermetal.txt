@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+falling-skies 9.0
+star-wars-rebels 9.0

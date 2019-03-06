@@ -1,0 +1,7 @@
+downton-abbey 9.333333333333334
+game-of-thrones 9.0
+homeland 9.0
+veep 10.0
+arrested-development 7.0
+community 3.0
+dexter 7.0

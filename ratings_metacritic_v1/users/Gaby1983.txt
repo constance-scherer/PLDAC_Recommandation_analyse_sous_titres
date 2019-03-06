@@ -1,0 +1,5 @@
+revenge 10.0
+american-horror-story 10.0
+grimm 10.0
+once-upon-a-time 10.0
+the-river 10.0

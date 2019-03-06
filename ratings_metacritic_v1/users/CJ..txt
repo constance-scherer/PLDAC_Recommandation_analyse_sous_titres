@@ -1,0 +1,3 @@
+chuck 9.0
+the-big-bang-theory 10.0
+swingtown 10.0

@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+family-guy 3.0
+two-and-a-half-men 2.0

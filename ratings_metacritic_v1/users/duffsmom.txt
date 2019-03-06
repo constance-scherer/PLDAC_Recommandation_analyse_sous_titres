@@ -1,0 +1,3 @@
+blindspot 8.0
+quantico 1.0
+the-player 6.0

@@ -1,0 +1,5 @@
+the-walking-dead 7.0
+game-of-thrones 10.0
+oz 9.0
+the-newsroom 1.0
+the-sopranos 10.0

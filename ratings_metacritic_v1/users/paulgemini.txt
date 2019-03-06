@@ -1,0 +1,7 @@
+the-walking-dead 4.0
+terra-nova 0.0
+criminal-minds 2.0
+breaking-bad 10.0
+justified 10.0
+treme 1.0
+luther 10.0

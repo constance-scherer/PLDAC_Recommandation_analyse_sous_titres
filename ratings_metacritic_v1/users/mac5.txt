@@ -1,0 +1,13 @@
+sleepy-hollow 10.0
+true-detective 5.0
+tyrant 3.0
+the-leftovers 2.0
+dominion 10.0
+the-strain 7.0
+extant 8.0
+the-knick 7.0
+intruders 4.0
+stalker 0.0
+legends 3.0
+how-to-get-away-with-murder 2.0
+fortitude 10.0

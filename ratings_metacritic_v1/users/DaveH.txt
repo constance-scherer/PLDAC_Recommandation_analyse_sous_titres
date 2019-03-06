@@ -1,0 +1,4 @@
+my-name-is-earl 1.0
+supernatural 10.0
+stargate-universe 5.0
+hot-in-cleveland 10.0

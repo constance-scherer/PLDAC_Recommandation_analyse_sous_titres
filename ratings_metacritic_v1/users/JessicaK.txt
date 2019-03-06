@@ -1,0 +1,2 @@
+swingtown 10.0
+kings 10.0

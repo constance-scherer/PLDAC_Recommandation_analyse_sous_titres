@@ -1,0 +1,4 @@
+gossip-girl 8.0
+once-upon-a-time 10.0
+the-following 0.0
+how-to-get-away-with-murder 8.0

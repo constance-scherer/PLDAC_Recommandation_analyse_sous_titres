@@ -1,0 +1,2 @@
+major-crimes 10.0
+star-wars-rebels 10.0

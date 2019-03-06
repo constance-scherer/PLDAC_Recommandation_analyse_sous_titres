@@ -1,0 +1,2 @@
+vanished 0.0
+drive 10.0

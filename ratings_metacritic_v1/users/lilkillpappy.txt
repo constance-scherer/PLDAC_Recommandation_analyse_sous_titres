@@ -1,0 +1,8 @@
+aqua-teen-hunger-force 10.0
+appropriate-adult 10.0
+breaking-bad 10.0
+drawn-together 10.0
+the-following 0.0
+cosmos-a-space-time-odyssey 10.0
+better-call-saul 10.0
+fear-the-walking-dead 0.0

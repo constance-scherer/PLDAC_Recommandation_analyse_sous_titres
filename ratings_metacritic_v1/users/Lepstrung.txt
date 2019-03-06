@@ -1,0 +1,3 @@
+the-simpsons 10.0
+the-big-bang-theory 10.0
+friends 10.0

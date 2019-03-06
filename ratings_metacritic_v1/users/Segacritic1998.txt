@@ -1,0 +1,2 @@
+the-simpsons 10.0
+family-guy 5.0

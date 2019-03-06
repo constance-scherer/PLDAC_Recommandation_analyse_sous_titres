@@ -1,0 +1,11 @@
+sherlock 0.0
+sherlock 0.0
+mad-men 6.0
+doctor-who 2.0
+girls 0.0
+true-detective 8.0
+castle 7.0
+fargo 7.0
+married 3.0
+catastrophe 8.0
+the-good-guys 10.0

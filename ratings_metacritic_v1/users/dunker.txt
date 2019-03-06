@@ -1,0 +1,5 @@
+damages 1.0
+boss 10.0
+vikings 8.0
+orphan-black 10.0
+luther 10.0

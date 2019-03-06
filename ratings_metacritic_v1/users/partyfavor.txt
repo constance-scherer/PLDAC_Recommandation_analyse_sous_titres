@@ -1,0 +1,4 @@
+american-horror-story 5.0
+friends 10.0
+black-mirror 8.0
+breaking-bad 10.0

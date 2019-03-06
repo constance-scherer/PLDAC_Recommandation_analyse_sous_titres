@@ -1,0 +1,11 @@
+homeland 10.0
+the-americans 10.0
+vice 0.0
+broad-city 9.0
+transparent 0.0
+halt-and-catch-fire 10.0
+the-leftovers 0.0
+wayward-pines 0.0
+togetherness 10.0
+catastrophe 9.0
+sense8 1.0

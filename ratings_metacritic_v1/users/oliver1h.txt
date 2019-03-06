@@ -1,0 +1,15 @@
+keeping-up-with-the-kardashians 0.0
+doctor-who 0.0
+criminal-minds-suspect-behavior 1.0
+ghost-whisperer 3.0
+criminal-minds 8.0
+doomsday-preppers 4.0
+last-resort 3.0
+hannibal 9.0
+the-mentalist 7.0
+under-the-dome 4.0
+amish-mafia 1.0
+the-vampire-diaries 1.0
+v 0.0
+undercover-boss 1.0
+project-runway 0.0

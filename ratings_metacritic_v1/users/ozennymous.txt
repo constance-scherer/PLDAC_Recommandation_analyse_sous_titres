@@ -1,0 +1,5 @@
+banshee 9.0
+hannibal 10.0
+true-detective 10.0
+fargo 10.0
+penny-dreadful 10.0

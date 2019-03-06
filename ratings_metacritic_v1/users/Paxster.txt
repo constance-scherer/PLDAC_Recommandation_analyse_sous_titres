@@ -1,0 +1,3 @@
+heroes 7.75
+glee 7.0
+the-cleveland-show 7.0

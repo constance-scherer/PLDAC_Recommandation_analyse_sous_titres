@@ -1,0 +1,12 @@
+the-simpsons 7.0
+the-big-bang-theory 10.0
+family-guy 8.0
+ncis 9.0
+face-off 8.0
+spongebob-squarepants 10.0
+avatar-the-last-airbender 9.0
+teen-titans 9.0
+that-70s-show 9.0
+george-lopez 9.0
+icarly 3.0
+victorious 4.0

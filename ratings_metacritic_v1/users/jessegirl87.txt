@@ -1,0 +1,5 @@
+ncis 10.0
+csi-ny 4.0
+csi-miami 10.0
+girls 1.0
+ncis-los-angeles 0.0

@@ -1,0 +1,4 @@
+touch 10.0
+the-finder 10.0
+awake 10.0
+fringe 10.0

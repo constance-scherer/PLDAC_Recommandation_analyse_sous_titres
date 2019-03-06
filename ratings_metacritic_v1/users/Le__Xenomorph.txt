@@ -1,0 +1,7 @@
+the-walking-dead 10.0
+spongebob-squarepants 10.0
+breaking-bad 9.0
+john-adams 9.0
+under-the-dome 7.0
+seinfeld 10.0
+terminator-the-sarah-connor-chronicles 5.0

@@ -1,0 +1,4 @@
+family-guy 7.0
+retired-at-35 0.0
+modern-family 10.0
+hot-in-cleveland 8.0

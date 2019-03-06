@@ -1,0 +1,7 @@
+suits 4.0
+veep 9.5
+arrested-development 6.0
+six-feet-under 10.0
+seinfeld 10.0
+dexter 7.0
+luther 9.0

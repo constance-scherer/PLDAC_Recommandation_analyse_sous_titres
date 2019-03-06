@@ -1,0 +1,2 @@
+the-strain 10.0
+star-wars-rebels 2.0

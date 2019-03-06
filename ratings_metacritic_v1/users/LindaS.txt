@@ -1,0 +1,6 @@
+ghost-whisperer 10.0
+surface 10.0
+october-road 10.0
+castle 9.0
+mercy 1.0
+the-wire 10.0

@@ -1,0 +1,9 @@
+south-park 7.0
+reaper 7.0
+doctor-who 8.0
+family-guy 2.0
+ashes-to-ashes 9.0
+the-inbetweeners 7.0
+star-wars-the-clone-wars 4.0
+brooklyn-nine-nine 8.0
+misfits 9.5

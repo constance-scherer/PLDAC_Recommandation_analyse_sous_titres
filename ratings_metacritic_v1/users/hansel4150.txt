@@ -1,0 +1,5 @@
+mad-men 9.0
+game-of-thrones 10.0
+american-horror-story 8.0
+vikings 8.0
+under-the-dome 7.0

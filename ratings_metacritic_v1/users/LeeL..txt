@@ -1,0 +1,2 @@
+bionic-woman 10.0
+star-wars-the-clone-wars 8.0

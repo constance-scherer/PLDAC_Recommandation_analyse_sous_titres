@@ -1,0 +1,6 @@
+eastwick 5.0
+cougar-town 5.0
+modern-family 1.0
+mercy 5.0
+hank 2.0
+the-middle 6.0

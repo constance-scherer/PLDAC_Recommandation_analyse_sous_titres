@@ -1,0 +1,8 @@
+chuck 10.0
+carpoolers 8.0
+breaking-bad 9.0
+leverage 9.0
+jericho 9.0
+v 2.0
+the-wire 10.0
+30-rock 10.0

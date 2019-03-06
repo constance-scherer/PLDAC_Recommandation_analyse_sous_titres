@@ -1,0 +1,3 @@
+dexter 10.0
+men-of-a-certain-age 10.0
+24 9.0

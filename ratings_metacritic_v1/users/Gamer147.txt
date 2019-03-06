@@ -1,0 +1,6 @@
+mad-men 7.0
+game-of-thrones 10.0
+the-borgias 8.0
+breaking-bad 8.0
+that-70s-show 10.0
+orange-is-the-new-black 6.0

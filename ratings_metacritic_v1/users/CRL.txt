@@ -1,0 +1,5 @@
+ncis 8.0
+chaos 9.0
+suits 8.0
+person-of-interest 10.0
+covert-affairs 7.5

@@ -1,0 +1,4 @@
+hannibal 10.0
+rectify 10.0
+true-detective 0.0
+penny-dreadful 10.0

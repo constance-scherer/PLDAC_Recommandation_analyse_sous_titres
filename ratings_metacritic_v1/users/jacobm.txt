@@ -1,0 +1,2 @@
+dirt 8.0
+friday-night-lights 10.0

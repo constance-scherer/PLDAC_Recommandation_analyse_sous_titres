@@ -1,0 +1,4 @@
+burn-notice 7.0
+burn-notice 7.0
+journeyman 6.0
+lost 10.0

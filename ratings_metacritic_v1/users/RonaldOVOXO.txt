@@ -1,0 +1,15 @@
+mad-men 10.0
+keeping-up-with-the-kardashians 10.0
+south-park 9.0
+the-walking-dead 8.0
+game-of-thrones 10.0
+the-big-bang-theory 9.5
+jersey-shore 0.0
+family-guy 3.0
+workaholics 10.0
+awkward 8.0
+i-just-want-my-pants-back 10.0
+2-broke-girls 4.0
+comic-book-men 2.0
+titanic 2.0
+nyc-22 7.0

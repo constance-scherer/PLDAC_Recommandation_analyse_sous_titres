@@ -1,0 +1,4 @@
+the-simpsons 10.0
+family-guy 2.0
+futurama 10.0
+the-cleveland-show 0.0

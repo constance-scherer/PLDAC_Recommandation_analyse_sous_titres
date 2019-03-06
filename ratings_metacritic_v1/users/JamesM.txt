@@ -1,0 +1,5 @@
+lucky-louie 10.0
+drive 10.0
+mercy 10.0
+stargate-universe 1.0
+v 3.0

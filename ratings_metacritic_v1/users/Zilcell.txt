@@ -1,0 +1,10 @@
+family-guy 9.333333333333334
+spongebob-squarepants 10.0
+good-vibes 8.0
+beavis-and-butt-head 10.0
+gravity-falls 10.0
+regular-show 10.0
+the-penguins-of-madagascar 6.0
+sit-down-shut-up 6.0
+the-cleveland-show 7.0
+king-of-the-hill 10.0

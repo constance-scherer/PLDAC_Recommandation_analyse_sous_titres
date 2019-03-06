@@ -1,0 +1,3 @@
+lost 10.0
+almost-human 8.0
+true-detective 10.0

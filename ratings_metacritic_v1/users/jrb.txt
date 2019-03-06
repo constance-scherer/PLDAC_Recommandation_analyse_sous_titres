@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+new-girl 9.0
+smash 1.0

@@ -1,0 +1,2 @@
+dominion 10.0
+the-player 10.0

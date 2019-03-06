@@ -1,0 +1,10 @@
+south-park 10.0
+the-simpsons 10.0
+family-guy 7.0
+spongebob-squarepants 10.0
+teen-titans 10.0
+lost 10.0
+breaking-bad 4.0
+the-powerpuff-girls 10.0
+icarly 10.0
+victorious 6.0

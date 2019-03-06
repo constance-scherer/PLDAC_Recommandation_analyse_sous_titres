@@ -1,0 +1,4 @@
+atlantis 10.0
+arrow 10.0
+defiance 8.0
+spartacus-blood-and-sand 10.0

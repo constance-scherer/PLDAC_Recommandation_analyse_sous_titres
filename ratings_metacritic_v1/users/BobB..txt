@@ -1,0 +1,2 @@
+cane 0.0
+painkiller-jane 10.0

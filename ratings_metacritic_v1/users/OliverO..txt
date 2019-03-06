@@ -1,0 +1,2 @@
+community 10.0
+stargate-universe 10.0

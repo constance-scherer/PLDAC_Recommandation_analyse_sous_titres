@@ -1,0 +1,4 @@
+parks-and-recreation 8.0
+everybody-hates-chris 10.0
+how-i-met-your-mother 10.0
+men-of-a-certain-age 10.0

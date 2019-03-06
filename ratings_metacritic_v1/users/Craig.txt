@@ -1,0 +1,6 @@
+doctor-who 10.0
+dirt 8.0
+flight-of-the-conchords 10.0
+studio-60-on-the-sunset-strip 0.0
+traveler 8.0
+the-boondocks 0.0

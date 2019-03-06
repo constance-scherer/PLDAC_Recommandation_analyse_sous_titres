@@ -1,0 +1,2 @@
+gossip-girl 8.0
+rules-of-engagement 9.0

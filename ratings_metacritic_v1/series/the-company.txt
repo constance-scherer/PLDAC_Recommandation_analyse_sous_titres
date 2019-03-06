@@ -1,0 +1,8 @@
+Nancy 10.0
+michaelf. 0.0
+go 3.0
+AnibalL. 7.0
+EricS 10.0
+PamP. 7.0
+JasonB. 1.0
+NolB. 9.0

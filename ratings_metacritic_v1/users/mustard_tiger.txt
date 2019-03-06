@@ -1,0 +1,10 @@
+downton-abbey 9.0
+south-park 10.0
+the-walking-dead 7.0
+game-of-thrones 10.0
+doctor-who 1.0
+once-upon-a-time 7.0
+psych 8.0
+community 10.0
+stargate-universe 4.0
+ugly-americans 5.0

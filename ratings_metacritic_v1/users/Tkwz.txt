@@ -1,0 +1,7 @@
+the-walking-dead 10.0
+game-of-thrones 10.0
+falling-skies 5.0
+terra-nova 3.0
+once-upon-a-time 10.0
+homeland 10.0
+revolution 0.0

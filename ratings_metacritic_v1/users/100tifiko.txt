@@ -1,0 +1,5 @@
+the-walking-dead 8.0
+game-of-thrones 8.0
+house 9.0
+breaking-bad 10.0
+orange-is-the-new-black 8.0

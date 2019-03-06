@@ -1,0 +1,3 @@
+entourage 7.0
+flashforward 5.0
+weeds 10.0

@@ -1,0 +1,2 @@
+enlightened 10.0
+magic-city 9.0

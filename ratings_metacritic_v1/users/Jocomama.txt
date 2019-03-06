@@ -1,0 +1,4 @@
+banshee 10.0
+rectify 10.0
+heroes-reborn 8.0
+blindspot 10.0

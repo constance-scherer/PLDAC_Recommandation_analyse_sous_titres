@@ -1,0 +1,2 @@
+conviction 10.0
+casanova 8.0

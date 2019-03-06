@@ -1,0 +1,5 @@
+the-big-bang-theory 1.0
+once-upon-a-time 3.0
+naruto-shippuden 10.0
+glee 4.0
+the-vampire-diaries 7.0

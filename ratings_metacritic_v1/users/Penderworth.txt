@@ -1,0 +1,3 @@
+suits 5.0
+the-newsroom 10.0
+white-collar 9.0

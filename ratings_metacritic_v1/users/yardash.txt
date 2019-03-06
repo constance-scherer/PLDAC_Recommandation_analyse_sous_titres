@@ -1,0 +1,4 @@
+bosch 5.0
+sons-of-liberty 5.0
+sense8 8.0
+texas-rising 4.0

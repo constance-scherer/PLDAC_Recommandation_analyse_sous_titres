@@ -1,0 +1,5 @@
+brothers-sisters 0.0
+casanova 10.0
+smith 10.0
+traveler 0.0
+the-glades 5.0

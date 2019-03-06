@@ -1,0 +1,3 @@
+breaking-bad 10.0
+the-sopranos 9.0
+the-wire 10.0

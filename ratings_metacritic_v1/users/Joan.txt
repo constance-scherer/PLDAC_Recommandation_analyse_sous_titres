@@ -1,0 +1,4 @@
+chuck 3.0
+ghost-whisperer 10.0
+in-treatment 10.0
+hawthorne 8.0

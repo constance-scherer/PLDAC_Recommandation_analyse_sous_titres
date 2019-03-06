@@ -1,0 +1,3 @@
+shark 7.0
+the-class 8.0
+studio-60-on-the-sunset-strip 10.0

@@ -1,0 +1,10 @@
+south-park 10.0
+the-simpsons 10.0
+family-guy 3.0
+good-vibes 9.0
+napoleon-dynamite 10.0
+unsupervised 2.0
+futurama 10.0
+the-cleveland-show 0.0
+ugly-americans 9.0
+the-boondocks 10.0

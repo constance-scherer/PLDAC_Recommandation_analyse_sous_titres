@@ -1,0 +1,5 @@
+journeyman 7.0
+castle 9.0
+how-i-met-your-mother 0.0
+flashforward 9.0
+curb-your-enthusiasm 10.0

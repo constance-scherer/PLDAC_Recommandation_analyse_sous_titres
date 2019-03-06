@@ -1,0 +1,4 @@
+gossip-girl 0.0
+bionic-woman 10.0
+friday-night-lights 10.0
+gavin-and-stacey 10.0

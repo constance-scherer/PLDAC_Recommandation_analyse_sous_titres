@@ -1,0 +1,3 @@
+lost 10.0
+revolution 8.0
+prison-break 10.0

@@ -1,0 +1,2 @@
+damages 10.0
+smith 8.0

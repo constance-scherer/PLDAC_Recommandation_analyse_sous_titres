@@ -1,0 +1,3 @@
+terra-nova 5.0
+ringer 10.0
+a-gifted-man 10.0

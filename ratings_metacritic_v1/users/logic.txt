@@ -1,0 +1,3 @@
+breaking-bad 10.0
+true-detective 8.0
+fargo 10.0

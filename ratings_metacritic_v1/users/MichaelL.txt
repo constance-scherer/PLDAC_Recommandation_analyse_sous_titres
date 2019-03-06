@@ -1,0 +1,4 @@
+jericho 10.0
+castle 10.0
+sit-down-shut-up 7.0
+dexter 10.0

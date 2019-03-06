@@ -1,0 +1,4 @@
+game-of-thrones 10.0
+friends 10.0
+breaking-bad 10.0
+the-wrong-mans 9.0

@@ -1,0 +1,10 @@
+pushing-daisies 7.0
+pushing-daisies 7.0
+chuck 10.0
+bionic-woman 5.0
+doctor-who 10.0
+moonlight 7.0
+k-ville 6.0
+journeyman 10.0
+dexter 10.0
+project-runway 8.0

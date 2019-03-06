@@ -1,0 +1,6 @@
+the-walking-dead 7.0
+game-of-thrones 10.0
+homeland 8.0
+breaking-bad 10.0
+true-blood 7.0
+parks-and-recreation 10.0

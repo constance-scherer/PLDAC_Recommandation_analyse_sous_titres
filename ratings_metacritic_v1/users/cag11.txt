@@ -1,0 +1,3 @@
+spongebob-squarepants 8.0
+avatar-the-last-airbender 10.0
+community 10.0

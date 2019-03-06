@@ -1,0 +1,2 @@
+jersey-shore 0.0
+pawn-stars 0.0

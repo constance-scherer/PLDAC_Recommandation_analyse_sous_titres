@@ -1,0 +1,2 @@
+sanctuary 0.0
+smith 10.0

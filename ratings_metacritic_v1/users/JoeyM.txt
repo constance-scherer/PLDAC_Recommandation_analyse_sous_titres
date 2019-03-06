@@ -1,0 +1,3 @@
+huff 10.0
+heroes 9.0
+the-class 1.0

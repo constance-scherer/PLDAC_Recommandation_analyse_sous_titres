@@ -1,0 +1,2 @@
+heroes 7.0
+supernatural 8.0

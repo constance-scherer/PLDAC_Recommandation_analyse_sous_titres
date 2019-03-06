@@ -1,0 +1,2 @@
+leverage 10.0
+hawthorne 0.0

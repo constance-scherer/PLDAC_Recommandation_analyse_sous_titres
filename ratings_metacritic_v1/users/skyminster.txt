@@ -1,0 +1,3 @@
+the-simpsons 10.0
+spongebob-squarepants 9.0
+star-wars-the-clone-wars 8.4

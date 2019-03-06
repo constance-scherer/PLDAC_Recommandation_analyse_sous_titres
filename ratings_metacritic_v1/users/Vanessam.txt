@@ -1,0 +1,4 @@
+night-stalker 3.0
+threshold 9.0
+my-name-is-earl 10.0
+supernatural 9.0

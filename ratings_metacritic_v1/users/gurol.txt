@@ -1,0 +1,2 @@
+brooklyn-nine-nine 10.0
+heroes-reborn 7.0

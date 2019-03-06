@@ -1,0 +1,7 @@
+doctor-who 10.0
+the-batman 8.0
+spongebob-squarepants 10.0
+gravity-falls 10.0
+phineas-and-ferb 9.0
+hannah-montana 0.0
+icarly 1.0

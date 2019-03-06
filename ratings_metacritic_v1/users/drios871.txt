@@ -1,0 +1,4 @@
+the-walking-dead 3.0
+american-horror-story 10.0
+ravenswood 6.0
+pretty-little-liars 5.0

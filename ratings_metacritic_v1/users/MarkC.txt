@@ -1,0 +1,7 @@
+journeyman 10.0
+surface 8.0
+vanished 10.0
+better-off-ted 0.0
+psych 10.0
+andy-barker-pi 10.0
+identity 4.0

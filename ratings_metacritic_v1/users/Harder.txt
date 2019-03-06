@@ -1,0 +1,4 @@
+revolution 5.0
+elementary 8.0
+last-resort 5.0
+arrow 5.0

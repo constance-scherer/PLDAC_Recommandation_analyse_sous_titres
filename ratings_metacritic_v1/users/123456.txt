@@ -1,0 +1,3 @@
+game-of-thrones 5.0
+true-detective 6.0
+black-ish 2.0

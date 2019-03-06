@@ -1,0 +1,2 @@
+ringer 7.0
+fringe 8.0

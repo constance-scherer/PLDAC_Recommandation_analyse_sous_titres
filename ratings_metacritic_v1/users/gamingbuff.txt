@@ -1,0 +1,3 @@
+californication 9.0
+breaking-bad 10.0
+dexter 9.0

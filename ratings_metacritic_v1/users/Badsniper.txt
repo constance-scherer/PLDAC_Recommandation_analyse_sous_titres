@@ -1,0 +1,4 @@
+the-walking-dead 8.5
+breaking-bad 10.0
+the-neighbors 0.0
+the-killing 10.0

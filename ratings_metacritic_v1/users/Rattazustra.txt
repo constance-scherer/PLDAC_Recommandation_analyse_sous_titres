@@ -1,0 +1,14 @@
+falling-skies 1.3333333333333333
+terra-nova 2.0
+homeland 9.0
+longmire 9.0
+gravity-falls 10.0
+perception 3.0
+revolution 0.0
+defiance 0.0
+almost-human 3.0
+black-sails 10.0
+star-wars-rebels 7.0
+the-man-in-the-high-castle 0.0
+texas-rising 0.0
+dark-matter 0.0

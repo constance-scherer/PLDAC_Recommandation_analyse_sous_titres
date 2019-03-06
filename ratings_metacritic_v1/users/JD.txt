@@ -1,0 +1,7 @@
+my-name-is-earl 10.0
+fringe 9.0
+glee 9.0
+lucky-louie 9.0
+modern-family 9.0
+invasion 10.0
+30-rock 9.0

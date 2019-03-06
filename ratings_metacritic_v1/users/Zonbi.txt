@@ -1,0 +1,4 @@
+family-guy 7.0
+key-peele 8.0
+baby-daddy 6.0
+regular-show 10.0

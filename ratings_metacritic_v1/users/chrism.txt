@@ -1,0 +1,7 @@
+the-sarah-silverman-program 10.0
+the-unit 9.0
+the-goode-family 8.0
+drive 10.0
+smith 10.0
+rome 10.0
+weeds 10.0

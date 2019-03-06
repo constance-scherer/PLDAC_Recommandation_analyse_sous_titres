@@ -1,0 +1,4 @@
+breaking-bad 10.0
+true-detective 4.5
+fargo 10.0
+treme 7.0

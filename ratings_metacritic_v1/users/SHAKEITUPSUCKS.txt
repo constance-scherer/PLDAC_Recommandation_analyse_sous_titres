@@ -1,0 +1,7 @@
+full-house 10.0
+jersey-shore 0.0
+switched-at-birth 10.0
+awkward 0.0
+wizards-of-waverly-place 4.0
+icarly 0.0
+victorious 4.0

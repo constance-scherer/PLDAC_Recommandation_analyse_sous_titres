@@ -1,0 +1,5 @@
+franklin-bash 9.0
+suits 10.0
+the-good-wife 10.0
+white-collar 10.0
+covert-affairs 9.0

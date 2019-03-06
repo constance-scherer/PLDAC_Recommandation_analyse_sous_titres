@@ -1,0 +1,2 @@
+true-detective 3.0
+bad-teacher 5.0

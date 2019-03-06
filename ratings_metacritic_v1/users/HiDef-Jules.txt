@@ -1,0 +1,2 @@
+fortitude 10.0
+dark-matter 10.0

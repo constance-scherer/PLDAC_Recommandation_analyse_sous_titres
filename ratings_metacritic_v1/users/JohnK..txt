@@ -1,0 +1,5 @@
+in-treatment 10.0
+john-adams 10.0
+swingtown 9.0
+v 9.0
+wipeout 9.0

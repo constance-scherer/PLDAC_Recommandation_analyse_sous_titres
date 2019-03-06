@@ -1,0 +1,3 @@
+shellview 2.0
+joedriver1 3.0
+mjvcritic 8.0

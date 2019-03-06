@@ -1,0 +1,3 @@
+hannibal 10.0
+ray-donovan 10.0
+brooklyn-nine-nine 10.0

@@ -1,0 +1,5 @@
+south-park 8.0
+the-simpsons 8.0
+family-guy 9.0
+futurama 9.0
+the-cleveland-show 7.0

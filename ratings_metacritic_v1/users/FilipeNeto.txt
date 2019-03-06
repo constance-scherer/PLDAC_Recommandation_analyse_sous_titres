@@ -1,0 +1,3 @@
+camelot 3.0
+the-borgias 7.0
+the-tudors 4.0

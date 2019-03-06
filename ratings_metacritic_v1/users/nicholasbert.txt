@@ -1,0 +1,13 @@
+downton-abbey 6.0
+the-walking-dead 8.0
+game-of-thrones 7.5
+the-big-bang-theory 7.0
+american-horror-story 6.0
+girls 5.5
+hannibal 9.0
+under-the-dome 4.0
+true-detective 7.0
+fargo 9.0
+better-call-saul 7.0
+the-affair 7.0
+humans 6.0

@@ -1,0 +1,3 @@
+john-adams 5.0
+24 9.0
+weeds 0.0

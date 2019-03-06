@@ -1,0 +1,8 @@
+smallville 10.0
+south-park 10.0
+the-walking-dead 10.0
+family-guy 10.0
+psych 10.0
+supernatural 10.0
+dexter 10.0
+louie 10.0

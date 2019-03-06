@@ -1,0 +1,5 @@
+napoleon-dynamite 8.0
+unsupervised 6.0
+smash 8.0
+southland 10.0
+justified 9.0

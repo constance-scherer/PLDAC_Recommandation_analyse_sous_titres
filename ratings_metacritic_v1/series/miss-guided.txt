@@ -1,0 +1,7 @@
+JOHNM. 9.0
+Rob 6.0
+Tom 4.0
+JennyM. 9.0
+LOUISP. 6.0
+SamS. 8.0
+CarolineB. 10.0

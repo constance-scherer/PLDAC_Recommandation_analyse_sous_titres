@@ -1,0 +1,2 @@
+made-in-jersey 7.0
+drop-dead-diva 10.0

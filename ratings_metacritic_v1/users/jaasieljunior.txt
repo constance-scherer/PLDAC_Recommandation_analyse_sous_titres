@@ -1,0 +1,5 @@
+homeland 10.0
+the-americans 9.0
+peaky-blinders 7.0
+fargo 10.0
+the-leftovers 8.5

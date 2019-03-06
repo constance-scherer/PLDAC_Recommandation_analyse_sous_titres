@@ -1,0 +1,4 @@
+the-walking-dead 9.0
+game-of-thrones 10.0
+lost 6.0
+z-nation 5.0

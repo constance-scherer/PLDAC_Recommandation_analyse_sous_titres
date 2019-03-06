@@ -1,0 +1,5 @@
+game-of-thrones 6.0
+the-following 2.0
+true-detective 10.0
+deadwood 10.0
+justified 9.0

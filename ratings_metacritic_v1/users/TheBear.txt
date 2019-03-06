@@ -1,0 +1,8 @@
+sherlock 8.0
+sherlock 8.0
+smallville 10.0
+the-walking-dead 8.0
+doctor-who 9.0
+true-blood 8.0
+dollhouse 7.0
+dexter 9.0

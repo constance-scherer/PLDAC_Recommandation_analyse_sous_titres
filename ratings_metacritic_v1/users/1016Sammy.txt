@@ -1,0 +1,3 @@
+smash 10.0
+gcb 6.0
+kings 10.0

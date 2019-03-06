@@ -1,0 +1,8 @@
+mad-men 8.0
+game-of-thrones 10.0
+american-horror-story 4.0
+homeland 6.0
+girls 9.0
+arrested-development 9.0
+saint-george 1.0
+dexter 10.0

@@ -1,0 +1,3 @@
+the-walking-dead 10.0
+game-of-thrones 9.0
+breaking-bad 10.0

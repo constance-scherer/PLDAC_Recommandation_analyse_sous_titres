@@ -1,0 +1,7 @@
+arrow 10.0
+sleepy-hollow 10.0
+crisis 9.0
+the-100 5.0
+gang-related 8.0
+the-last-ship 8.0
+gotham 7.0

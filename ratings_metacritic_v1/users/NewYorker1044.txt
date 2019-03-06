@@ -1,0 +1,2 @@
+girls 0.0
+weeds 10.0

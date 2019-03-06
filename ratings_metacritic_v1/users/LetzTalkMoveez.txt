@@ -1,0 +1,6 @@
+freaks-and-geeks 10.0
+girls 7.0
+veep 6.0
+arrested-development 10.0
+how-i-met-your-mother 7.0
+community 8.0

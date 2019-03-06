@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+ray-donovan 10.0
+true-detective 10.0

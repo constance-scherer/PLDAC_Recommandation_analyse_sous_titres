@@ -1,0 +1,6 @@
+the-event 8.0
+the-event 8.0
+the-walking-dead 4.0
+ncis 1.0
+veep 10.0
+the-killing 10.0

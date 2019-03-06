@@ -1,0 +1,12 @@
+smallville 8.0
+game-of-thrones 9.0
+camelot 6.0
+revenge 7.0
+american-horror-story 8.0
+once-upon-a-time 7.0
+arrow 6.0
+defiance 4.0
+true-blood 7.0
+supernatural 8.0
+the-vampire-diaries 10.0
+pretty-little-liars 5.0

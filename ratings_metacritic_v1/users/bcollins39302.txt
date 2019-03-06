@@ -1,0 +1,2 @@
+star-trek-the-next-generation 6.0
+star-trek-deep-space-nine 9.0

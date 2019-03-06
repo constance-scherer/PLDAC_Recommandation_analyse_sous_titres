@@ -1,0 +1,7 @@
+the-walking-dead 10.0
+survivor 10.0
+fear-the-walking-dead 8.0
+mr-robot 10.0
+blindspot 3.0
+life-in-pieces 1.0
+wicked-city 6.0

@@ -1,0 +1,4 @@
+psych 8.0
+secret-girlfriend 10.0
+dexter 10.0
+eureka 8.0

@@ -1,0 +1,4 @@
+elementary 8.0
+sense8 6.0
+dark-matter 8.0
+lucifer 7.0

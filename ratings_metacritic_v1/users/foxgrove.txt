@@ -1,0 +1,10 @@
+restless 3.0
+the-following 6.0
+africa 9.0
+bates-motel 8.0
+vicious 5.0
+masters-of-sex 10.0
+hostages 4.0
+true-detective 7.0
+wolf-hall 10.0
+river 7.0

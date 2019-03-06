@@ -1,0 +1,8 @@
+privileged 0.0
+orange-is-the-new-black 10.0
+the-100 4.0
+the-leftovers 8.0
+girl-meets-world 3.0
+csi-cyber 4.0
+wayward-pines 3.0
+last-week-tonight-with-john-oliver 10.0

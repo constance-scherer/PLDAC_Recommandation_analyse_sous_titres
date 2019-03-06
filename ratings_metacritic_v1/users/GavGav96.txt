@@ -1,0 +1,3 @@
+the-big-bang-theory 8.0
+merlin 8.0
+black-books 10.0

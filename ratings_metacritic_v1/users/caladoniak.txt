@@ -1,0 +1,2 @@
+fringe 10.0
+painkiller-jane 0.0

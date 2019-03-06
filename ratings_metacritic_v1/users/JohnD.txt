@@ -1,0 +1,7 @@
+doctor-who 10.0
+friday-night-lights 2.0
+true-blood 4.0
+the-class 8.0
+supernatural 10.0
+deadwood 9.0
+dexter 10.0

@@ -1,0 +1,15 @@
+brothers-sisters 5.0
+greek 10.0
+rules-of-engagement 9.0
+the-war-at-home 0.0
+the-new-adventures-of-old-christine 9.0
+swingtown 10.0
+jericho 10.0
+the-unit 9.0
+parks-and-recreation 5.0
+drive 9.0
+cougar-town 1.0
+modern-family 9.0
+smith 8.0
+the-wire 10.0
+30-rock 8.0

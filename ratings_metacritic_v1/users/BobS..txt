@@ -1,0 +1,5 @@
+chuck 10.0
+tin-man 1.0
+flashpoint 1.0
+the-bill-engvall-show 0.0
+z-rock 10.0

@@ -1,0 +1,4 @@
+the-walking-dead 6.666666666666667
+axe-cop 10.0
+gotham 1.0
+lucifer 3.0

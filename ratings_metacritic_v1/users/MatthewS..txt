@@ -1,0 +1,3 @@
+lost 10.0
+nashville 10.0
+october-road 10.0

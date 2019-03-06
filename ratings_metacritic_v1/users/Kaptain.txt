@@ -1,0 +1,8 @@
+game-of-thrones 10.0
+falling-skies 10.0
+terra-nova 7.0
+the-secret-circle 7.0
+luck 10.0
+friday-night-lights 10.0
+sons-of-anarchy 10.0
+stargate-universe 10.0

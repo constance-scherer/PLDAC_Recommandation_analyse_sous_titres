@@ -1,0 +1,3 @@
+game-of-thrones 7.0
+hannibal 9.5
+red-oaks 4.0

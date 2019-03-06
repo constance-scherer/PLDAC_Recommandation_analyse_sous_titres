@@ -1,0 +1,5 @@
+the-following 0.0
+the-americans 5.0
+hannibal 10.0
+hemlock-grove 0.0
+true-detective 10.0

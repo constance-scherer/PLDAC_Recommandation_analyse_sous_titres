@@ -1,0 +1,4 @@
+chuck 6.0
+house 6.0
+the-riches 9.0
+the-cleveland-show 0.0

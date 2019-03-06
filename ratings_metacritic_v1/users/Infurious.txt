@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+smash 10.0
+breaking-bad 10.0

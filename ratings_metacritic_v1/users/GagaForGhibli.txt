@@ -1,0 +1,12 @@
+the-walking-dead 8.0
+the-simpsons 10.0
+family-guy 10.0
+the-lying-game 10.0
+allen-gregory 7.0
+frozen-planet 9.0
+the-powerpuff-girls 10.0
+sit-down-shut-up 4.0
+the-cleveland-show 9.0
+daria 10.0
+king-of-the-hill 10.0
+pretty-little-liars 10.0

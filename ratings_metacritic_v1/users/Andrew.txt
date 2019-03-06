@@ -1,0 +1,8 @@
+californication 10.0
+robin-hood 1.0
+ghost-whisperer 10.0
+commander-in-chief 4.0
+the-sarah-silverman-program 2.0
+dollhouse 9.0
+deadwood 10.0
+wipeout 9.0

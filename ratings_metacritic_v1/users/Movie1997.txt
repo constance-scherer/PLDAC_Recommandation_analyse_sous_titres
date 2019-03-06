@@ -1,0 +1,9 @@
+south-park 8.0
+the-walking-dead 10.0
+the-big-bang-theory 10.0
+spongebob-squarepants 9.0
+breaking-bad 10.0
+anger-management 5.0
+regular-show 8.0
+how-i-met-your-mother 3.0
+two-and-a-half-men 7.0

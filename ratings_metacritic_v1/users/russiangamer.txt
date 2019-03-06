@@ -1,0 +1,16 @@
+the-walking-dead 6.0
+oz 9.0
+american-horror-story 8.0
+friends 9.0
+firefly 9.0
+breaking-bad 8.4
+scrubs 8.333333333333334
+gravity-falls 10.0
+the-inbetweeners 1.0
+jericho 6.0
+dora-the-explorer 1.0
+prison-break 10.0
+band-of-brothers 9.0
+dexter 8.0
+the-pacific 9.0
+24 9.0

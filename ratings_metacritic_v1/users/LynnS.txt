@@ -1,0 +1,2 @@
+cane 10.0
+those-who-kill 2.0

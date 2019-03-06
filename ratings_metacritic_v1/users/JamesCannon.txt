@@ -1,0 +1,5 @@
+game-of-thrones 8.0
+firefly 3.0
+true-detective 9.0
+mr-robot 5.0
+sons-of-anarchy 6.333333333333333

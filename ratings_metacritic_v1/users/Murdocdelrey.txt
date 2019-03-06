@@ -1,0 +1,3 @@
+doctor-who 7.0
+the-following 4.0
+true-detective 10.0

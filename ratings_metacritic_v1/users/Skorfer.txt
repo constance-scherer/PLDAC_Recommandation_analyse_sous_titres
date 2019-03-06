@@ -1,0 +1,3 @@
+ringer 10.0
+pan-am 10.0
+homeland 10.0

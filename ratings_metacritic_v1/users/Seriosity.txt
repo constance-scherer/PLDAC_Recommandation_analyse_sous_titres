@@ -1,0 +1,16 @@
+the-walking-dead 8.0
+portlandia 9.0
+human-planet 10.0
+house 9.0
+new-girl 7.0
+criminal-minds 3.0
+girls 10.0
+breaking-bad 9.5
+the-newsroom 7.0
+party-down 8.5
+inside-amy-schumer 8.0
+bored-to-death 8.0
+the-wire 10.0
+numb3rs 3.0
+30-rock 7.0
+two-and-a-half-men 4.0

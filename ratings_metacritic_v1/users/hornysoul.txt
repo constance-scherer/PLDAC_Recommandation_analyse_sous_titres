@@ -1,0 +1,13 @@
+awkward 6.333333333333333
+american-horror-story 6.5
+friends 10.0
+lost 8.666666666666666
+black-mirror 8.0
+bones 7.666666666666667
+dates 7.0
+the-100 10.0
+finding-carter 8.0
+scorpion 8.0
+joey 7.0
+rosewood 3.0
+lucifer 9.0

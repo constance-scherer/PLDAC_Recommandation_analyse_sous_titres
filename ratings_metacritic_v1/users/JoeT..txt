@@ -1,0 +1,6 @@
+californication 9.0
+chuck 8.0
+bionic-woman 1.0
+journeyman 9.0
+true-blood 7.0
+fear-itself 3.0

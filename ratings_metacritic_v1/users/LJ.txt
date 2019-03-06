@@ -1,0 +1,4 @@
+conviction 10.0
+saving-grace 1.0
+kings 10.0
+invasion 10.0

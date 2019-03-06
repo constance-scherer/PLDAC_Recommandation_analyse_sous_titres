@@ -1,0 +1,5 @@
+brothers-sisters 8.0
+til-death 6.0
+jericho 4.0
+six-degrees 8.0
+stargate-universe 10.0

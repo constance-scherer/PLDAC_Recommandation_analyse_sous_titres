@@ -1,0 +1,5 @@
+doctor-who 9.0
+the-goode-family 10.0
+dexter 10.0
+30-rock 6.0
+terminator-the-sarah-connor-chronicles 9.0

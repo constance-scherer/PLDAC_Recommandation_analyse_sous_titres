@@ -1,0 +1,13 @@
+sherlock 9.0
+sherlock 9.0
+doctor-who 7.714285714285714
+arrow 6.0
+broadchurch 9.0
+true-detective 9.0
+the-100 4.0
+silicon-valley 8.0
+the-leftovers 2.0
+gotham 6.0
+ascension 7.0
+white-collar 7.0
+24 8.166666666666666

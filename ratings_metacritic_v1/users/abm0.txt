@@ -1,0 +1,5 @@
+true-detective 9.0
+helix 8.0
+black-sails 10.0
+the-100 7.0
+between 3.0

@@ -1,0 +1,4 @@
+the-walking-dead 2.0
+game-of-thrones 10.0
+true-detective 6.0
+band-of-brothers 10.0

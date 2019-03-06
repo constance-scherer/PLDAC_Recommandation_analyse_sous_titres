@@ -1,0 +1,6 @@
+twin-peaks 10.0
+in-the-flesh 8.0
+true-detective 9.0
+the-wire 10.0
+louie 5.0
+curb-your-enthusiasm 9.0

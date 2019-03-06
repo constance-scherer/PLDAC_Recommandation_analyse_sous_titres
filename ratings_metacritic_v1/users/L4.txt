@@ -1,0 +1,2 @@
+heroes 10.0
+the-class 8.0

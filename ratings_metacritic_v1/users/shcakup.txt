@@ -1,0 +1,3 @@
+portlandia 1.0
+breaking-bad 10.0
+the-goldbergs 8.0

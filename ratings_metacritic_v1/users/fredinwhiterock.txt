@@ -1,0 +1,4 @@
+suits 9.0
+smash 9.0
+under-the-dome 5.0
+madam-secretary 8.0

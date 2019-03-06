@@ -1,0 +1,10 @@
+true-detective 10.0
+manhattan 9.0
+gracepoint 9.0
+the-affair 10.0
+legends 7.0
+galavant 10.0
+american-crime 10.0
+fear-the-walking-dead 10.0
+public-morals 10.0
+the-good-wife 10.0

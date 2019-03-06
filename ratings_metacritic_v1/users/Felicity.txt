@@ -1,0 +1,3 @@
+gossip-girl 10.0
+90210 0.0
+supernatural 8.0

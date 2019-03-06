@@ -1,0 +1,4 @@
+damages 5.5
+game-of-thrones 2.0
+true-detective 3.0
+dexter 1.0

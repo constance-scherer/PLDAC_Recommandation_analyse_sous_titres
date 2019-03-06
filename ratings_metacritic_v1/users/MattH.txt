@@ -1,0 +1,5 @@
+brothers-sisters 9.0
+bones 2.0
+legend-of-the-seeker 8.0
+the-wire 10.0
+30-rock 3.0

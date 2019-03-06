@@ -1,0 +1,2 @@
+the-new-normal 0.0
+the-neighbors 10.0

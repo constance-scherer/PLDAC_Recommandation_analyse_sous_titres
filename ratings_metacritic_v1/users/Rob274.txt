@@ -1,0 +1,4 @@
+the-simpsons 10.0
+family-guy 5.0
+seinfeld 10.0
+icarly 0.0

@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+true-blood 9.0
+spartacus-blood-and-sand 9.0

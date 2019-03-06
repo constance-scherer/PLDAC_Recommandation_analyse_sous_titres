@@ -1,0 +1,3 @@
+game-of-thrones 5.0
+vikings 7.0
+defiance 3.0

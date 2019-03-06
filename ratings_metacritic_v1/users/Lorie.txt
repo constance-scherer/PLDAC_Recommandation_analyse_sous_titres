@@ -1,0 +1,4 @@
+moonlight 10.0
+commander-in-chief 10.0
+reunion 10.0
+spartacus-blood-and-sand 3.0

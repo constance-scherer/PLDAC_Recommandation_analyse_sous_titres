@@ -1,0 +1,4 @@
+spongebob-squarepants 9.0
+avatar-the-last-airbender 9.333333333333334
+icarly 4.0
+victorious 3.0

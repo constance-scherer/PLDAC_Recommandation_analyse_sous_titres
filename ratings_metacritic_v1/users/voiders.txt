@@ -1,0 +1,6 @@
+south-park 9.0
+the-walking-dead 2.0
+the-simpsons 10.0
+lost 8.0
+heroes 6.0
+two-and-a-half-men 6.0

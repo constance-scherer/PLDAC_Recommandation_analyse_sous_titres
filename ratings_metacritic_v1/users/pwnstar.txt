@@ -1,0 +1,11 @@
+boardwalk-empire 10.0
+boardwalk-empire 10.0
+south-park 10.0
+family-guy 10.0
+storage-wars 5.0
+glee 3.0
+futurama 10.0
+the-cleveland-show 4.0
+modern-family 10.0
+the-ricky-gervais-show 10.0
+30-rock 2.0

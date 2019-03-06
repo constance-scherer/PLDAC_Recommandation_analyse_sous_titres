@@ -1,0 +1,2 @@
+suits 7.0
+breaking-bad 10.0

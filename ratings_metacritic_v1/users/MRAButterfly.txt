@@ -1,0 +1,4 @@
+camp 9.0
+about-a-boy 9.0
+growing-up-fisher 8.0
+community 8.0

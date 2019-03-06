@@ -1,0 +1,11 @@
+the-walking-dead 2.0
+game-of-thrones 10.0
+falling-skies 0.5
+homeland 3.0
+revolution 0.0
+true-blood 7.0
+siberia 6.0
+caprica 0.0
+the-killing 4.0
+mr-robot 7.0
+rubicon 9.0

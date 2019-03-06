@@ -1,0 +1,12 @@
+game-of-thrones 10.0
+breaking-bad 10.0
+revolution 5.0
+sleepy-hollow 1.0
+true-detective 8.0
+tyrant 8.0
+gotham 6.0
+wayward-pines 5.0
+the-whispers 4.0
+fear-the-walking-dead 8.0
+sense8 8.0
+mr-robot 10.0

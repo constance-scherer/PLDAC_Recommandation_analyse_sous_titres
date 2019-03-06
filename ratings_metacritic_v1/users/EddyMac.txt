@@ -1,0 +1,7 @@
+franklin-bash 5.0
+switched-at-birth 2.0
+suits 9.0
+smash 5.0
+awake 8.0
+gcb 7.0
+how-i-met-your-mother 7.0

@@ -1,0 +1,4 @@
+veep 8.0
+under-the-dome 2.0
+the-leftovers 10.0
+nurse-jackie 9.0

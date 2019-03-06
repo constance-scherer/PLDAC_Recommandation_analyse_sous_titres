@@ -1,0 +1,6 @@
+the-walking-dead 4.0
+homeland 7.0
+alcatraz 3.0
+breaking-bad 9.0
+modern-family 9.0
+white-collar 8.0

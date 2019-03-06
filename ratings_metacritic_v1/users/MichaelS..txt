@@ -1,0 +1,2 @@
+stargate-universe 1.0
+dexter 10.0

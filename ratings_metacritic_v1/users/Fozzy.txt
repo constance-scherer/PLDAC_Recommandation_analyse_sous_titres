@@ -1,0 +1,5 @@
+red-dwarf 10.0
+criminal-minds 9.0
+hannibal 9.0
+true-detective 9.0
+two-and-a-half-men 3.0

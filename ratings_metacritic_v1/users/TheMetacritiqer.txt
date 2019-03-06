@@ -1,0 +1,3 @@
+arrow 1.5
+tyrant 1.0
+crossbones 3.0

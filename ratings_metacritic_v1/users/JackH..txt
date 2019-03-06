@@ -1,0 +1,3 @@
+californication 10.0
+fringe 2.0
+30-rock 10.0

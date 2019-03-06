@@ -1,0 +1,5 @@
+jericho 9.0
+psych 10.0
+warehouse-13 10.0
+the-wire 10.0
+weeds 10.0

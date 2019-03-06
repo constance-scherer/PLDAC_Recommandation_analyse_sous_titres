@@ -1,0 +1,8 @@
+the-event 2.0
+chase 4.0
+the-event 2.0
+chase 4.0
+mad-men 10.0
+glee 2.0
+justified 8.0
+rubicon 10.0

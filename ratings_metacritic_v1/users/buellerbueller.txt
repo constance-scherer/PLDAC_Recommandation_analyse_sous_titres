@@ -1,0 +1,2 @@
+the-simpsons 10.0
+spongebob-squarepants 10.0

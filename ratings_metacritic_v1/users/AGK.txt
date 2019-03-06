@@ -1,0 +1,5 @@
+south-park 9.0
+dancing-with-the-stars 3.0
+grimm 2.0
+tom-and-jerry 9.0
+modern-family 5.0

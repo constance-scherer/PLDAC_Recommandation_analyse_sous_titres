@@ -1,0 +1,5 @@
+the-walking-dead 10.0
+american-horror-story 5.0
+the-secret-circle 6.0
+homeland 10.0
+the-vampire-diaries 9.0

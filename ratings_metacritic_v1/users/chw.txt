@@ -1,0 +1,3 @@
+the-simpsons 9.0
+community 10.0
+modern-family 8.0

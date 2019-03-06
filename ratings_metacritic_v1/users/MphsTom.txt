@@ -1,0 +1,5 @@
+game-of-thrones 10.0
+homeland 10.0
+transparent 8.0
+power 9.0
+fear-the-walking-dead 9.0

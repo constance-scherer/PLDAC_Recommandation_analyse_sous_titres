@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+necessary-roughness 0.0
+whitney 10.0

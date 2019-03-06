@@ -1,0 +1,8 @@
+freaks-and-geeks 10.0
+grimm 0.0
+breaking-bad 10.0
+revolution 6.0
+rectify 10.0
+fargo 10.0
+salem 8.0
+fear-the-walking-dead 10.0

@@ -1,0 +1,3 @@
+spongebob-squarepants 10.0
+wizards-of-waverly-place 8.0
+good-luck-charlie 9.0

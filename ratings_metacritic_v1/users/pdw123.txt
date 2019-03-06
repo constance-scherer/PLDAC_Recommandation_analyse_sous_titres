@@ -1,0 +1,3 @@
+halt-and-catch-fire 8.0
+fear-the-walking-dead 0.0
+ncis-los-angeles 0.0

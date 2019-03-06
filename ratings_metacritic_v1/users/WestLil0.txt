@@ -1,0 +1,14 @@
+falling-skies 5.0
+revenge 2.0
+person-of-interest 7.0
+scandal 2.0
+survivor 2.0
+gang-related 1.0
+the-last-ship 7.0
+tyrant 7.0
+ncis-new-orleans 4.0
+legends 0.0
+madam-secretary 3.0
+american-crime 3.0
+zoo 1.0
+mr-robot 2.0

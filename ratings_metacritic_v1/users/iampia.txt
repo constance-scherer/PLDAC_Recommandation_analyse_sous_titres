@@ -1,0 +1,5 @@
+the-walking-dead 10.0
+true-blood 10.0
+supernatural 10.0
+the-vampire-diaries 10.0
+the-gates 7.0

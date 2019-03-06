@@ -1,0 +1,7 @@
+bates-motel 10.0
+fargo 10.0
+salem 10.0
+the-leftovers 0.0
+secrets-and-lies 10.0
+sense8 1.0
+quantico 2.0

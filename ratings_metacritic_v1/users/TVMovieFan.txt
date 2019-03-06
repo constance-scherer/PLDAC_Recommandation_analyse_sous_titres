@@ -1,0 +1,8 @@
+the-walking-dead 10.0
+person-of-interest 10.0
+grimm 8.0
+homeland 4.0
+touch 8.0
+revolution 8.0
+vegas 9.0
+strike-back 9.5

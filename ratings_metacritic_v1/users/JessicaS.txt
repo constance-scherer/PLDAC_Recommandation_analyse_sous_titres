@@ -1,0 +1,4 @@
+conviction 10.0
+castle 10.0
+shark 9.0
+close-to-home 10.0

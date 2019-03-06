@@ -1,0 +1,5 @@
+the-shield 10.0
+homicide-life-on-the-street 7.0
+jericho 6.0
+the-wire 9.0
+luther 8.0

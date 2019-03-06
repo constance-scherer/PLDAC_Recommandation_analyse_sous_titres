@@ -1,0 +1,8 @@
+the-simpsons 8.5
+friends 9.0
+babylon-5 7.0
+twin-peaks 9.5
+stargate-sg-1 7.0
+buffy-the-vampire-slayer 7.0
+seinfeld 7.0
+the-x-files 8.0

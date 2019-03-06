@@ -1,0 +1,3 @@
+lost 10.0
+heroes 6.0
+supernatural 4.0

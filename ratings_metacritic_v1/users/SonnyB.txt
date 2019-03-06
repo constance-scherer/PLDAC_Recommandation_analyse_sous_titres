@@ -1,0 +1,2 @@
+night-stalker 1.0
+threshold 0.0

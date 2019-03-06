@@ -1,0 +1,13 @@
+lipstick-jungle 9.0
+private-practice 8.5
+house 0.0
+heroes 7.0
+united-states-of-tara 5.0
+cupid 2.0
+the-cleveland-show 5.0
+melrose-place 3.0
+the-vampire-diaries 6.0
+the-beautiful-life 0.0
+eastwick 9.0
+cougar-town 7.0
+sherri 9.0

@@ -1,0 +1,2 @@
+africa 10.0
+dexter 4.0

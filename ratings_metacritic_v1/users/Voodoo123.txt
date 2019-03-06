@@ -1,0 +1,2 @@
+smallville 6.0
+brooklyn-nine-nine 8.0

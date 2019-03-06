@@ -1,0 +1,6 @@
+the-originals 9.0
+sleepy-hollow 8.0
+brooklyn-nine-nine 10.0
+the-crazy-ones 10.0
+once-upon-a-time-in-wonderland 5.0
+generation-kill 10.0

@@ -1,0 +1,6 @@
+the-strain 8.0
+man-seeking-woman 10.0
+izombie 8.0
+mr-robot 10.0
+community 9.0
+louie 10.0

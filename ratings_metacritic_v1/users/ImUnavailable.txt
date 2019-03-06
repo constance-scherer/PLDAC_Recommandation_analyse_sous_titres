@@ -1,0 +1,13 @@
+the-walking-dead 8.0
+game-of-thrones 10.0
+the-big-bang-theory 5.0
+jersey-shore 1.0
+homeland 8.0
+work-it 0.0
+breaking-bad 10.0
+that-70s-show 8.0
+arrested-development 10.0
+naruto-shippuden 9.0
+the-sopranos 10.0
+two-and-a-half-men 3.0
+curb-your-enthusiasm 9.0

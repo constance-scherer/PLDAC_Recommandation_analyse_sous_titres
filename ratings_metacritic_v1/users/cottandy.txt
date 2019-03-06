@@ -1,0 +1,3 @@
+friends 10.0
+true-detective 9.5
+seinfeld 10.0

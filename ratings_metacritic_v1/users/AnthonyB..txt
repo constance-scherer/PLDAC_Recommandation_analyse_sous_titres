@@ -1,0 +1,2 @@
+cane 10.0
+legend-of-the-seeker 9.0

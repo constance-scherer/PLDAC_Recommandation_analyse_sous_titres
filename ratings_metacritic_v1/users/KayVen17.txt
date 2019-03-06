@@ -1,0 +1,6 @@
+the-walking-dead 7.0
+avatar-the-last-airbender 10.0
+breaking-bad 5.0
+fear-the-walking-dead 5.0
+mr-robot 8.0
+lucifer 7.0

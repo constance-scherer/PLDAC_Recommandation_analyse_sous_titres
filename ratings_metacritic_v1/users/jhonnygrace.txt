@@ -1,0 +1,4 @@
+chuck 10.0
+teen-wolf 10.0
+arrow 10.0
+supernatural 10.0

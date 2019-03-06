@@ -1,0 +1,6 @@
+the-walking-dead 10.0
+lost 10.0
+comic-book-men 0.0
+key-peele 9.0
+dexter 8.0
+weeds 6.0

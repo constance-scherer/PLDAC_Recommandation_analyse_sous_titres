@@ -1,0 +1,4 @@
+the-new-normal 0.0
+elementary 9.0
+vegas 8.0
+justified 10.0

@@ -1,0 +1,5 @@
+threshold 9.0
+extras 7.0
+my-name-is-earl 7.0
+prison-break 8.0
+invasion 8.0

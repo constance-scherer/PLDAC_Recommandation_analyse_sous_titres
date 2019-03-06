@@ -1,0 +1,2 @@
+ringer 10.0
+the-riches 5.0

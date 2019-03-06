@@ -1,0 +1,5 @@
+downton-abbey 8.0
+thundercats 8.0
+person-of-interest 8.0
+true-blood 0.0
+two-and-a-half-men 2.0

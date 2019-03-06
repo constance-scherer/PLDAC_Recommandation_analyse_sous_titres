@@ -1,0 +1,15 @@
+mad-men 5.0
+the-following 0.0
+hannibal 2.0
+the-tunnel 8.0
+the-red-road 8.0
+fargo 10.0
+salem 8.0
+state-of-affairs 5.0
+jane-the-virgin 9.0
+how-to-get-away-with-murder 4.0
+bloodline 5.0
+mr-robot 9.0
+deutschland-83 8.0
+show-me-a-hero 9.0
+the-bastard-executioner 9.0

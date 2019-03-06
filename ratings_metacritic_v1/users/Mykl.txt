@@ -1,0 +1,2 @@
+damages 1.0
+house 10.0

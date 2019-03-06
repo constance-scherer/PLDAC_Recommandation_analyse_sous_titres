@@ -1,0 +1,2 @@
+necessary-roughness 1.0
+whitney 5.0

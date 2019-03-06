@@ -1,0 +1,4 @@
+star-wars-the-clone-wars 8.5
+sleepy-hollow 10.0
+csi-cyber 9.0
+gotham 10.0

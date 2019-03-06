@@ -1,0 +1,6 @@
+once-upon-a-time 4.5
+scandal 0.0
+arrow 6.5
+fringe 9.0
+eureka 7.0
+haven 6.0

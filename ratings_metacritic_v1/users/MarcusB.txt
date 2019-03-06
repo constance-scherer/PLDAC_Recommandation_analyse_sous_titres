@@ -1,0 +1,3 @@
+scrubs 3.0
+cougar-town 8.0
+30-rock 5.0

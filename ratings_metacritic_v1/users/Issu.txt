@@ -1,0 +1,2 @@
+true-detective 9.0
+fargo 5.0

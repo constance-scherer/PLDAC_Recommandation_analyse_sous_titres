@@ -1,0 +1,3 @@
+game-of-thrones 10.0
+merlin 8.0
+supernatural 6.0

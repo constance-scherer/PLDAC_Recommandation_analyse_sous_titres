@@ -1,0 +1,2 @@
+vanished 10.0
+defying-gravity 0.0

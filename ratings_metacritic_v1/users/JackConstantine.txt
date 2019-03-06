@@ -1,0 +1,4 @@
+the-walking-dead 5.0
+game-of-thrones 10.0
+doctor-who 0.0
+hannibal 9.0

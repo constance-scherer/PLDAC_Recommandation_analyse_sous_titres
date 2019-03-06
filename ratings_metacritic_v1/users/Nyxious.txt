@@ -1,0 +1,3 @@
+gravity-falls 10.0
+csi-cyber 10.0
+killjoys 8.0

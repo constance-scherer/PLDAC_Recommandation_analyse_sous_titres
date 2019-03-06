@@ -1,0 +1,8 @@
+once-upon-a-time 8.0
+gravity-falls 10.0
+the-goldbergs 9.0
+mom 10.0
+young-hungry 8.0
+girl-meets-world 8.0
+how-to-get-away-with-murder 10.0
+izombie 10.0

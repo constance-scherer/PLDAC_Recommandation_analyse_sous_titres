@@ -1,0 +1,3 @@
+chuck 10.0
+the-knights-of-prosperity 10.0
+in-case-of-emergency 7.0

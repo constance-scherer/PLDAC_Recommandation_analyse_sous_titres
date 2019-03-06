@@ -1,0 +1,4 @@
+the-walking-dead 10.0
+smash 5.0
+psych 10.0
+the-good-guys 10.0

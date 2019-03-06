@@ -1,0 +1,8 @@
+the-walking-dead 5.0
+game-of-thrones 9.666666666666666
+1600-penn 0.0
+true-blood 0.0
+fargo 10.0
+the-killing 0.0
+the-wire 10.0
+curb-your-enthusiasm 10.0
