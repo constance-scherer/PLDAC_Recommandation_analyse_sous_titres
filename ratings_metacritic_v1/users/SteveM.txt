@@ -1,4 +1,0 @@
-ghost-whisperer 10.0
-surface 10.0
-the-wire 10.0
-24 10.0

@@ -1,6 +1,0 @@
-surface 3.0
-scandal 5.0
-longmire 5.0
-the-mob-doctor 2.0
-the-goodwin-games 7.0
-save-me 6.0

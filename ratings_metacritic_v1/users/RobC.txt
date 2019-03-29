@@ -1,7 +1,0 @@
-standoff 8.0
-heroes 8.0
-shark 7.0
-smith 2.0
-studio-60-on-the-sunset-strip 4.0
-24 10.0
-eureka 9.0

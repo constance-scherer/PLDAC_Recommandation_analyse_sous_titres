@@ -1,2 +1,0 @@
-game-of-thrones 10.0
-save-me 0.0

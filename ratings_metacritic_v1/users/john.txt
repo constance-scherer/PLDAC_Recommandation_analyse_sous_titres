@@ -1,9 +1,0 @@
-conviction 10.0
-john-from-cincinnati 10.0
-the-black-donnellys 10.0
-the-cleveland-show 0.0
-stargate-universe 2.0
-v 9.0
-dexter 10.0
-spartacus-blood-and-sand 8.0
-30-rock 10.0

@@ -1,3 +1,0 @@
-lost 10.0
-alcatraz 9.0
-fringe 8.0

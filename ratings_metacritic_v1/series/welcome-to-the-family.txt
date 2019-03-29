@@ -1,2 +1,0 @@
-SwarleyStinson 2.0
-NotchFilter 1.0

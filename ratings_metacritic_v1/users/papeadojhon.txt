@@ -1,4 +1,0 @@
-the-simpsons 5.0
-mom 9.0
-silicon-valley 8.0
-gotham 8.0

@@ -1,4 +1,0 @@
-banshee 10.0
-brooklyn-nine-nine 8.0
-true-detective 5.0
-black-sails 8.0

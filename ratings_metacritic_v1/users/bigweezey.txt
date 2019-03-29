@@ -1,5 +1,0 @@
-scandal 10.0
-motive 1.0
-wendell-vinnie 0.0
-family-tools 0.0
-victorious 10.0

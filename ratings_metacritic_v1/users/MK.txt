@@ -1,7 +1,0 @@
-the-big-bang-theory 1.0
-the-sarah-silverman-program 9.0
-vanished 10.0
-shark 10.0
-the-class 0.0
-smith 10.0
-invasion 10.0

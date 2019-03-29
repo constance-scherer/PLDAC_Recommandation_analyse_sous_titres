@@ -1,2 +1,0 @@
-chaos 9.0
-greek 10.0

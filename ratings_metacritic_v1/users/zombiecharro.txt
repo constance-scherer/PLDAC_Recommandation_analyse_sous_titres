@@ -1,2 +1,0 @@
-heroes-reborn 3.0
-community 10.0

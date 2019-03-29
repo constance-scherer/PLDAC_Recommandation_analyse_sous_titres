@@ -1,3 +1,0 @@
-whitney 4.0
-work-it 1.0
-napoleon-dynamite 10.0

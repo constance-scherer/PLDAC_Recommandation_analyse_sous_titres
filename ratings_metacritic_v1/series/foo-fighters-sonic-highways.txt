@@ -1,6 +1,0 @@
-geedup 8.0
-VolkerGTAV 9.0
-transistersis 9.0
-emotionalengine 9.0
-JSKnox 10.0
-hibernation 7.0

@@ -1,3 +1,0 @@
-breaking-bad 10.0
-true-detective 0.0
-helix 4.0

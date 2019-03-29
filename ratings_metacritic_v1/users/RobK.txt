@@ -1,3 +1,0 @@
-surface 8.0
-sleeper-cell 10.0
-the-wire 10.0

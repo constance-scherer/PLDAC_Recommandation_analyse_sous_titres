@@ -1,3 +1,0 @@
-true-blood 10.0
-kings 10.0
-meteor 0.0

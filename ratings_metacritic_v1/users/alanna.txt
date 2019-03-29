@@ -1,3 +1,0 @@
-chase 8.0
-chase 8.0
-moonlight 10.0

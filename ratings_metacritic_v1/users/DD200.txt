@@ -1,3 +1,0 @@
-south-park 0.0
-family-guy 0.0
-the-middle 10.0

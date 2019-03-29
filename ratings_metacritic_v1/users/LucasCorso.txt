@@ -1,9 +1,0 @@
-terriers 10.0
-terriers 10.0
-downton-abbey 1.5
-alphas 9.0
-awkward 2.0
-enlightened 9.5
-revolution 2.0
-glee 0.0
-the-wire 10.0

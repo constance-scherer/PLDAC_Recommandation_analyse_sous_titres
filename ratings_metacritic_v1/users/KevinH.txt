@@ -1,6 +1,0 @@
-commander-in-chief 10.0
-psych 10.0
-lucky-louie 8.0
-warehouse-13 4.0
-the-prisoner 4.0
-community 10.0

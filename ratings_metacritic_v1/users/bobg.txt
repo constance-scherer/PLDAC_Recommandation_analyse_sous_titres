@@ -1,3 +1,0 @@
-chuck 10.0
-surface 10.0
-the-prisoner 3.0

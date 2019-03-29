@@ -1,4 +1,0 @@
-boss 9.0
-house-of-lies 1.0
-magic-city 5.0
-the-newsroom 4.0

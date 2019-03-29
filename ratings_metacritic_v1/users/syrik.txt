@@ -1,2 +1,0 @@
-alphas 9.0
-falling-skies 0.0

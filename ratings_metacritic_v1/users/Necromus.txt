@@ -1,9 +1,0 @@
-star-trek-enterprise 7.0
-doctor-who 10.0
-star-trek 10.0
-star-trek-the-next-generation 10.0
-storage-wars 0.0
-merlin 7.5
-star-trek-voyager 9.0
-caprica 5.0
-v 7.0

@@ -1,4 +1,0 @@
-the-simpsons 9.0
-futurama 10.0
-good-luck-charlie 8.0
-the-suite-life-of-zack-cody 5.0

@@ -1,4 +1,0 @@
-surface 9.0
-rules-of-engagement 10.0
-stargate-universe 1.0
-terminator-the-sarah-connor-chronicles 9.0

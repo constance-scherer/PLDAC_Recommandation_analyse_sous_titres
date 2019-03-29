@@ -1,3 +1,0 @@
-jericho 6.0
-the-middleman 9.0
-invasion 10.0

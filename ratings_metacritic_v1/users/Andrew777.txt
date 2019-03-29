@@ -1,2 +1,0 @@
-fargo 10.0
-blindspot 0.0

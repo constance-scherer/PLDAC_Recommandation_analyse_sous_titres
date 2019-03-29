@@ -1,3 +1,0 @@
-person-of-interest 1.0
-prime-suspect 10.0
-the-newsroom 10.0

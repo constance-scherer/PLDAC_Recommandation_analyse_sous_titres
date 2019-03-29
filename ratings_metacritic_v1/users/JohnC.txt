@@ -1,8 +1,0 @@
-commander-in-chief 10.0
-heroes 1.0
-jericho 2.0
-the-philanthropist 9.0
-the-cleveland-show 0.0
-the-sopranos 10.0
-rome 0.0
-invasion 9.0

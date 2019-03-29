@@ -1,1 +1,0 @@
-manhattan 10.0

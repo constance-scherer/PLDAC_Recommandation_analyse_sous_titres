@@ -1,3 +1,0 @@
-surface 9.0
-southland 9.0
-band-of-brothers 10.0

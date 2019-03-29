@@ -1,5 +1,0 @@
-breaking-bad 10.0
-arrow 2.0
-the-mentalist 4.0
-sons-of-anarchy 10.0
-dexter 7.0

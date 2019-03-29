@@ -1,4 +1,0 @@
-orphan-black 10.0
-chicago-pd 0.0
-csi-cyber 2.0
-aquarius 0.0

@@ -1,4 +1,0 @@
-game-of-thrones 10.0
-the-big-bang-theory 6.666666666666667
-breaking-bad 10.0
-the-sopranos 10.0

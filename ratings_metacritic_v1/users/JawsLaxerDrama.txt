@@ -1,8 +1,0 @@
-sherlock 10.0
-sherlock 10.0
-full-house 6.0
-allen-gregory 2.0
-breaking-bad 9.0
-orange-is-the-new-black 8.0
-30-rock 7.0
-curb-your-enthusiasm 9.0

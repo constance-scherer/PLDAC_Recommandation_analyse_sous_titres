@@ -1,3 +1,0 @@
-friends 10.0
-ground-floor 10.0
-seinfeld 9.857142857142858

@@ -1,8 +1,0 @@
-sherlock 10.0
-boardwalk-empire 9.0
-sherlock 10.0
-boardwalk-empire 9.0
-smallville 10.0
-game-of-thrones 10.0
-house 9.0
-dexter 8.0

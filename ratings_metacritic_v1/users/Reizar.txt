@@ -1,5 +1,0 @@
-batman-beyond 10.0
-family-guy 6.0
-napoleon-dynamite 5.0
-lie-to-me 10.0
-glee 0.0

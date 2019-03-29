@@ -1,7 +1,0 @@
-boardwalk-empire 10.0
-boardwalk-empire 10.0
-game-of-thrones 10.0
-falling-skies 3.0
-homeland 6.0
-breaking-bad 6.0
-the-killing 7.0

@@ -1,5 +1,0 @@
-family-guy 7.0
-once-upon-a-time 10.0
-almost-human 10.0
-believe 10.0
-resurrection 10.0

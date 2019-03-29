@@ -1,2 +1,0 @@
-fargo 6.0
-bojack-horseman 4.0

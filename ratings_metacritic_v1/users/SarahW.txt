@@ -1,2 +1,0 @@
-jericho 10.0
-kidnapped 10.0

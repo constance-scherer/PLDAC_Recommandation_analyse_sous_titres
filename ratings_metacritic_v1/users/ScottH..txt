@@ -1,4 +1,0 @@
-journeyman 9.0
-breaking-bad 10.0
-the-listener 4.0
-dexter 10.0

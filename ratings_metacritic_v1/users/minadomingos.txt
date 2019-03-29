@@ -1,3 +1,0 @@
-girls 0.0
-jericho 10.0
-eureka 10.0

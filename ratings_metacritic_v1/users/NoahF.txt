@@ -1,5 +1,0 @@
-southland 10.0
-supernatural 10.0
-the-vampire-diaries 10.0
-30-rock 7.0
-24 8.0

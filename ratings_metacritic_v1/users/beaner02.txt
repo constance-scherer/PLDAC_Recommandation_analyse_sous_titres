@@ -1,6 +1,0 @@
-the-league 10.0
-the-walking-dead 8.0
-star-trek-enterprise 9.0
-lost 3.0
-star-trek-voyager 4.0
-z-nation 9.0

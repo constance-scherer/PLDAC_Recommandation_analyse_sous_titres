@@ -1,6 +1,0 @@
-robin-hood 10.0
-the-big-bang-theory 9.0
-the-unit 9.0
-cupid 0.0
-glee 5.0
-bored-to-death 9.0

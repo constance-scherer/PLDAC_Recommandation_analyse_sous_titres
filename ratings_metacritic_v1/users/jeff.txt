@@ -1,7 +1,0 @@
-john-from-cincinnati 9.0
-cavemen 0.0
-lost 10.0
-heroes 7.0
-swingtown 7.0
-big-love 1.0
-30-rock 10.0

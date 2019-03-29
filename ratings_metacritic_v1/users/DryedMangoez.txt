@@ -1,4 +1,0 @@
-outsourced 8.0
-outsourced 8.0
-grimm 10.0
-once-upon-a-time 5.0

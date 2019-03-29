@@ -1,2 +1,0 @@
-ghost-whisperer 10.0
-castle 7.0

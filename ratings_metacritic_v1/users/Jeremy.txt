@@ -1,4 +1,0 @@
-true-blood 10.0
-supernatural 10.0
-archer 10.0
-rubicon 8.0

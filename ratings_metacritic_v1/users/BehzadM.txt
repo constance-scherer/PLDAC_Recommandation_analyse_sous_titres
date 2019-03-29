@@ -1,2 +1,0 @@
-defiance 10.0
-extant 5.0

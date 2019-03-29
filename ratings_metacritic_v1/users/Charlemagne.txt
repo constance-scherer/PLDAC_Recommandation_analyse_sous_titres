@@ -1,6 +1,0 @@
-game-of-thrones 10.0
-vikings 0.0
-crossbones 0.0
-dark-matter 10.0
-birds-of-prey 10.0
-the-vampire-diaries 0.0

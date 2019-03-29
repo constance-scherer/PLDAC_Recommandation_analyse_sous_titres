@@ -1,4 +1,0 @@
-the-chicago-code 8.0
-southland 9.0
-the-cleveland-show 0.0
-justified 9.0

@@ -1,2 +1,0 @@
-mom 10.0
-bad-teacher 4.0

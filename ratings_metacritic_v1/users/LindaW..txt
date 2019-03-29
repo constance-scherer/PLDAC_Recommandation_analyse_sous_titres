@@ -1,4 +1,0 @@
-jericho 10.0
-archer 9.0
-the-deep-end 1.0
-big-love 8.0

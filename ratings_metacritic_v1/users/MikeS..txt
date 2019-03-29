@@ -1,5 +1,0 @@
-in-treatment 10.0
-flashpoint 10.0
-dexter 10.0
-the-wire 10.0
-30-rock 10.0

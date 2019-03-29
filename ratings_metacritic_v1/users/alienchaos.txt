@@ -1,4 +1,0 @@
-game-of-thrones 9.0
-falling-skies 0.0
-the-last-ship 2.0
-ascension 2.0

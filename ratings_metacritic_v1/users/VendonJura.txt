@@ -1,4 +1,0 @@
-star-trek-enterprise 10.0
-star-trek-the-next-generation 10.0
-star-trek-voyager 10.0
-star-trek-deep-space-nine 10.0

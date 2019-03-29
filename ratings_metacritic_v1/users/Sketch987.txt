@@ -1,5 +1,0 @@
-orange-is-the-new-black 0.0
-black-sails 10.0
-salem 5.0
-tyrant 8.0
-the-strain 0.0

@@ -1,3 +1,0 @@
-bones 10.0
-true-blood 10.0
-high-society 0.0

@@ -1,2 +1,0 @@
-suits 8.0
-house-of-lies 1.0

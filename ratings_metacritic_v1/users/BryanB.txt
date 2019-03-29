@@ -1,4 +1,0 @@
-journeyman 10.0
-the-black-donnellys 10.0
-meteor 0.0
-stargate-universe 10.0

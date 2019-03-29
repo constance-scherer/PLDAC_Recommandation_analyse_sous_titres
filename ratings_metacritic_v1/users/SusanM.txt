@@ -1,5 +1,0 @@
-conviction 10.0
-commander-in-chief 10.0
-men-in-trees 10.0
-criminal-minds 9.0
-close-to-home 6.0

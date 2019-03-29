@@ -1,4 +1,0 @@
-surface 10.0
-john-from-cincinnati 0.0
-the-andromeda-strain 4.0
-studio-60-on-the-sunset-strip 9.0

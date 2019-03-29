@@ -1,2 +1,0 @@
-heroes 7.0
-fringe 7.0

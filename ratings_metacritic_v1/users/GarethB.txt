@@ -1,6 +1,0 @@
-game-of-thrones 10.0
-vikings 7.666666666666667
-arrow 8.0
-the-man-in-the-high-castle 7.0
-deadwood 9.0
-rome 9.0

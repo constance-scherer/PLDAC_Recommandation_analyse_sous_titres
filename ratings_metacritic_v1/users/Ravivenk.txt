@@ -1,9 +1,0 @@
-homeland 10.0
-longmire 10.0
-bosch 5.0
-crisis 7.0
-the-last-man-on-earth 9.0
-american-crime 10.0
-indian-summers 4.0
-blindspot 7.0
-quantico 4.0

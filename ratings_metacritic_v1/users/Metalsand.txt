@@ -1,2 +1,0 @@
-defiance 4.0
-the-last-ship 8.0

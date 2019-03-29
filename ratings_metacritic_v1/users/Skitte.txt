@@ -1,7 +1,0 @@
-doctor-who 10.0
-american-horror-story 6.5
-star-wars-the-clone-wars 10.0
-fargo 9.0
-the-leftovers 10.0
-star-wars-rebels 10.0
-tom-and-jerry 10.0

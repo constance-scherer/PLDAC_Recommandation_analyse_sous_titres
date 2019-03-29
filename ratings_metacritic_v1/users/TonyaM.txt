@@ -1,2 +1,0 @@
-drive 10.0
-sherri 9.0

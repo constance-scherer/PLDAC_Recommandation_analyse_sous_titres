@@ -1,2 +1,0 @@
-moonlight 10.0
-swingtown 9.0

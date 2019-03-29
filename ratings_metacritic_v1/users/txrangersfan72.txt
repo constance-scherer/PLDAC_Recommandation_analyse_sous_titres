@@ -1,4 +1,0 @@
-smallville 10.0
-portlandia 2.0
-mr-sunshine 6.0
-boss 9.0

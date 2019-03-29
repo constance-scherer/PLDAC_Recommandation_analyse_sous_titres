@@ -1,5 +1,0 @@
-sherlock 9.0
-sherlock 9.0
-true-detective 9.0
-helix 6.0
-black-sails 3.0

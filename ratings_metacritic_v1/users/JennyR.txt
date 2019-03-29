@@ -1,3 +1,0 @@
-psych 10.0
-smith 7.0
-studio-60-on-the-sunset-strip 10.0

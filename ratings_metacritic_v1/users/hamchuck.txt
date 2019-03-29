@@ -1,9 +1,0 @@
-under-the-dome 5.0
-black-box 0.0
-penny-dreadful 9.0
-the-last-ship 10.0
-crossbones 5.0
-murder-in-the-first 7.0
-dominion 6.0
-the-strain 10.0
-louie 1.0

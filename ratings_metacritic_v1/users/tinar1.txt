@@ -1,6 +1,0 @@
-house 9.0
-true-blood 1.0
-the-100 9.0
-sense8 10.0
-modern-family 10.0
-dexter 10.0

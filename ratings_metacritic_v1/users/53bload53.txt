@@ -1,3 +1,0 @@
-titanic 6.0
-fear-the-walking-dead 10.0
-the-fresh-prince-of-bel-air 10.0

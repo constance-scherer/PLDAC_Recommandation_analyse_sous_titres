@@ -1,4 +1,0 @@
-dollhouse 8.0
-kings 8.0
-big-love 10.0
-24 9.0

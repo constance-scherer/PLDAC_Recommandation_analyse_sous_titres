@@ -1,2 +1,0 @@
-enlightened 8.0
-revolution 0.0

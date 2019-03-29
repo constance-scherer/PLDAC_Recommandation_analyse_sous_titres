@@ -1,2 +1,0 @@
-the-shield 9.0
-the-wire 10.0

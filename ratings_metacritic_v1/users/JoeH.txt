@@ -1,8 +1,0 @@
-threshold 10.0
-surface 9.0
-dirt 3.0
-the-nine 10.0
-fringe 9.0
-the-vampire-diaries 3.0
-cougar-town 9.0
-terminator-the-sarah-connor-chronicles 9.0

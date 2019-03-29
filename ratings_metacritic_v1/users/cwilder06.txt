@@ -1,2 +1,0 @@
-black-mirror 10.0
-broadchurch 10.0

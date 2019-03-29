@@ -1,4 +1,0 @@
-knight-rider 1.0
-true-blood 1.0
-jericho 10.0
-traveler 3.0

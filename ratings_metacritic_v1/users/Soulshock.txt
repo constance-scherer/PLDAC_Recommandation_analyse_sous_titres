@@ -1,6 +1,0 @@
-game-of-thrones 10.0
-terra-nova 1.0
-banshee 8.0
-true-blood 4.0
-the-good-wife 7.0
-pretty-little-liars 6.0

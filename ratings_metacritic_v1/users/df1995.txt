@@ -1,2 +1,0 @@
-extras 10.0
-difficult-people 10.0

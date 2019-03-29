@@ -1,5 +1,0 @@
-the-walking-dead 10.0
-breaking-bad 9.666666666666666
-orange-is-the-new-black 10.0
-mr-robot 10.0
-luther 10.0

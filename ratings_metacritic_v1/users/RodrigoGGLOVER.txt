@@ -1,2 +1,0 @@
-gossip-girl 10.0
-ringer 10.0

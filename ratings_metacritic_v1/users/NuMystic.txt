@@ -1,2 +1,0 @@
-boss 6.0
-enlightened 8.0

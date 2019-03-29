@@ -1,6 +1,0 @@
-hustle 10.0
-cavemen 0.0
-mental 1.0
-lucky-louie 10.0
-primeval 10.0
-mercy 3.0

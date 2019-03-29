@@ -1,4 +1,0 @@
-arrow 8.0
-the-originals 10.0
-sleepy-hollow 10.0
-fear-the-walking-dead 10.0

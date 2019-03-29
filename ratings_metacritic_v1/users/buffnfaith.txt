@@ -1,7 +1,0 @@
-bosch 6.0
-the-affair 6.0
-how-to-get-away-with-murder 8.0
-eye-candy 9.0
-bloodline 9.0
-mr-robot 9.0
-narcos 7.0

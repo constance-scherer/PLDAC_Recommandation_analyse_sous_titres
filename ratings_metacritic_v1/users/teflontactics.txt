@@ -1,9 +1,0 @@
-game-of-thrones 10.0
-person-of-interest 9.0
-grimm 7.0
-revolution 7.0
-elementary 8.0
-last-resort 10.0
-666-park-avenue 4.0
-chicago-fire 8.0
-arrow 8.0

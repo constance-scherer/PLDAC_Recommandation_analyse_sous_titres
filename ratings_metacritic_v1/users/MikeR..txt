@@ -1,2 +1,0 @@
-day-break 10.0
-carrier 10.0

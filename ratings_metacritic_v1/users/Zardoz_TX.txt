@@ -1,2 +1,0 @@
-copper 8.0
-izombie 10.0

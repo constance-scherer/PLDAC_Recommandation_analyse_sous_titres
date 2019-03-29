@@ -1,6 +1,0 @@
-game-of-thrones 10.0
-homeland 10.0
-girls 9.0
-veep 10.0
-the-newsroom 6.0
-true-blood 7.0

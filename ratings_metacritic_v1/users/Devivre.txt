@@ -1,2 +1,0 @@
-banshee 5.0
-human-target 9.0

@@ -1,2 +1,0 @@
-rectify 0.0
-the-killing 5.0

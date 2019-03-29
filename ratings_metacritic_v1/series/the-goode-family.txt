@@ -1,9 +1,0 @@
-johnw 10.0
-JohnB 7.0
-EvanB. 0.0
-DanH 9.0
-RobertS 10.0
-RobertB 9.0
-ChrisC 9.0
-ChrisM 8.0
-AdamA 7.0

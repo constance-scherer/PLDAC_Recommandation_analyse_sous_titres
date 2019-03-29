@@ -1,3 +1,0 @@
-the-strain 0.0
-prison-break 6.0
-the-wire 10.0

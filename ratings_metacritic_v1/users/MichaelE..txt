@@ -1,3 +1,0 @@
-chuck 8.0
-house 10.0
-tin-man 6.0

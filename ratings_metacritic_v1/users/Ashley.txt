@@ -1,5 +1,0 @@
-gossip-girl 9.0
-moonlight 10.0
-supernatural 10.0
-the-hills 10.0
-the-boondocks 10.0

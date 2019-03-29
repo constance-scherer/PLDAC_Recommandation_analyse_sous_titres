@@ -1,4 +1,0 @@
-chase 7.0
-chase 7.0
-family-guy 10.0
-heroes 9.0

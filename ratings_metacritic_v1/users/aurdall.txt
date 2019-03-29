@@ -1,4 +1,0 @@
-homeland 9.0
-true-blood 3.0
-glee 3.0
-strike-back 5.0

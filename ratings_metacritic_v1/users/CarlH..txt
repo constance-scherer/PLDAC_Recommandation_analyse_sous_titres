@@ -1,3 +1,0 @@
-californication 9.0
-reaper 10.0
-weeds 8.0

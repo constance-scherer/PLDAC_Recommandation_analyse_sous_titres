@@ -1,5 +1,0 @@
-RPD 2.0
-LP68CA 10.0
-MarcDoyle 8.0
-podaddy 8.0
-Patman 2.0

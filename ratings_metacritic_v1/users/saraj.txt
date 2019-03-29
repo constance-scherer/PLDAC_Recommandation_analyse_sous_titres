@@ -1,2 +1,0 @@
-cavemen 7.0
-person-of-interest 10.0

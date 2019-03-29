@@ -1,2 +1,0 @@
-once-upon-a-time 7.0
-dracula 8.0

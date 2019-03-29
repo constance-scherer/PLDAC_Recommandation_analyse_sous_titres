@@ -1,8 +1,0 @@
-veep 4.0
-the-goldbergs 8.0
-sleepy-hollow 5.0
-brooklyn-nine-nine 10.0
-the-assets 6.0
-star-crossed 10.0
-scorpion 10.0
-dr-ken 5.0

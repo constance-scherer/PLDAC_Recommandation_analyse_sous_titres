@@ -1,2 +1,0 @@
-extras 7.0
-curb-your-enthusiasm 10.0

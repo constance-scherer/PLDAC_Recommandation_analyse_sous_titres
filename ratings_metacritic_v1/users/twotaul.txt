@@ -1,2 +1,0 @@
-ncis-new-orleans 0.0
-scorpion 10.0

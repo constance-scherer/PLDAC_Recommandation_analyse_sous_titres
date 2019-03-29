@@ -1,2 +1,0 @@
-extras 10.0
-deadwood 10.0

@@ -1,2 +1,0 @@
-prison-break 10.0
-the-king-of-queens 10.0

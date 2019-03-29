@@ -1,2 +1,0 @@
-generation-kill 10.0
-mr-robot 9.0

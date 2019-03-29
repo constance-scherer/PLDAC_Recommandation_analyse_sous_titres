@@ -1,8 +1,0 @@
-game-of-thrones 1.0
-treasure-island 10.0
-girls 3.0
-under-the-dome 7.0
-orange-is-the-new-black 1.0
-the-musketeers 8.0
-narcos 8.0
-curb-your-enthusiasm 9.0

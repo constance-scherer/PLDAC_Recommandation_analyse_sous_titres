@@ -1,5 +1,0 @@
-game-of-thrones 9.0
-grimm 7.0
-once-upon-a-time 10.0
-merlin 10.0
-glee 10.0

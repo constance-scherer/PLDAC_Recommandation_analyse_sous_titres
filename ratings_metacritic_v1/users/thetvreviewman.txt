@@ -1,7 +1,0 @@
-the-walking-dead 1.0
-game-of-thrones 10.0
-doctor-who 10.0
-american-horror-story 10.0
-orphan-black 9.0
-the-strain 7.0
-supernatural 0.0

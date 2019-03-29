@@ -1,3 +1,0 @@
-arrow 4.0
-bosch 9.0
-scorpion 2.0

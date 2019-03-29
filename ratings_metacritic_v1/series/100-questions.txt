@@ -1,7 +1,0 @@
-Nick 1.0
-John-PaulJ. 1.0
-KatherineO. 1.0
-JamesA 0.0
-Paul 3.0
-MikeL 10.0
-JessicaRobyn 1.0

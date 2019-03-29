@@ -1,7 +1,0 @@
-commander-in-chief 6.0
-cavemen 0.0
-cavemen 1.0
-john-adams 8.0
-deadwood 10.0
-rome 9.0
-30-rock 10.0

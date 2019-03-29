@@ -1,5 +1,0 @@
-the-simpsons 7.0
-family-guy 8.0
-spongebob-squarepants 10.0
-regular-show 10.0
-unbreakable-kimmy-schmidt 10.0

@@ -1,4 +1,0 @@
-ghost-whisperer 0.0
-heroes 10.0
-the-sarah-silverman-program 8.0
-kings 10.0

@@ -1,2 +1,0 @@
-heroes 7.0
-vanished 9.0

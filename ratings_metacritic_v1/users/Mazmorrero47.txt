@@ -1,4 +1,0 @@
-arrow 8.0
-true-detective 3.0
-bojack-horseman 9.0
-wet-hot-american-summer-first-day-of-camp 0.0

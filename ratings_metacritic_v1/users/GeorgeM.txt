@@ -1,6 +1,0 @@
-damages 10.0
-heroes 8.0
-kidnapped 7.0
-smith 10.0
-invasion 10.0
-the-glades 9.0

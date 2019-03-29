@@ -1,2 +1,0 @@
-numeric 8.0
-directguy 4.0

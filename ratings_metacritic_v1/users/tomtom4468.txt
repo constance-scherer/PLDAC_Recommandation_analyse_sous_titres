@@ -1,5 +1,0 @@
-smallville 5.0
-men-at-work 8.0
-sullivan-son 8.0
-elementary 10.0
-arrow 10.0

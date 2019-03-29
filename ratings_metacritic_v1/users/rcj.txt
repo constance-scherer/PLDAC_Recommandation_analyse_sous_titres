@@ -1,2 +1,0 @@
-elementary 10.0
-justified 10.0

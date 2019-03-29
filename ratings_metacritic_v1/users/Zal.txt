@@ -1,6 +1,0 @@
-once-upon-a-time 8.0
-whitney 4.0
-firefly 9.0
-jane-by-design 5.0
-icarly 0.0
-pretty-little-liars 6.0

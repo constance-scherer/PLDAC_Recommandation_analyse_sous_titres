@@ -1,7 +1,0 @@
-sherlock 10.0
-sherlock 10.0
-the-walking-dead 9.0
-game-of-thrones 9.0
-2-broke-girls 4.0
-american-horror-story 9.0
-touch 3.0

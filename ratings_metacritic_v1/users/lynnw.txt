@@ -1,2 +1,0 @@
-huff 10.0
-six-degrees 10.0

@@ -1,3 +1,0 @@
-the-event 10.0
-the-event 10.0
-fringe 10.0

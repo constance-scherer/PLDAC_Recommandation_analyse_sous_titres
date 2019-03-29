@@ -1,2 +1,0 @@
-arrow 8.5
-star-wars-rebels 6.0

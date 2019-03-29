@@ -1,7 +1,0 @@
-the-simpsons 10.0
-game-of-thrones 10.0
-family-guy 10.0
-star-wars-the-clone-wars 6.0
-george-lopez 10.0
-icarly 5.0
-24 9.333333333333334

@@ -1,2 +1,0 @@
-vanished 9.0
-top-chef 9.0

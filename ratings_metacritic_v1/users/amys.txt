@@ -1,3 +1,0 @@
-surface 10.0
-the-black-donnellys 10.0
-dollhouse 9.0

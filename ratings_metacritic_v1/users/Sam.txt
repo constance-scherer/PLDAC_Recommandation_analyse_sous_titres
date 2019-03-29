@@ -1,3 +1,0 @@
-chuck 8.0
-commander-in-chief 6.0
-dirt 2.0

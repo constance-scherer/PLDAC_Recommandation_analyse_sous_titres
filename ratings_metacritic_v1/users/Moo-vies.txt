@@ -1,6 +1,0 @@
-boss 10.0
-elementary 7.0
-fringe 2.0
-penny-dreadful 3.0
-fear-the-walking-dead 4.0
-the-brink 9.0

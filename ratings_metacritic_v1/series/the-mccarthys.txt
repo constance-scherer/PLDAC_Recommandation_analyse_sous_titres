@@ -1,3 +1,0 @@
-pedrogonzalez 10.0
-habrown 10.0
-NotchFilter 7.0

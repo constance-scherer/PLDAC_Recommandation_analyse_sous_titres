@@ -1,2 +1,0 @@
-hotel-babylon 5.0
-drive 10.0

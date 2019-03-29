@@ -1,3 +1,0 @@
-jericho 9.0
-southland 9.0
-drive 10.0

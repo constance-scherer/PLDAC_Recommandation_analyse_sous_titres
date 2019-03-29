@@ -1,3 +1,0 @@
-bionic-woman 0.0
-john-from-cincinnati 10.0
-john-adams 10.0

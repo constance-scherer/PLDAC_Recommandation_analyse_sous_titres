@@ -1,4 +1,0 @@
-south-park 9.0
-regular-show 7.0
-star-wars-the-clone-wars 10.0
-star-wars-rebels 8.0

@@ -1,2 +1,0 @@
-fringe 9.0
-true-blood 3.0

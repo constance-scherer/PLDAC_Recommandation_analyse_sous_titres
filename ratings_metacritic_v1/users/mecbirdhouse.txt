@@ -1,5 +1,0 @@
-scrubs 7.5
-community 8.0
-dexter 7.666666666666667
-weeds 9.0
-louie 8.0

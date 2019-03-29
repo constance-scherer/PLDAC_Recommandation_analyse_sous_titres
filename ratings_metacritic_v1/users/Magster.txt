@@ -1,5 +1,0 @@
-twin-peaks 7.0
-breaking-bad 10.0
-true-blood 3.0
-deadwood 10.0
-the-wire 10.0

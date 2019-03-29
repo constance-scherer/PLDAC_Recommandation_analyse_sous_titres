@@ -1,2 +1,0 @@
-game-of-thrones 6.0
-house 4.0

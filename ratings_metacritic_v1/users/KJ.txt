@@ -1,3 +1,0 @@
-dirt 9.0
-heroes 10.0
-the-wire 10.0

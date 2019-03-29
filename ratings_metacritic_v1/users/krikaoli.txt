@@ -1,4 +1,0 @@
-falling-skies 5.0
-vikings 10.0
-the-last-ship 9.0
-dark-matter 10.0

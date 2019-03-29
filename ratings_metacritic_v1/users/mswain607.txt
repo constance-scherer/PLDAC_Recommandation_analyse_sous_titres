@@ -1,2 +1,0 @@
-bones 7.0
-fringe 9.0

@@ -1,6 +1,0 @@
-the-walking-dead 8.0
-jersey-shore 0.0
-homeland 10.0
-breaking-bad 10.0
-dexter 7.5
-24 10.0

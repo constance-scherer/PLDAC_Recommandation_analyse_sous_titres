@@ -1,3 +1,0 @@
-doctor-who 10.0
-arrested-development 9.0
-the-goldbergs 10.0

@@ -1,3 +1,0 @@
-moonlight 10.0
-the-class 10.0
-the-wire 10.0

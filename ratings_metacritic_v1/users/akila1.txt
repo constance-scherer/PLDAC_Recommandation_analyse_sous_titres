@@ -1,4 +1,0 @@
-homeland 1.0
-the-knick 10.0
-wayward-pines 4.0
-the-bastard-executioner 1.0

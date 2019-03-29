@@ -1,2 +1,0 @@
-the-nine 10.0
-dexter 10.0

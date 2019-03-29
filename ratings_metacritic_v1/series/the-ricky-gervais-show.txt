@@ -1,6 +1,0 @@
-liptap 10.0
-pwnstar 10.0
-RezzaDee 10.0
-MichaelD 8.0
-drlowdon 9.0
-WhiteTalpa 8.0

@@ -1,2 +1,0 @@
-tyrant 8.5
-secrets-and-lies 10.0

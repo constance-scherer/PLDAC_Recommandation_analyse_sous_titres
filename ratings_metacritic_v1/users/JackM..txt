@@ -1,4 +1,0 @@
-john-adams 9.0
-prison-break 0.0
-the-cleveland-show 2.0
-the-sopranos 10.0

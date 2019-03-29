@@ -1,5 +1,0 @@
-suits 6.0
-transparent 10.0
-fargo 10.0
-the-leftovers 9.5
-the-missing 9.0

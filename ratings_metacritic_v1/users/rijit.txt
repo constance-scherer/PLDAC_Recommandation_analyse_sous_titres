@@ -1,3 +1,0 @@
-suits 6.0
-the-newsroom 8.0
-the-blacklist 5.0

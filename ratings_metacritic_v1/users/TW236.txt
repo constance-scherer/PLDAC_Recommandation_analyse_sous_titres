@@ -1,3 +1,0 @@
-tru-calling 9.0
-charmed 9.0
-misfits 9.0

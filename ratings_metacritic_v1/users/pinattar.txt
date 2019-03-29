@@ -1,5 +1,0 @@
-homeland 10.0
-veep 5.0
-entourage 8.0
-justified 9.0
-weeds 5.0

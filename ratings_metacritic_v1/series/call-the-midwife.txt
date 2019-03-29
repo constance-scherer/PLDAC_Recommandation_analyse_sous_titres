@@ -1,4 +1,0 @@
-JBM 10.0
-TVTX 9.0
-HealingToolbox1 10.0
-LittleDancer 7.0

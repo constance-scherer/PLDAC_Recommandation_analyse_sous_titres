@@ -1,2 +1,0 @@
-stargate-universe 3.0
-v 5.0

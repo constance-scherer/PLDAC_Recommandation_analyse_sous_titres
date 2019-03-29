@@ -1,3 +1,0 @@
-dominion 7.0
-sense8 9.0
-mr-robot 9.0

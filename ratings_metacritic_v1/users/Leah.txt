@@ -1,3 +1,0 @@
-gossip-girl 10.0
-my-name-is-earl 1.0
-ugly-betty 0.0

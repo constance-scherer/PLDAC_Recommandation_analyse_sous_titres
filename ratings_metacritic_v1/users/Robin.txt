@@ -1,2 +1,0 @@
-swingtown 9.0
-eureka 9.0

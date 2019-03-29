@@ -1,4 +1,0 @@
-flash-gordon 8.0
-flash-gordon 8.0
-threshold 8.0
-eureka 10.0

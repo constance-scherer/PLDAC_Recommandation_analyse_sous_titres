@@ -1,3 +1,0 @@
-homeland 10.0
-the-following 10.0
-helix 9.0

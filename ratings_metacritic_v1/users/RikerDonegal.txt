@@ -1,3 +1,0 @@
-gotham 7.0
-madam-secretary 7.0
-scorpion 4.0

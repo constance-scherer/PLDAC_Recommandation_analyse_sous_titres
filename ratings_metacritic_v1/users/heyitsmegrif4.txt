@@ -1,9 +1,0 @@
-downton-abbey 9.0
-the-kennedys 5.0
-rules-of-engagement 1.0
-avatar-the-last-airbender 10.0
-suburgatory 10.0
-once-upon-a-time 8.0
-work-it 0.0
-smash 10.0
-glee 6.0

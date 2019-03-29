@@ -1,2 +1,0 @@
-moonlight 10.0
-new-amsterdam 3.0

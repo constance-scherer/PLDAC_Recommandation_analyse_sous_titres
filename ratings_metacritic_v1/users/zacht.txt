@@ -1,2 +1,0 @@
-commander-in-chief 1.0
-jericho 10.0

@@ -1,2 +1,0 @@
-jersey-shore 4.5
-skins 9.0

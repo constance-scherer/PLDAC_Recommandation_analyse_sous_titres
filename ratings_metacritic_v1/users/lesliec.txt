@@ -1,2 +1,0 @@
-surface 10.0
-rules-of-engagement 3.0

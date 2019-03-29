@@ -1,4 +1,0 @@
-jersey-shore 0.0
-american-horror-story 10.0
-allen-gregory 6.0
-community 10.0

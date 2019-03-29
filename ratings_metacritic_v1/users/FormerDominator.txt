@@ -1,2 +1,0 @@
-work-it 0.0
-napoleon-dynamite 8.0

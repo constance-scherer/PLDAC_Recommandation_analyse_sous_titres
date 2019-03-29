@@ -1,4 +1,0 @@
-v 7.0
-human-target 5.0
-life-unexpected 1.0
-100-questions 3.0

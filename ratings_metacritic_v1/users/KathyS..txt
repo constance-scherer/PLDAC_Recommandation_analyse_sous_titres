@@ -1,4 +1,0 @@
-moonlight 10.0
-john-adams 10.0
-the-tudors 10.0
-three-rivers 2.0

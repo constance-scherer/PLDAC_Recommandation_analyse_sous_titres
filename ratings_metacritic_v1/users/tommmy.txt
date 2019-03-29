@@ -1,2 +1,0 @@
-web-therapy 10.0
-brickleberry 10.0

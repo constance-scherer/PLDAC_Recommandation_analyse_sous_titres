@@ -1,3 +1,0 @@
-reaper 10.0
-ghost-whisperer 10.0
-prison-break 0.0

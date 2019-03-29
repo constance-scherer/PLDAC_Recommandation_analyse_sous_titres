@@ -1,3 +1,0 @@
-surface 10.0
-lie-to-me 10.0
-swingtown 9.0

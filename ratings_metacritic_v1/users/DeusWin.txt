@@ -1,6 +1,0 @@
-game-of-thrones 9.0
-american-horror-story 7.5
-lost 7.833333333333333
-breaking-bad 8.8
-fargo 7.0
-supernatural 7.5

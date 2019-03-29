@@ -1,2 +1,0 @@
-dollhouse 9.0
-curb-your-enthusiasm 10.0

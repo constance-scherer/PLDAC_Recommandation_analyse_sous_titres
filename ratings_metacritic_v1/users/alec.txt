@@ -1,2 +1,0 @@
-newsradio 9.0
-party-down 10.0

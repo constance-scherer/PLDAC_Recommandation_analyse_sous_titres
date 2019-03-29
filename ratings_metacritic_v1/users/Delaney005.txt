@@ -1,2 +1,0 @@
-major-crimes 10.0
-madam-secretary 6.0

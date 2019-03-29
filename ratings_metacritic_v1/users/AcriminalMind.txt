@@ -1,2 +1,0 @@
-fringe 6.0
-defying-gravity 0.0

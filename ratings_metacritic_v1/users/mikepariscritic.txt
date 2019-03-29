@@ -1,3 +1,0 @@
-enlightened 10.0
-show-me-a-hero 10.0
-louie 10.0

@@ -1,2 +1,0 @@
-enlightened 10.0
-the-following 5.0

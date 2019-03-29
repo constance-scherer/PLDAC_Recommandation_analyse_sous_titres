@@ -1,6 +1,0 @@
-threshold 9.0
-kings 10.0
-drive 10.0
-the-wire 10.0
-traveler 10.0
-day-break 10.0

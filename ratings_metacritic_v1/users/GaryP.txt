@@ -1,3 +1,0 @@
-my-name-is-earl 10.0
-drive 10.0
-eureka 10.0

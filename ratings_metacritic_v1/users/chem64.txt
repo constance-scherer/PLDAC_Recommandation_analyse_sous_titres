@@ -1,2 +1,0 @@
-south-park 10.0
-malcolm-in-the-middle 10.0

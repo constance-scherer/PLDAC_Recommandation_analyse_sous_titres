@@ -1,6 +1,0 @@
-south-park 8.0
-the-walking-dead 8.0
-house 7.666666666666667
-breaking-bad 9.2
-supernatural 6.0
-community 7.0

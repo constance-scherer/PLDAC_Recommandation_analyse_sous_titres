@@ -1,2 +1,0 @@
-merlin 9.0
-stargate-universe 10.0

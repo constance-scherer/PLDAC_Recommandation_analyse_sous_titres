@@ -1,3 +1,0 @@
-kings 3.0
-windfall 5.0
-24 10.0

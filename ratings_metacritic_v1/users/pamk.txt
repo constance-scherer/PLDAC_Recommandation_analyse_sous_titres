@@ -1,4 +1,0 @@
-night-stalker 10.0
-threshold 10.0
-army-wives 8.0
-big-love 10.0

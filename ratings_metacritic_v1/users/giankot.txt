@@ -1,6 +1,0 @@
-suits 10.0
-revenge 10.0
-the-newsroom 10.0
-hannibal 10.0
-the-crazy-ones 10.0
-the-good-wife 10.0

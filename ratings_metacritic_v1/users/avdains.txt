@@ -1,3 +1,0 @@
-elementary 9.0
-last-resort 9.0
-dexter 9.0

@@ -1,3 +1,0 @@
-the-100 10.0
-parks-and-recreation 10.0
-american-crime 9.0

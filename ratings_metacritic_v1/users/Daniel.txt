@@ -1,4 +1,0 @@
-heroes 10.0
-how-i-met-your-mother 10.0
-the-beautiful-life 10.0
-deadwood 10.0

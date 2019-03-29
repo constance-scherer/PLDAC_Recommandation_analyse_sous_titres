@@ -1,3 +1,0 @@
-the-league 9.0
-the-loop 1.0
-the-wire 10.0

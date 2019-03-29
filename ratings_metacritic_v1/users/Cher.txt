@@ -1,2 +1,0 @@
-quantico 1.0
-meteor 8.0

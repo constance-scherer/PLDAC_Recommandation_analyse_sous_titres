@@ -1,2 +1,0 @@
-homeland 0.0
-boss 8.0

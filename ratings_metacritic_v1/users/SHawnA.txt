@@ -1,2 +1,0 @@
-shark-tank 0.0
-state-of-affairs 10.0

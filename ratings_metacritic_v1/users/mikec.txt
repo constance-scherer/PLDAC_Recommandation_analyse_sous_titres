@@ -1,5 +1,0 @@
-surface 10.0
-john-from-cincinnati 10.0
-my-name-is-earl 10.0
-sit-down-shut-up 0.0
-community 8.0

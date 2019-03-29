@@ -1,7 +1,0 @@
-jeremyp 5.0
-BogKid 3.0
-Ariadne 6.0
-hfmadison 8.0
-netrc 9.0
-Mydogsamjack 9.0
-carold 4.0

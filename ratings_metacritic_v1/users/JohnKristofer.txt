@@ -1,3 +1,0 @@
-gravity-falls 9.0
-regular-show 4.0
-transparent 8.0

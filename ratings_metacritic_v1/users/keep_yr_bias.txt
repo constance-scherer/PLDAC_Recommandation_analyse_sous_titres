@@ -1,4 +1,0 @@
-the-walking-dead 10.0
-key-peele 4.0
-veep 7.0
-dexter 9.333333333333334

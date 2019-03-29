@@ -1,2 +1,0 @@
-person-of-interest 10.0
-homeland 10.0

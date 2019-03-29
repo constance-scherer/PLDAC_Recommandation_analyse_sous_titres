@@ -1,9 +1,0 @@
-sherlock 10.0
-sherlock 10.0
-the-walking-dead 9.0
-game-of-thrones 9.0
-breaking-bad 10.0
-arrow 8.0
-true-detective 10.0
-gotham 6.0
-supernatural 8.0

@@ -1,4 +1,0 @@
-portlandia 9.0
-vikings 8.0
-hemlock-grove 9.0
-welcome-to-sweden 8.0

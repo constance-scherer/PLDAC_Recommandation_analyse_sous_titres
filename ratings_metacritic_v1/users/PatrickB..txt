@@ -1,2 +1,0 @@
-private-practice 10.0
-eureka 3.0

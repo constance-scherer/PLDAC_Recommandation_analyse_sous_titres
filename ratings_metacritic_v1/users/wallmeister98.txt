@@ -1,2 +1,0 @@
-friends 10.0
-joey 10.0

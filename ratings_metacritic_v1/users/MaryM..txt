@@ -1,2 +1,0 @@
-standoff 10.0
-jericho 10.0

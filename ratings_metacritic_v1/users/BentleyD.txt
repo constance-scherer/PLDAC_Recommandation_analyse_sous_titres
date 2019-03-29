@@ -1,3 +1,0 @@
-greek 10.0
-shark-tank 10.0
-arrested-development 10.0

@@ -1,2 +1,0 @@
-black-box 3.0
-bad-teacher 1.0

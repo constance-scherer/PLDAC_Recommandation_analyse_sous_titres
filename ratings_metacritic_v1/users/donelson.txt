@@ -1,8 +1,0 @@
-damages 6.0
-person-of-interest 8.0
-go-on 4.0
-the-following 5.0
-orphan-black 1.0
-wallander 6.0
-those-who-kill 4.0
-luther 2.0

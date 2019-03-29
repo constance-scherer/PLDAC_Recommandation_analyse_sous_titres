@@ -1,2 +1,0 @@
-jersey-shore 0.0
-robot-chicken 9.0

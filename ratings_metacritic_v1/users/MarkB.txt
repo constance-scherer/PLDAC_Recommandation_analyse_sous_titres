@@ -1,6 +1,0 @@
-threshold 9.0
-breaking-bad 10.0
-dollhouse 9.0
-prison-break 10.0
-drive 9.0
-24 10.0

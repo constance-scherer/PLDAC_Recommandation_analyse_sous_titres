@@ -1,3 +1,0 @@
-once-upon-a-time 10.0
-dogs-in-the-city 2.0
-animal-practice 2.0

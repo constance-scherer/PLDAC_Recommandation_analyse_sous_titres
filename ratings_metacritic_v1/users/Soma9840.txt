@@ -1,2 +1,0 @@
-doctor-who 9.0
-gotham 8.0

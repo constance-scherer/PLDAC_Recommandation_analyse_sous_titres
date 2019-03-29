@@ -1,3 +1,0 @@
-chuck 10.0
-friends 10.0
-cougar-town 0.0

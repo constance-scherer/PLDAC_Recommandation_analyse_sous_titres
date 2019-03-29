@@ -1,2 +1,0 @@
-heroes 3.0
-thief 10.0

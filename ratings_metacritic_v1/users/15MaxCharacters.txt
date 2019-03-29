@@ -1,2 +1,0 @@
-true-detective 2.0
-halt-and-catch-fire 10.0

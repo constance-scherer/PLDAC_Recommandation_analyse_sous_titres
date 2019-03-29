@@ -1,7 +1,0 @@
-threshold 10.0
-john-from-cincinnati 2.0
-brotherhood 9.0
-criminal-minds 10.0
-jericho 10.0
-the-goode-family 10.0
-day-break 10.0

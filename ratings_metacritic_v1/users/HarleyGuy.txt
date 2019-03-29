@@ -1,6 +1,0 @@
-outlaw 10.0
-outlaw 10.0
-alphas 10.0
-against-the-wall 10.0
-person-of-interest 10.0
-memphis-beat 10.0

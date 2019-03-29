@@ -1,2 +1,0 @@
-fringe 10.0
-sons-of-anarchy 9.0

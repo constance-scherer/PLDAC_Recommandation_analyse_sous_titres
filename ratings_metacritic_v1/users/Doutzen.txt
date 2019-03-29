@@ -1,7 +1,0 @@
-suits 9.0
-friends 10.0
-lost 4.0
-breaking-bad 5.0
-heroes 4.0
-mr-selfridge 7.0
-the-mentalist 7.0

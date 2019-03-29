@@ -1,3 +1,0 @@
-skins 10.0
-dollhouse 10.0
-entourage 10.0

@@ -1,5 +1,0 @@
-threshold 6.0
-surface 3.0
-the-war-at-home 8.0
-supernatural 8.0
-invasion 9.0

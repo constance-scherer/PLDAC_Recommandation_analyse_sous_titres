@@ -1,7 +1,0 @@
-the-walking-dead 5.0
-the-simpsons 9.0
-game-of-thrones 9.0
-the-big-bang-theory 10.0
-breaking-bad 9.4
-united-states-of-tara 2.0
-dexter 7.833333333333333

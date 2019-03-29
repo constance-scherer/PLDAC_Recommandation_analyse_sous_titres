@@ -1,3 +1,0 @@
-the-loop 6.0
-surface 10.0
-til-death 2.0

@@ -1,2 +1,0 @@
-rectify 10.0
-six-feet-under 10.0

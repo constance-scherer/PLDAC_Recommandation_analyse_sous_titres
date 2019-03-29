@@ -1,7 +1,0 @@
-doctor-who 8.0
-everybody-hates-chris 6.0
-andy-barker-pi 8.0
-entourage 10.0
-studio-60-on-the-sunset-strip 10.0
-30-rock 5.0
-identity 0.0

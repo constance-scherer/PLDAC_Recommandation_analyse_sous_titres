@@ -1,3 +1,0 @@
-the-chicago-code 1.0
-traffic-light 3.0
-gotham 5.0

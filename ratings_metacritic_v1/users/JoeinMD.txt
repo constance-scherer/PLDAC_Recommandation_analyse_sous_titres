@@ -1,9 +1,0 @@
-game-of-thrones 10.0
-zen 8.0
-house 4.0
-necessary-roughness 5.0
-rescue-me 10.0
-the-killing 10.0
-justified 10.0
-treme 10.0
-weeds 8.0

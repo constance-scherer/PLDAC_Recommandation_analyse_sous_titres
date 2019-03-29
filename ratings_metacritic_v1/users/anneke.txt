@@ -1,6 +1,0 @@
-touch 8.0
-the-following 10.0
-do-no-harm 8.0
-the-americans 1.0
-zero-hour 3.0
-monday-mornings 1.0

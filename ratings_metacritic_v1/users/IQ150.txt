@@ -1,3 +1,0 @@
-alphas 0.0
-extant 3.0
-man-seeking-woman 0.0

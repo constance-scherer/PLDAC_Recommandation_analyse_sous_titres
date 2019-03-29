@@ -1,3 +1,0 @@
-touch 0.0
-galavant 10.0
-killjoys 10.0

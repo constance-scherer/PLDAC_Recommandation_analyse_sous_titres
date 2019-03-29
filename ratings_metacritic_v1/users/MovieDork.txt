@@ -1,7 +1,0 @@
-game-of-thrones 10.0
-breaking-in 7.0
-happy-endings 8.0
-franklin-bash 6.0
-switched-at-birth 7.0
-suits 8.0
-necessary-roughness 5.0

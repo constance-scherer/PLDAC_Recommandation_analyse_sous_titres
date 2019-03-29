@@ -1,6 +1,0 @@
-the-loop 2.0
-john-from-cincinnati 4.0
-defying-gravity 9.0
-modern-family 4.0
-dexter 10.0
-30-rock 10.0

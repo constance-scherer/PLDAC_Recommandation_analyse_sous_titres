@@ -1,5 +1,0 @@
-the-walking-dead 8.0
-breaking-bad 9.0
-true-detective 10.0
-the-sopranos 10.0
-the-wire 10.0

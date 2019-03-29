@@ -1,5 +1,0 @@
-homeland 9.0
-banshee 10.0
-peaky-blinders 9.0
-black-sails 8.0
-intruders 7.0

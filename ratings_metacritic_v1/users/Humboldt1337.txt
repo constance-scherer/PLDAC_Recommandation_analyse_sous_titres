@@ -1,2 +1,0 @@
-firefly 10.0
-babylon-5 8.0

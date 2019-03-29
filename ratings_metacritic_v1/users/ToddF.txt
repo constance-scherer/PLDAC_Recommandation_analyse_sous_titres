@@ -1,2 +1,0 @@
-the-league 5.0
-six-degrees 9.0

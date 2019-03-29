@@ -1,3 +1,0 @@
-chuck 5.0
-breaking-bad 10.0
-white-collar 9.0

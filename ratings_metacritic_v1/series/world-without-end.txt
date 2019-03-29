@@ -1,5 +1,0 @@
-SuRathanil 9.0
-strictlycovert 1.0
-OneVoice 6.0
-Jazzychef 5.0
-dhyerwolf 0.0

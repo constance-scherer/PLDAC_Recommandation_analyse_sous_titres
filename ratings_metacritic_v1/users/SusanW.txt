@@ -1,2 +1,0 @@
-shark 4.0
-six-degrees 9.0

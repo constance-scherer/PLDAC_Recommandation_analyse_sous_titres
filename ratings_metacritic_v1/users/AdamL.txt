@@ -1,3 +1,0 @@
-heroes 3.0
-vanished 0.0
-dexter 10.0

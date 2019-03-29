@@ -1,4 +1,0 @@
-hex 10.0
-the-game 10.0
-lucky-louie 10.0
-the-sopranos 9.0

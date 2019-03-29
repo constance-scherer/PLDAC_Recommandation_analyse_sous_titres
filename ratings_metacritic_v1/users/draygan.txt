@@ -1,2 +1,0 @@
-jersey-shore 0.0
-allen-gregory 0.0

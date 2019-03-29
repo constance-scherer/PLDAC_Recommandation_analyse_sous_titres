@@ -1,2 +1,0 @@
-revolution 8.0
-gotham 10.0

@@ -1,5 +1,0 @@
-the-league 5.0
-game-of-thrones 8.8
-breaking-bad 9.4
-better-call-saul 9.0
-community 9.0

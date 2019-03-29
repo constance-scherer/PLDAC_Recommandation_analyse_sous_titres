@@ -1,4 +1,0 @@
-alcatraz 6.0
-smash 7.0
-the-river 10.0
-gcb 9.0

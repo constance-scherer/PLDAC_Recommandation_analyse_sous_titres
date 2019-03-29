@@ -1,5 +1,0 @@
-chuck 10.0
-the-shield 10.0
-breaking-bad 10.0
-fargo 10.0
-how-i-met-your-mother 7.0

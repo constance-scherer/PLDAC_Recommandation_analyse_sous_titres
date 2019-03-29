@@ -1,5 +1,0 @@
-RicochetPhoenix 4.0
-JessTurner 10.0
-Rox22 8.0
-Charlemagne 10.0
-Nighter 10.0

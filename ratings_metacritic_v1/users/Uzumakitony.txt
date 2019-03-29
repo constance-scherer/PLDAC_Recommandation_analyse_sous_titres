@@ -1,4 +1,0 @@
-key-peele 3.0
-the-originals 10.0
-glee 10.0
-the-vampire-diaries 10.0

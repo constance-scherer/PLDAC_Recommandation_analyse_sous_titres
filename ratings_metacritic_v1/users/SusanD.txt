@@ -1,2 +1,0 @@
-merlin 0.0
-drop-dead-diva 8.0

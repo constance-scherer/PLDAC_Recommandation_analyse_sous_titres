@@ -1,7 +1,0 @@
-ros3 10.0
-metabad 3.0
-Novem 5.0
-CzarKasm 9.0
-philojester 9.0
-Vicrato 10.0
-Popyl 10.0

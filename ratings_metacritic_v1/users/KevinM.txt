@@ -1,4 +1,0 @@
-bionic-woman 0.0
-surface 5.0
-true-blood 10.0
-drop-dead-diva 10.0

@@ -1,2 +1,0 @@
-the-boondocks 10.0
-identity 0.0

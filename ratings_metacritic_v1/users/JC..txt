@@ -1,2 +1,0 @@
-standoff 9.0
-moonlight 7.0

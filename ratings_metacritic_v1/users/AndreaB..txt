@@ -1,2 +1,0 @@
-cane 10.0
-the-game 10.0

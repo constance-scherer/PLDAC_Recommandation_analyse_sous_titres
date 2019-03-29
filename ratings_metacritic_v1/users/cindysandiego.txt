@@ -1,2 +1,0 @@
-damages 6.0
-happyish 1.0

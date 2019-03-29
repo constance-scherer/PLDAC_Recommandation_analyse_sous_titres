@@ -1,5 +1,0 @@
-the-simpsons 7.0
-game-of-thrones 10.0
-madam-secretary 9.0
-grace-and-frankie 10.0
-how-i-met-your-mother 0.0

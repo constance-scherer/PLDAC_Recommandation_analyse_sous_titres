@@ -1,2 +1,0 @@
-gotham 9.5
-lucifer 8.0

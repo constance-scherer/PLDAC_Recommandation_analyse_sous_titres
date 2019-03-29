@@ -1,3 +1,0 @@
-suburgatory 10.0
-dexter 10.0
-invasion 0.0

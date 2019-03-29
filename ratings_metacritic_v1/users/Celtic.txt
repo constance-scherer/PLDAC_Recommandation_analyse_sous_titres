@@ -1,3 +1,0 @@
-terra-nova 7.0
-homeland 9.0
-dexter 10.0

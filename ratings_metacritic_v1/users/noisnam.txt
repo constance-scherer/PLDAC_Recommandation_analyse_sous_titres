@@ -1,4 +1,0 @@
-game-of-thrones 9.0
-zero-hour 2.0
-believe 8.0
-the-100 0.0

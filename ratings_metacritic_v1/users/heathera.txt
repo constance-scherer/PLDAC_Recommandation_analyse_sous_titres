@@ -1,3 +1,0 @@
-surface 10.0
-broken-trail 8.0
-the-wire 10.0

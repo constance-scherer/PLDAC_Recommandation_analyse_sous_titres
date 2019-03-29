@@ -1,6 +1,0 @@
-parks-and-recreation 8.0
-glee 7.0
-meteor 0.0
-community 7.0
-modern-family 9.0
-30-rock 10.0

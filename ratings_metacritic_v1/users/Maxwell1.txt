@@ -1,2 +1,0 @@
-pan-am 10.0
-parenthood 8.0

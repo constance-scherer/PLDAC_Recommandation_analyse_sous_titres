@@ -1,9 +1,0 @@
-the-walking-dead 7.0
-friends 4.0
-arrested-development 9.0
-seinfeld 10.0
-the-sopranos 10.0
-bored-to-death 7.0
-community 8.5
-the-wire 10.0
-30-rock 8.75

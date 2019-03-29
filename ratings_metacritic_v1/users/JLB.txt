@@ -1,3 +1,0 @@
-the-event 6.0
-the-event 6.0
-fringe 9.0

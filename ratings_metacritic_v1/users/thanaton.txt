@@ -1,8 +1,0 @@
-mad-men 0.0
-mad-men 0.0
-star-trek 10.0
-spongebob-squarepants 10.0
-the-bible 10.0
-star-wars-the-clone-wars 10.0
-orange-is-the-new-black 10.0
-monk 0.0

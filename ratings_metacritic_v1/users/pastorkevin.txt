@@ -1,3 +1,0 @@
-scorpion 8.0
-izombie 8.0
-rosewood 8.0

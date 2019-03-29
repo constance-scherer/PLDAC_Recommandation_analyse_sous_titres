@@ -1,3 +1,0 @@
-fringe 0.0
-the-mentalist 0.0
-stargate-universe 9.0

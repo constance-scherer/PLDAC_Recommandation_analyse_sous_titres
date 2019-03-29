@@ -1,3 +1,0 @@
-suits 10.0
-political-animals 8.0
-the-blacklist 10.0

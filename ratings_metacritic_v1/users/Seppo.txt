@@ -1,3 +1,0 @@
-black-box 0.0
-tyrant 9.0
-younger 0.0

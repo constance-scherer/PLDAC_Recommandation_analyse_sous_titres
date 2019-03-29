@@ -1,2 +1,0 @@
-bunheads 10.0
-the-lottery 8.0

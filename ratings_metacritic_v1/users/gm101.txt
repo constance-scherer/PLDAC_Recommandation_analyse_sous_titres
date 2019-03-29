@@ -1,4 +1,0 @@
-south-park 0.0
-doctor-who 10.0
-spongebob-squarepants 10.0
-star-wars-the-clone-wars 10.0

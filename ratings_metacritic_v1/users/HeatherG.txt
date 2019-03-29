@@ -1,3 +1,0 @@
-damages 10.0
-windfall 9.0
-invasion 10.0

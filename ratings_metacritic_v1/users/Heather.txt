@@ -1,4 +1,0 @@
-conviction 10.0
-bones 9.0
-eastwick 10.0
-secret-girlfriend 0.0

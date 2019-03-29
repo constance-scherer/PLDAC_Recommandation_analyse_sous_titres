@@ -1,2 +1,0 @@
-mixology 10.0
-crisis 10.0

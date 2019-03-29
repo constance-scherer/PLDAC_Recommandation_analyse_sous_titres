@@ -1,7 +1,0 @@
-game-of-thrones 9.0
-twin-peaks 8.5
-breaking-bad 9.6
-true-blood 6.5
-dollhouse 6.0
-band-of-brothers 8.0
-the-x-files 7.777777777777778

@@ -1,4 +1,0 @@
-conviction 9.0
-criminal-minds 10.0
-sleeper-cell 1.0
-painkiller-jane 10.0

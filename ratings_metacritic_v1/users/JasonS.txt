@@ -1,9 +1,0 @@
-chuck 10.0
-saving-grace 0.0
-greek 2.0
-the-sarah-silverman-program 0.0
-the-black-donnellys 10.0
-kings 3.0
-drive 9.0
-dexter 9.0
-the-wire 10.0

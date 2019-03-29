@@ -1,2 +1,0 @@
-banshee 10.0
-weird-loners 10.0

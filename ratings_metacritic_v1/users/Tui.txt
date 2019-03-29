@@ -1,3 +1,0 @@
-doctor-who 2.0
-lie-to-me 10.0
-gotham 8.0

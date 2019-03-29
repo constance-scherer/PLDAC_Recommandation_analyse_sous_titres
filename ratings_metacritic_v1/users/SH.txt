@@ -1,2 +1,0 @@
-knight-rider 10.0
-fringe 0.0

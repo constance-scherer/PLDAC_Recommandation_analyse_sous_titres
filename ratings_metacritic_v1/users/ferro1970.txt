@@ -1,2 +1,0 @@
-pan-am 8.0
-awake 10.0

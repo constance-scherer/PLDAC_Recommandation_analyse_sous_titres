@@ -1,3 +1,0 @@
-firefly 10.0
-the-neighbors 8.0
-community 3.0

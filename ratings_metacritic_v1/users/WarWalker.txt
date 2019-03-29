@@ -1,5 +1,0 @@
-the-big-bang-theory 4.0
-friends 8.0
-wedding-band 0.0
-seinfeld 7.0
-the-king-of-queens 7.0

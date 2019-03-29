@@ -1,9 +1,0 @@
-jeremyp 7.0
-jimmyj 9.0
-Potsdam_sr 9.0
-accelerometer 7.0
-Coldhwayne 9.0
-Kestrelfalke 10.0
-drcaos 10.0
-ursomniac 10.0
-KimD 10.0

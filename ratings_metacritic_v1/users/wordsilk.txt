@@ -1,7 +1,0 @@
-criminal-minds-suspect-behavior 2.0
-frozen-planet 4.0
-the-newsroom 10.0
-graceland 1.0
-family-tree 10.0
-black-box 0.0
-the-night-shift 8.0

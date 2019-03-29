@@ -1,5 +1,0 @@
-falling-skies 8.0
-firefly 8.0
-babylon-5 7.0
-breaking-bad 9.0
-dollhouse 8.0

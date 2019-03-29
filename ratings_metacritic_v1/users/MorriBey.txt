@@ -1,9 +1,0 @@
-terriers 10.0
-terriers 10.0
-the-walking-dead 4.0
-falling-skies 2.0
-homeland 2.0
-breaking-bad 10.0
-the-killing 2.0
-entourage 2.0
-the-wire 10.0

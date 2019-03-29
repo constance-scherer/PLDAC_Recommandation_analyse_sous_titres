@@ -1,2 +1,0 @@
-mr-robot 0.0
-public-morals 5.0

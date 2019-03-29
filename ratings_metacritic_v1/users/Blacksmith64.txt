@@ -1,2 +1,0 @@
-vikings 0.0
-zoo 7.0

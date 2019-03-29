@@ -1,5 +1,0 @@
-californication 9.0
-surface 10.0
-defying-gravity 2.0
-sons-of-anarchy 8.0
-wipeout 9.0

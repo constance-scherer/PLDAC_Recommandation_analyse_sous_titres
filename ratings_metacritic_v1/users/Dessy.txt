@@ -1,4 +1,0 @@
-terra-nova 10.0
-once-upon-a-time 10.0
-homeland 9.0
-fringe 10.0

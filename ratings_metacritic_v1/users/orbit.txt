@@ -1,3 +1,0 @@
-damages 10.0
-the-walking-dead 5.0
-girls 8.0

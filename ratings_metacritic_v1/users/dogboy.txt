@@ -1,6 +1,0 @@
-the-league 9.0
-game-of-thrones 10.0
-breaking-in 8.0
-suits 2.0
-breaking-bad 10.0
-parks-and-recreation 10.0

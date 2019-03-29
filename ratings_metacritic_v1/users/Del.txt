@@ -1,2 +1,0 @@
-eli-stone 9.0
-eureka 10.0

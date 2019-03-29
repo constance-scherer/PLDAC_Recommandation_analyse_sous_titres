@@ -1,2 +1,0 @@
-standoff 3.0
-jericho 4.0

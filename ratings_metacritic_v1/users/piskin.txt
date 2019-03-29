@@ -1,3 +1,0 @@
-golden-boy 10.0
-madam-secretary 0.0
-dark-matter 10.0

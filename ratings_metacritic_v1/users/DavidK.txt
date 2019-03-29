@@ -1,7 +1,0 @@
-mad-men 5.0
-friday-night-lights 10.0
-heroes 10.0
-the-unusuals 10.0
-dexter 10.0
-30-rock 3.0
-top-chef 0.0

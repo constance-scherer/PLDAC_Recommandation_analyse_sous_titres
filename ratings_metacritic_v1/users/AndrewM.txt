@@ -1,3 +1,0 @@
-dollhouse 7.0
-vanished 1.0
-the-cleveland-show 10.0

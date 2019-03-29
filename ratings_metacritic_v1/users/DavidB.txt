@@ -1,5 +1,0 @@
-sleeper-cell 6.0
-heroes 9.0
-vanished 0.0
-ugly-betty 10.0
-hot-in-cleveland 5.0

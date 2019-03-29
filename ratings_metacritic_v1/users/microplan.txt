@@ -1,4 +1,0 @@
-the-walking-dead 0.0
-american-horror-story 10.0
-breaking-bad 10.0
-dexter 10.0

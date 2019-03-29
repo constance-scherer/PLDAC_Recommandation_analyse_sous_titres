@@ -1,3 +1,0 @@
-chuck 10.0
-family-guy 10.0
-the-cleveland-show 7.0

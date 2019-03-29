@@ -1,9 +1,0 @@
-keeping-up-with-the-kardashians 3.0
-jersey-shore 4.0
-breaking-bad 10.0
-vikings 8.0
-true-detective 9.0
-fargo 9.0
-how-i-met-your-mother 1.0
-modern-family 8.0
-louie 9.0

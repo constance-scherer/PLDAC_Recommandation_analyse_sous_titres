@@ -1,2 +1,0 @@
-bones 2.0
-thief 9.0

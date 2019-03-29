@@ -1,2 +1,0 @@
-dexter 10.0
-traveler 9.0

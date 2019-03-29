@@ -1,5 +1,0 @@
-once-upon-a-time 6.0
-arrow 2.3333333333333335
-bitten 0.0
-sense8 6.0
-lucifer 5.0

@@ -1,3 +1,0 @@
-traffic-light 8.0
-the-paul-reiser-show 3.0
-the-voice 7.0

@@ -1,4 +1,0 @@
-south-park 10.0
-family-guy 10.0
-teen-titans 10.0
-mike-tyson-mysteries 10.0

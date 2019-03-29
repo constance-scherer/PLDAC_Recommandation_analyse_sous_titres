@@ -1,4 +1,0 @@
-the-glee-project 8.0
-stargate-sg-1 9.0
-stargate-universe 7.0
-v 6.0

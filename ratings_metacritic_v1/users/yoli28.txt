@@ -1,5 +1,0 @@
-rectify 10.0
-orange-is-the-new-black 10.0
-sleepy-hollow 8.0
-tyrant 9.0
-crossbones 7.0

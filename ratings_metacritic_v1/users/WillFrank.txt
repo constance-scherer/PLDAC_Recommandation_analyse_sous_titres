@@ -1,6 +1,0 @@
-terriers 10.0
-terriers 10.0
-the-walking-dead 9.0
-breaking-bad 10.0
-men-of-a-certain-age 10.0
-luther 10.0

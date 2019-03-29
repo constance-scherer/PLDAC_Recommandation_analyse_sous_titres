@@ -1,9 +1,0 @@
-fringe 4.0
-crusoe 2.0
-worst-week 7.0
-legend-of-the-seeker 3.0
-sanctuary 3.0
-glee 8.0
-virtuality 9.0
-spartacus-blood-and-sand 0.0
-curb-your-enthusiasm 10.0

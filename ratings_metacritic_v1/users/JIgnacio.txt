@@ -1,4 +1,0 @@
-the-americans 10.0
-hannibal 10.0
-rectify 10.0
-transparent 10.0

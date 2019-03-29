@@ -1,3 +1,0 @@
-doctor-who 5.0
-a-to-z 7.0
-benched 6.0

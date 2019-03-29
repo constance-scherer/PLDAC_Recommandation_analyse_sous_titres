@@ -1,2 +1,0 @@
-fringe 9.0
-fear-the-walking-dead 6.0

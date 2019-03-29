@@ -1,3 +1,0 @@
-breaking-bad 10.0
-brooklyn-nine-nine 9.0
-true-detective 10.0

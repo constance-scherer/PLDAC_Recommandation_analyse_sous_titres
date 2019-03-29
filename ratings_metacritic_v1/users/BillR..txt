@@ -1,2 +1,0 @@
-castle 10.0
-community 1.0

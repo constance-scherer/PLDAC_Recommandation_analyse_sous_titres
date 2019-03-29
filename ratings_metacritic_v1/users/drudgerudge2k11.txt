@@ -1,5 +1,0 @@
-the-walking-dead 10.0
-game-of-thrones 8.0
-homeland 5.0
-lost 2.0
-the-sopranos 9.0

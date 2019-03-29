@@ -1,3 +1,0 @@
-defiance 10.0
-generation-kill 10.0
-24 10.0

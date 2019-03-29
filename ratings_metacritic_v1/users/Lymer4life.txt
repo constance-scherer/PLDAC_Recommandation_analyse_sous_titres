@@ -1,5 +1,0 @@
-touch 5.0
-chicago-fire 8.0
-vikings 10.0
-freakshow 2.0
-project-runway 5.0

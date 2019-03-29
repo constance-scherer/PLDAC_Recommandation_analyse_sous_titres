@@ -1,3 +1,0 @@
-john-adams 5.0
-top-of-the-lake 10.0
-silicon-valley 10.0

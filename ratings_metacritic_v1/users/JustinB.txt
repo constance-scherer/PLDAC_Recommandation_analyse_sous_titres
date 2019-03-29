@@ -1,2 +1,0 @@
-heroes 10.0
-secret-girlfriend 0.0

@@ -1,3 +1,0 @@
-doctor-who 10.0
-fringe 10.0
-true-blood 10.0

@@ -1,8 +1,0 @@
-the-walking-dead 0.0
-american-horror-story 10.0
-homeland 0.0
-mom 10.0
-witches-of-east-end 10.0
-dracula 10.0
-warehouse-13 10.0
-community 10.0

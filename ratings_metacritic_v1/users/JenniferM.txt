@@ -1,5 +1,0 @@
-conviction 10.0
-dollhouse 9.0
-vanished 10.0
-mental 10.0
-windfall 10.0

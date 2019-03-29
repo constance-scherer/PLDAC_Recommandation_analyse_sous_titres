@@ -1,2 +1,0 @@
-castle 8.0
-stargate-universe 1.0

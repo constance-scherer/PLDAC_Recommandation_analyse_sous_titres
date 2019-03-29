@@ -1,2 +1,0 @@
-extras 10.0
-mayday 2.0

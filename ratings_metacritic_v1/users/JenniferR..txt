@@ -1,7 +1,0 @@
-the-big-bang-theory 10.0
-moonlight 6.0
-journeyman 7.0
-carpoolers 9.0
-surface 9.0
-cavemen 0.0
-true-blood 8.0

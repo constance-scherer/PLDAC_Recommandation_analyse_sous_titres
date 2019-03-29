@@ -1,5 +1,0 @@
-true-detective 7.0
-extant 5.0
-bloodline 10.0
-sense8 10.0
-mr-robot 0.0

@@ -1,3 +1,0 @@
-men-in-trees 10.0
-drive 10.0
-deadwood 10.0

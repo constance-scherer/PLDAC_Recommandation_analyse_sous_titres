@@ -1,4 +1,0 @@
-cane 10.0
-hex 10.0
-the-class 0.0
-studio-60-on-the-sunset-strip 10.0

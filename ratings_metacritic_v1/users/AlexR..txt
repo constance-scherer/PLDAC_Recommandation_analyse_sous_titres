@@ -1,3 +1,0 @@
-chuck 10.0
-lost 0.0
-heroes 10.0

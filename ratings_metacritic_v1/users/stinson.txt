@@ -1,3 +1,0 @@
-friends 10.0
-breaking-bad 10.0
-how-i-met-your-mother 2.0

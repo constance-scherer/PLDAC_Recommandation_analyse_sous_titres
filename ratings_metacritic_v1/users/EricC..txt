@@ -1,2 +1,0 @@
-extras 10.0
-welcome-to-the-captain 3.0

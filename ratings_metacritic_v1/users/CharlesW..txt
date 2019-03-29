@@ -1,4 +1,0 @@
-conviction 8.0
-cane 9.0
-canterburys-law 9.0
-five-days 10.0

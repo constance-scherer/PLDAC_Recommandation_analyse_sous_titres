@@ -1,2 +1,0 @@
-grimm 10.0
-pan-am 6.0

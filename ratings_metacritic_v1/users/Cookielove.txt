@@ -1,4 +1,0 @@
-the-walking-dead 10.0
-game-of-thrones 10.0
-girls 10.0
-breaking-bad 10.0

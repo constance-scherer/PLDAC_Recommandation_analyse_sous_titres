@@ -1,7 +1,0 @@
-cavemen 7.0
-in-treatment 10.0
-scrubs 8.0
-glee 10.0
-flashforward 10.0
-community 8.0
-modern-family 9.0

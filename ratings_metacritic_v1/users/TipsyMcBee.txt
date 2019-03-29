@@ -1,2 +1,0 @@
-south-park 8.0
-clone-high-usa 9.0

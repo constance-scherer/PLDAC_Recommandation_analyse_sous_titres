@@ -1,2 +1,0 @@
-fargo 8.0
-bojack-horseman 8.0

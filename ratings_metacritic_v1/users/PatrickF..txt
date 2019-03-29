@@ -1,2 +1,0 @@
-carpoolers 10.0
-worst-week 10.0

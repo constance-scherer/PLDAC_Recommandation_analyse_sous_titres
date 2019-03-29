@@ -1,4 +1,0 @@
-surface 10.0
-prison-break 10.0
-supernatural 10.0
-flashforward 10.0

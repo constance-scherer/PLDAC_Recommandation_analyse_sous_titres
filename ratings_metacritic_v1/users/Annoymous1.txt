@@ -1,6 +1,0 @@
-the-simpsons 8.0
-game-of-thrones 8.0
-terra-nova 7.0
-merlin 8.0
-stalker 0.0
-futurama 9.0

@@ -1,2 +1,0 @@
-mr-robot 7.0
-quantico 1.0

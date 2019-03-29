@@ -1,4 +1,0 @@
-criminal-minds 8.0
-breaking-bad 10.0
-hannibal 1.0
-tales-from-the-crypt 10.0

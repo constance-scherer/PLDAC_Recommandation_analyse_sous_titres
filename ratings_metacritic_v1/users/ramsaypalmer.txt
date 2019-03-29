@@ -1,2 +1,0 @@
-veep 9.0
-hello-ladies 2.0

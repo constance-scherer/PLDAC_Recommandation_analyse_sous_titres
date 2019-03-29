@@ -1,9 +1,0 @@
-terriers 3.0
-law-order-los-angeles 8.0
-terriers 3.0
-law-order-los-angeles 8.0
-game-of-thrones 10.0
-the-big-bang-theory 9.0
-white-collar 9.0
-weeds 6.333333333333333
-eureka 7.5

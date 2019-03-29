@@ -1,3 +1,0 @@
-moonlight 10.0
-jericho 9.5
-the-tudors 10.0

@@ -1,2 +1,0 @@
-hemlock-grove 10.0
-betrayal 10.0

@@ -1,2 +1,0 @@
-the-loop 10.0
-doctor-who 2.0

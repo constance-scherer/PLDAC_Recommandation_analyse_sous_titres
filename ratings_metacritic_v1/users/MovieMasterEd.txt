@@ -1,4 +1,0 @@
-homeland 7.5
-band-of-brothers 10.0
-the-pacific 8.0
-the-x-files 7.0

@@ -1,2 +1,0 @@
-banshee 10.0
-transparent 1.0

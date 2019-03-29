@@ -1,3 +1,0 @@
-homeland 8.0
-elementary 8.0
-justified 10.0

@@ -1,1 +1,0 @@
-stargate-sg-1 10.0

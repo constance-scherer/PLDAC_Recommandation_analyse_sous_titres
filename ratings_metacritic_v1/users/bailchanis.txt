@@ -1,3 +1,0 @@
-revolution 3.0
-helix 2.0
-justified 9.0

@@ -1,4 +1,0 @@
-game-of-thrones 9.5
-gotham 7.0
-wayward-pines 8.0
-fortitude 9.0

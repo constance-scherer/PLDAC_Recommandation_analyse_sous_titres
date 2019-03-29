@@ -1,3 +1,0 @@
-sleeper-cell 10.0
-kings 9.0
-thief 5.0

@@ -1,3 +1,0 @@
-hunted 2.0
-banshee 10.0
-strike-back 10.0

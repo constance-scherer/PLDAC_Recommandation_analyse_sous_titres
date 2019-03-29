@@ -1,3 +1,0 @@
-true-blood 10.0
-merlin 9.0
-invasion 10.0

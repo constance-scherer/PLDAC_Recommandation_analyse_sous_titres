@@ -1,6 +1,0 @@
-californication 10.0
-surface 10.0
-extras 7.0
-in-treatment 10.0
-the-sarah-silverman-program 10.0
-lucky-louie 10.0

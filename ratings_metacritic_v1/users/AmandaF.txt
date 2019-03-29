@@ -1,2 +1,0 @@
-surface 10.0
-reunion 10.0

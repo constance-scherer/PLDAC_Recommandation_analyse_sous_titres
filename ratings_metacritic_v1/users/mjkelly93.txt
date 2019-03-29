@@ -1,2 +1,0 @@
-fargo 10.0
-the-strain 0.0

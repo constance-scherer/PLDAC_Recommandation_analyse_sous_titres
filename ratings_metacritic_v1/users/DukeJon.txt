@@ -1,4 +1,0 @@
-mad-men 10.0
-the-walking-dead 9.0
-doctor-who 6.0
-falling-skies 5.0

@@ -1,3 +1,0 @@
-shark-tank 10.0
-six-degrees 9.0
-the-wire 10.0

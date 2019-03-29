@@ -1,2 +1,0 @@
-csi-ny 0.0
-men-of-a-certain-age 10.0

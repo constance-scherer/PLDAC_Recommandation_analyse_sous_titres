@@ -1,6 +1,0 @@
-saving-grace 1.0
-breaking-bad 10.0
-heroes 10.0
-flight-of-the-conchords 9.0
-studio-60-on-the-sunset-strip 10.0
-raines 9.0

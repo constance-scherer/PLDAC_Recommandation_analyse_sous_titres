@@ -1,2 +1,0 @@
-mom 3.0
-two-and-a-half-men 2.0

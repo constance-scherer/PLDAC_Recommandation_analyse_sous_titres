@@ -1,8 +1,0 @@
-napoleon-dynamite 5.0
-unsupervised 5.0
-smash 8.0
-key-peele 7.0
-breaking-bad 10.0
-anger-management 6.0
-ray-donovan 9.0
-louie 9.0

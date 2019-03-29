@@ -1,2 +1,0 @@
-south-park 0.0
-third-watch 10.0

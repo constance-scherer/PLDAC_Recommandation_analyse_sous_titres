@@ -1,6 +1,0 @@
-falling-skies 5.0
-stargate-sg-1 9.0
-stargate-atlantis 8.0
-under-the-dome 4.0
-stargate-universe 7.0
-the-x-files 9.0

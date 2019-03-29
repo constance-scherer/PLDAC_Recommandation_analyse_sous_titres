@@ -1,3 +1,0 @@
-falling-skies 3.0
-twin-peaks 10.0
-breaking-bad 10.0

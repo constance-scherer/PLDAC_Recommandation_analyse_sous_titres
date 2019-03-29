@@ -1,2 +1,0 @@
-californication 10.0
-weeds 4.0

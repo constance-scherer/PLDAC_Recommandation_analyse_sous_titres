@@ -1,2 +1,0 @@
-the-grinder 0.0
-quantico 10.0

@@ -1,3 +1,0 @@
-the-listener 5.0
-southland 9.0
-mental 6.0

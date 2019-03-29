@@ -1,2 +1,0 @@
-the-blacklist 8.0
-quantico 10.0

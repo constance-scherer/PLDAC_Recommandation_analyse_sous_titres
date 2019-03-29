@@ -1,5 +1,0 @@
-gossip-girl 10.0
-moonlight 10.0
-the-vampire-diaries 10.0
-modern-family 10.0
-the-gates 10.0

@@ -1,2 +1,0 @@
-bones 0.0
-blindspot 0.0

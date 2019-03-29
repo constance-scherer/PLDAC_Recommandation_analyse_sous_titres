@@ -1,3 +1,0 @@
-californication 10.0
-journeyman 10.0
-v 6.0

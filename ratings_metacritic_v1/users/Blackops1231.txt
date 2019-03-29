@@ -1,5 +1,0 @@
-mad-men 2.0
-mad-men 2.0
-house 10.0
-breaking-bad 10.0
-under-the-dome 0.0

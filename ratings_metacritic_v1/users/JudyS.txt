@@ -1,2 +1,0 @@
-sleeper-cell 10.0
-wallander 4.0

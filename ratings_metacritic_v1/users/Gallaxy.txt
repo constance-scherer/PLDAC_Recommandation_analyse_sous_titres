@@ -1,3 +1,0 @@
-alphas 3.0
-falling-skies 3.0
-thundercats 8.0

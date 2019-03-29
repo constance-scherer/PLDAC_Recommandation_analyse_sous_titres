@@ -1,4 +1,0 @@
-family-guy 8.0
-spongebob-squarepants 9.0
-icarly 7.0
-good-luck-charlie 6.0

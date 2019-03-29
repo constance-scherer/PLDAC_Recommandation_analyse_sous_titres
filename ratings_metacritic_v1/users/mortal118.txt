@@ -1,2 +1,0 @@
-hannibal 9.0
-southland 10.0

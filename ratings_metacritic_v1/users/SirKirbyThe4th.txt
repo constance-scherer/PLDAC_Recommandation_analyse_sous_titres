@@ -1,3 +1,0 @@
-family-guy 1.0
-star-wars-the-clone-wars 9.0
-monk 8.0

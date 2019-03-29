@@ -1,7 +1,0 @@
-bates-motel 10.0
-brooklyn-nine-nine 10.0
-mom 10.0
-almost-human 7.0
-true-detective 10.0
-fargo 3.0
-olive-kitteridge 10.0

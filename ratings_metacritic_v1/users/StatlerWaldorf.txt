@@ -1,5 +1,0 @@
-arrow 4.0
-bojack-horseman 6.5
-the-last-man-on-earth 4.0
-unbreakable-kimmy-schmidt 5.0
-sense8 8.0

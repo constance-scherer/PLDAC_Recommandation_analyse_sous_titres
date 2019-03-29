@@ -1,3 +1,0 @@
-the-following 0.0
-the-fall 10.0
-fargo 10.0

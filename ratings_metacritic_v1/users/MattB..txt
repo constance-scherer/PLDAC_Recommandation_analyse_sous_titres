@@ -1,4 +1,0 @@
-big-shots 0.0
-house 10.0
-the-sarah-silverman-program 0.0
-legend-of-the-seeker 9.0

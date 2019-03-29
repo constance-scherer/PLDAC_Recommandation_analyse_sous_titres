@@ -1,6 +1,0 @@
-game-of-thrones 5.0
-arrow 4.0
-under-the-dome 3.0
-penny-dreadful 1.0
-heroes-reborn 3.0
-the-killing 8.0

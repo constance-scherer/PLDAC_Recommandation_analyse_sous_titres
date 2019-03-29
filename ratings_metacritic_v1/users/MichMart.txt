@@ -1,3 +1,0 @@
-mr-bean 10.0
-mr-bean 10.0
-monk 9.0

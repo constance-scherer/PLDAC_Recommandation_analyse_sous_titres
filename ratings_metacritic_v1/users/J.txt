@@ -1,4 +1,0 @@
-the-nine 0.0
-fringe 4.0
-six-degrees 9.0
-the-class 0.0

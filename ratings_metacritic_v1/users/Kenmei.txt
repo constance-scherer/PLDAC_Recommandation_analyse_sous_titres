@@ -1,8 +1,0 @@
-sherlock 9.5
-sherlock 9.5
-game-of-thrones 8.666666666666666
-brooklyn-nine-nine 9.0
-moonbeam-city 3.0
-community 8.0
-archer 10.0
-luther 10.0

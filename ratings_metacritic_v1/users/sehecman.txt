@@ -1,3 +1,0 @@
-arrow 6.0
-true-detective 1.0
-bojack-horseman 3.0

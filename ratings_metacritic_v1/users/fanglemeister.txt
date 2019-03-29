@@ -1,3 +1,0 @@
-black-mirror 0.0
-the-100 8.0
-the-leftovers 7.0

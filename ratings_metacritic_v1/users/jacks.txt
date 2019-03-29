@@ -1,8 +1,0 @@
-the-big-bang-theory 0.0
-greek 2.0
-flight-of-the-conchords 10.0
-shark 6.0
-six-degrees 9.0
-psych 1.0
-hawthorne 2.0
-weeds 10.0

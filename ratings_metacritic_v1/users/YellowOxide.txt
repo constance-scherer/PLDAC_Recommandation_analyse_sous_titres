@@ -1,2 +1,0 @@
-the-prisoner 0.0
-deadwood 10.0

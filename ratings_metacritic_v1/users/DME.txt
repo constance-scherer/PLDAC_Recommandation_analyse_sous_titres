@@ -1,7 +1,0 @@
-mad 10.0
-metalocalypse 3.0
-spongebob-squarepants 10.0
-the-great-escape 8.0
-regular-show 10.0
-phineas-and-ferb 8.0
-psych 10.0

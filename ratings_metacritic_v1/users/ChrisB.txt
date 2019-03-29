@@ -1,9 +1,0 @@
-the-league 10.0
-surface 10.0
-medium 9.0
-friday-night-lights 10.0
-flight-of-the-conchords 10.0
-dollhouse 10.0
-jericho 1.0
-the-wire 10.0
-big-love 10.0

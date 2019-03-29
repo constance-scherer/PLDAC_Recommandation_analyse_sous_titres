@@ -1,4 +1,0 @@
-huff 10.0
-testees 8.0
-the-unusuals 3.0
-the-game 10.0

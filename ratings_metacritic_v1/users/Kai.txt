@@ -1,2 +1,0 @@
-psych 8.0
-the-game 10.0

@@ -1,2 +1,0 @@
-hotel-babylon 10.0
-white-collar 10.0

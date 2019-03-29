@@ -1,3 +1,0 @@
-the-simpsons 10.0
-family-guy 10.0
-king-of-the-hill 10.0

@@ -1,2 +1,0 @@
-the-strain 4.0
-fortitude 10.0

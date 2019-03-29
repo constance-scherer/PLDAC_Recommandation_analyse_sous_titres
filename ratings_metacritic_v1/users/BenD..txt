@@ -1,2 +1,0 @@
-cavemen 0.0
-jericho 10.0

@@ -1,3 +1,0 @@
-grimm 3.0
-star-wars-rebels 5.0
-scorpion 0.0

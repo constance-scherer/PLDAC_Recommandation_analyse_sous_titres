@@ -1,4 +1,0 @@
-arrow 9.0
-top-of-the-lake 5.0
-madam-secretary 4.0
-quantico 0.0

@@ -1,4 +1,0 @@
-private-practice 1.0
-true-blood 9.0
-the-sopranos 10.0
-cougar-town 3.0

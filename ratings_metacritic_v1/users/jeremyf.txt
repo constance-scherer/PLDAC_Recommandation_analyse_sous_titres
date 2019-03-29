@@ -1,2 +1,0 @@
-the-riches 9.0
-psych 10.0

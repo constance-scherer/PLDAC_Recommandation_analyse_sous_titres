@@ -1,6 +1,0 @@
-burn-notice 10.0
-burn-notice 10.0
-reaper 10.0
-the-war-at-home 0.0
-eli-stone 10.0
-dollhouse 8.0

@@ -1,2 +1,0 @@
-chuck 10.0
-angel 10.0

@@ -1,2 +1,0 @@
-castle 9.0
-eastwick 9.0

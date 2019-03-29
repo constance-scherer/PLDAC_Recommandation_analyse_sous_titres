@@ -1,3 +1,0 @@
-true-blood 10.0
-v 3.0
-dexter 10.0

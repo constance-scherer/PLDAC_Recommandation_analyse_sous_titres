@@ -1,2 +1,0 @@
-rectify 4.0
-manhattan 0.0

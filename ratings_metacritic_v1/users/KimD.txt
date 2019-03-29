@@ -1,2 +1,0 @@
-the-bletchley-circle 10.0
-the-escape-artist 9.0

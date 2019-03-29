@@ -1,3 +1,0 @@
-malcolm-in-the-middle 8.0
-breaking-bad 10.0
-bates-motel 8.5

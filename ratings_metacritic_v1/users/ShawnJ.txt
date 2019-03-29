@@ -1,2 +1,0 @@
-jericho 8.0
-warehouse-13 4.0

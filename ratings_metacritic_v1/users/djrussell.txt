@@ -1,3 +1,0 @@
-arrow 6.0
-ray-donovan 7.0
-gotham 9.0

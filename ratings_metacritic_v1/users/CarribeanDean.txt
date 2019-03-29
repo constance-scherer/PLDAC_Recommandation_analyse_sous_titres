@@ -1,7 +1,0 @@
-hannibal 10.0
-star-wars-the-clone-wars 10.0
-silicon-valley 4.0
-fargo 10.0
-the-knick 10.0
-narcos 10.0
-justified 1.0

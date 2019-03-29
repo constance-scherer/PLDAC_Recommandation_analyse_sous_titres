@@ -1,2 +1,0 @@
-the-strain 10.0
-sense8 0.0

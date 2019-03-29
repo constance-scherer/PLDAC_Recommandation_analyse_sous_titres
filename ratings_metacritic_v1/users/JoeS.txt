@@ -1,6 +1,0 @@
-commander-in-chief 10.0
-the-war-at-home 0.0
-criminal-minds 3.0
-my-name-is-earl 10.0
-andy-barker-pi 0.0
-v 8.0

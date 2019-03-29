@@ -1,2 +1,0 @@
-franklin-bash 8.0
-falling-skies 3.0

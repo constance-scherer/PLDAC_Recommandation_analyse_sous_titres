@@ -1,2 +1,0 @@
-black-mirror 9.0
-true-detective 9.0

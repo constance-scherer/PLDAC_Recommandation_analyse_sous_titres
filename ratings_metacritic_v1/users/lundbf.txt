@@ -1,3 +1,0 @@
-grimm 10.0
-once-upon-a-time 3.0
-longmire 10.0

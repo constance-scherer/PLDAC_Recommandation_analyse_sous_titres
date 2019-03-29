@@ -1,4 +1,0 @@
-damages 5.0
-damages 10.0
-weeds 3.0
-eureka 7.0

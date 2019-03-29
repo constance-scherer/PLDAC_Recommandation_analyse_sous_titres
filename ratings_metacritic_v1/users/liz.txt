@@ -1,3 +1,0 @@
-standoff 10.0
-moonlight 10.0
-six-degrees 10.0

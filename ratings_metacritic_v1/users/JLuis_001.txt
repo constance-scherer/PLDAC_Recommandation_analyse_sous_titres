@@ -1,9 +1,0 @@
-vikings 7.333333333333333
-veronica-mars 9.0
-orphan-black 6.666666666666667
-hannibal 9.0
-peaky-blinders 8.0
-top-of-the-lake 8.0
-fargo 8.0
-penny-dreadful 7.0
-olive-kitteridge 9.0

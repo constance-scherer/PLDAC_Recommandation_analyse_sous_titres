@@ -1,5 +1,0 @@
-hemlock-grove 8.0
-under-the-dome 3.0
-orange-is-the-new-black 4.0
-the-100 6.0
-bojack-horseman 10.0

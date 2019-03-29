@@ -1,6 +1,0 @@
-teen-wolf 10.0
-phineas-and-ferb 5.0
-prison-break 10.0
-the-vampire-diaries 10.0
-one-tree-hill 10.0
-24 10.0

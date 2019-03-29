@@ -1,3 +1,0 @@
-touch 3.0
-africa 6.0
-southland 10.0

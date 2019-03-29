@@ -1,2 +1,0 @@
-surface 10.0
-eureka 9.0

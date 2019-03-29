@@ -1,2 +1,0 @@
-threshold 10.0
-prison-break 9.0

@@ -1,4 +1,0 @@
-the-league 10.0
-sleeper-cell 10.0
-jericho 10.0
-drive 10.0

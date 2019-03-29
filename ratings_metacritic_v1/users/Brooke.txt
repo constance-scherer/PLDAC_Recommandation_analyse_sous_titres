@@ -1,2 +1,0 @@
-the-loop 10.0
-john-from-cincinnati 0.0

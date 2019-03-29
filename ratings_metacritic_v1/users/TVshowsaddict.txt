@@ -1,4 +1,0 @@
-rectify 8.0
-the-lottery 4.0
-extant 4.0
-intruders 1.0

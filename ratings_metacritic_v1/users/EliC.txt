@@ -1,3 +1,0 @@
-heroes 7.0
-jericho 5.0
-shark 5.0

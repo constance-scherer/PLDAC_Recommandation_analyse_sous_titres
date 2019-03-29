@@ -1,2 +1,0 @@
-bitten 1.0
-black-sails 9.0

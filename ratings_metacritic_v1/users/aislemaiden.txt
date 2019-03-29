@@ -1,2 +1,0 @@
-csi-cyber 1.0
-battle-creek 6.0

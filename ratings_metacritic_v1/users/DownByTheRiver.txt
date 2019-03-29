@@ -1,5 +1,0 @@
-sherlock 10.0
-sherlock 10.0
-the-league 7.0
-brooklyn-nine-nine 8.0
-fargo 10.0

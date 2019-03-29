@@ -1,2 +1,0 @@
-the-cape 10.0
-the-chicago-code 0.0

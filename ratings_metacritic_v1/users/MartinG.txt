@@ -1,2 +1,0 @@
-heroes 0.0
-eureka 10.0

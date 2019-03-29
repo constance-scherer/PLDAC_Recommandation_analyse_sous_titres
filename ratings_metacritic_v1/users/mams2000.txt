@@ -1,3 +1,0 @@
-hannibal 9.0
-true-detective 9.0
-gotham 2.0

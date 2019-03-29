@@ -1,7 +1,0 @@
-house-of-lies 10.0
-scandal 3.0
-the-blacklist 3.0
-fargo 9.0
-mr-robot 3.0
-quantico 7.0
-the-good-wife 10.0

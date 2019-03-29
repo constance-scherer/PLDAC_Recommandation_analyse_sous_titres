@@ -1,5 +1,0 @@
-upstairs-downstairs 10.0
-the-cape 10.0
-chaos 7.0
-the-kennedys 0.0
-prime-suspect 9.0

@@ -1,3 +1,0 @@
-rectify 10.0
-almost-human 8.0
-crisis 3.0

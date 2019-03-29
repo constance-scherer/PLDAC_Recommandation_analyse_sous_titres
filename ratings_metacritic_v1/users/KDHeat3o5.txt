@@ -1,7 +1,0 @@
-the-cape 6.0
-fringe 10.0
-the-mentalist 7.0
-parks-and-recreation 9.0
-how-i-met-your-mother 9.0
-dexter 6.0
-two-and-a-half-men 0.0

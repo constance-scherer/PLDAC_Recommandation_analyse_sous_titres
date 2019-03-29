@@ -1,2 +1,0 @@
-testees 8.0
-mercy 7.0

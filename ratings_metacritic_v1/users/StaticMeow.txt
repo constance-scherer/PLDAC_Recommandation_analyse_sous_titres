@@ -1,2 +1,0 @@
-house 10.0
-sliders 8.0

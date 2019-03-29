@@ -1,7 +1,0 @@
-sherlock 9.5
-sherlock 9.5
-game-of-thrones 10.0
-the-big-bang-theory 4.0
-enlightened 6.0
-firefly 10.0
-happy-valley 0.0

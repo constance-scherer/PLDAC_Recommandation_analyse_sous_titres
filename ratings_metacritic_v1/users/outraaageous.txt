@@ -1,6 +1,0 @@
-game-of-thrones 5.0
-penny-dreadful 9.0
-tyrant 4.0
-dominion 3.0
-heroes-reborn 1.0
-mr-robot 9.0

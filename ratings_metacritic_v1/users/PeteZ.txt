@@ -1,2 +1,0 @@
-tin-man 1.0
-dirt 8.0

@@ -1,2 +1,0 @@
-chuck 9.0
-four-kings 10.0

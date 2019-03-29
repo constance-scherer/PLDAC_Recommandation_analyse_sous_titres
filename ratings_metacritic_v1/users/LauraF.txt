@@ -1,2 +1,0 @@
-greek 0.0
-heroes 10.0

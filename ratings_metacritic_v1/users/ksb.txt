@@ -1,4 +1,0 @@
-sherlock 10.0
-sherlock 10.0
-memphis-beat 10.0
-haven 9.0

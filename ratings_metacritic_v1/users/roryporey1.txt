@@ -1,2 +1,0 @@
-the-following 10.0
-the-middle 0.0

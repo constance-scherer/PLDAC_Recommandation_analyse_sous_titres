@@ -1,7 +1,0 @@
-prime-suspect 10.0
-hell-on-wheels 10.0
-the-river 0.0
-monday-mornings 10.0
-mob-city 10.0
-southland 10.0
-battle-creek 9.0

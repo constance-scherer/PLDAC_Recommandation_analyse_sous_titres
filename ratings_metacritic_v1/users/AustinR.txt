@@ -1,3 +1,0 @@
-testees 10.0
-the-class 2.0
-studio-60-on-the-sunset-strip 8.0

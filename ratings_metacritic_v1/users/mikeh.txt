@@ -1,9 +1,0 @@
-dirt 10.0
-my-name-is-earl 10.0
-the-riches 10.0
-everybody-hates-chris 7.0
-the-sopranos 10.0
-drive 10.0
-rome 10.0
-big-love 0.0
-terminator-the-sarah-connor-chronicles 9.0

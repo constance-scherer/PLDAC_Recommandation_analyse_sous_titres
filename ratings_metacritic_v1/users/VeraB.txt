@@ -1,2 +1,0 @@
-damages 8.0
-john-from-cincinnati 10.0

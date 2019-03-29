@@ -1,7 +1,0 @@
-downton-abbey 9.0
-suits 9.0
-homeland 8.0
-house-of-lies 8.0
-star-trek-the-next-generation 10.0
-another-period 9.0
-louie 10.0

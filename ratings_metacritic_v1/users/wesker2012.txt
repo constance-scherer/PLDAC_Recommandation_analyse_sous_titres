@@ -1,8 +1,0 @@
-game-of-thrones 10.0
-jersey-shore 10.0
-lost 10.0
-rescue-me 10.0
-arrested-development 10.0
-seinfeld 10.0
-the-fresh-prince-of-bel-air 10.0
-the-king-of-queens 10.0

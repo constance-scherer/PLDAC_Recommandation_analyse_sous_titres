@@ -1,3 +1,0 @@
-the-blacklist 0.0
-mom 1.0
-the-100 3.0

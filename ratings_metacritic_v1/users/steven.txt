@@ -1,7 +1,0 @@
-franklin-bash 5.0
-firefly 10.0
-jericho 10.0
-hung 8.0
-white-collar 9.5
-the-pacific 4.0
-hidden-palms 10.0

@@ -1,5 +1,0 @@
-bones 10.0
-lie-to-me 10.0
-drive 10.0
-the-wire 10.0
-studio-60-on-the-sunset-strip 10.0

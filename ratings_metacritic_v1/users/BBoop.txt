@@ -1,2 +1,0 @@
-mr-selfridge 0.0
-memphis-beat 10.0

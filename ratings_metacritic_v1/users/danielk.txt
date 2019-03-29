@@ -1,6 +1,0 @@
-brothers-sisters 10.0
-falling-skies 1.0
-terra-nova 1.0
-knight-rider 0.0
-kings 9.0
-sit-down-shut-up 1.0

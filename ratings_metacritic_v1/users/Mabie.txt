@@ -1,2 +1,0 @@
-zoo 5.0
-the-player 0.0

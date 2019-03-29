@@ -1,2 +1,0 @@
-reaper 7.0
-entourage 10.0

@@ -1,7 +1,0 @@
-skantea 8.0
-mathcat 10.0
-lightningbarer 4.0
-Necromus 9.0
-beaner02 4.0
-RobertES 10.0
-VendonJura 10.0

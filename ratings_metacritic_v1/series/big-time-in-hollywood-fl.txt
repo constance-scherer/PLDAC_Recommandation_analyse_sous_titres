@@ -1,2 +1,0 @@
-brockcheese 7.0
-cosmopath 9.0

@@ -1,6 +1,0 @@
-house 7.0
-breaking-bad 9.0
-hannibal 8.0
-how-i-met-your-mother 6.0
-band-of-brothers 8.0
-two-and-a-half-men 4.0

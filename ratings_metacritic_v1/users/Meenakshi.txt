@@ -1,5 +1,0 @@
-sherlock 10.0
-sherlock 10.0
-suits 10.0
-friends 10.0
-pretty-little-liars 4.0

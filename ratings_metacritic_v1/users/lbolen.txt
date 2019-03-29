@@ -1,7 +1,0 @@
-chuck 7.0
-alphas 8.0
-2-broke-girls 1.0
-person-of-interest 10.0
-scorpion 10.0
-community 0.0
-two-and-a-half-men 7.0

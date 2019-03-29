@@ -1,7 +1,0 @@
-doctor-who 8.0
-oz 3.0
-hannibal 10.0
-true-detective 5.0
-transparent 6.0
-csi-cyber 1.0
-quantico 2.0

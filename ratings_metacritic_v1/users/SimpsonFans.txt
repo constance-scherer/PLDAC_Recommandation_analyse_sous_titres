@@ -1,6 +1,0 @@
-the-simpsons 10.0
-family-guy 7.0
-spongebob-squarepants 8.8
-baywatch 8.0
-the-cleveland-show 6.0
-king-of-the-hill 10.0

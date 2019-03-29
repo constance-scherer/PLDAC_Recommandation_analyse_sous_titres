@@ -1,4 +1,0 @@
-pushing-daisies 8.0
-pushing-daisies 8.0
-threshold 4.0
-30-rock 7.0

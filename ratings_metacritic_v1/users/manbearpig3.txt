@@ -1,2 +1,0 @@
-lights-out 8.0
-justified 10.0

@@ -1,2 +1,0 @@
-grimm 10.0
-red-oaks 9.0

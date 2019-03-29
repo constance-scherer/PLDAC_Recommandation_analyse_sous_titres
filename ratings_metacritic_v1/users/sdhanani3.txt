@@ -1,4 +1,0 @@
-alias 9.0
-scandal 7.0
-arrested-development 10.0
-rookie-blue 10.0

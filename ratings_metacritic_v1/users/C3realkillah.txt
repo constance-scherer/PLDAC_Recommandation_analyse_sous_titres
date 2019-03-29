@@ -1,5 +1,0 @@
-the-blacklist 8.0
-mob-city 10.0
-helix 9.0
-black-sails 9.0
-the-100 9.0

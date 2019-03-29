@@ -1,3 +1,0 @@
-surface 10.0
-legend-of-the-seeker 8.0
-dexter 10.0

@@ -1,3 +1,0 @@
-moonlight 10.0
-jericho 8.0
-virtuality 9.0

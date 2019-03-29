@@ -1,2 +1,0 @@
-drive 10.0
-the-state-within 8.0

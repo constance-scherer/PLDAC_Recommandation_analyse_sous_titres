@@ -1,8 +1,0 @@
-house 8.0
-motive 6.0
-the-blacklist 7.0
-mom 8.0
-blindspot 8.0
-quantico 7.0
-the-good-wife 9.0
-hot-in-cleveland 8.0

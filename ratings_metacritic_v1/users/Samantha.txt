@@ -1,3 +1,0 @@
-surface 10.0
-vanished 10.0
-six-degrees 9.0

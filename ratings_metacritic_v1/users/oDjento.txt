@@ -1,8 +1,0 @@
-game-of-thrones 8.6
-american-horror-story 5.0
-breaking-bad 10.0
-flight-of-the-conchords 8.0
-broadchurch 5.5
-gracepoint 0.0
-better-call-saul 8.0
-fortitude 6.0

@@ -1,4 +1,0 @@
-bones 10.0
-vanished 0.0
-kings 10.0
-eastwick 2.0

@@ -1,4 +1,0 @@
-carpoolers 9.0
-heroes 10.0
-kings 2.0
-flashforward 4.0

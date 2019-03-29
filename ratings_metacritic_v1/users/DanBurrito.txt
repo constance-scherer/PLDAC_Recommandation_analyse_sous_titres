@@ -1,6 +1,0 @@
-family-guy 8.0
-spongebob-squarepants 8.0
-avatar-the-last-airbender 9.0
-moone-boy 9.0
-mr-robot 9.0
-icarly 7.0

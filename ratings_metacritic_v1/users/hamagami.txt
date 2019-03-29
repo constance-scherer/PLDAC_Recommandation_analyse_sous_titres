@@ -1,3 +1,0 @@
-fargo 5.0
-halt-and-catch-fire 4.0
-jonathan-strange-mr-norrell 9.0

@@ -1,3 +1,0 @@
-hex 10.0
-defying-gravity 1.0
-human-target 6.0

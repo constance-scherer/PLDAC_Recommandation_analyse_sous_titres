@@ -1,6 +1,0 @@
-once-upon-a-time 1.0
-the-goldbergs 0.0
-the-millers 2.0
-csi-cyber 0.0
-how-to-get-away-with-murder 0.0
-life-in-pieces 1.0

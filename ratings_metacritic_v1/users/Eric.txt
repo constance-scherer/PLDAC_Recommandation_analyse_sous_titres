@@ -1,5 +1,0 @@
-the-dresden-files 8.0
-fringe 4.0
-october-road 10.0
-v 3.0
-the-boondocks 5.0

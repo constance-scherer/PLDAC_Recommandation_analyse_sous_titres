@@ -1,2 +1,0 @@
-zero-hour 0.0
-crossing-lines 0.0

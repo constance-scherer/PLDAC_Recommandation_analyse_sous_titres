@@ -1,3 +1,0 @@
-community 2.0
-deadwood 2.0
-parenthood 5.0

@@ -1,6 +1,0 @@
-jersey-shore 0.0
-breaking-bad 10.0
-arrow 10.0
-merlin 10.0
-how-i-met-your-mother 10.0
-dexter 10.0

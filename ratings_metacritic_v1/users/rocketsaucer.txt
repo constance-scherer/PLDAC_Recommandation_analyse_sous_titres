@@ -1,3 +1,0 @@
-south-park 10.0
-friends 10.0
-futurama 9.0

@@ -1,4 +1,0 @@
-game-of-thrones 6.0
-babylon-5 7.0
-under-the-dome 4.0
-helix 4.0

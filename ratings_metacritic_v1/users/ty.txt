@@ -1,3 +1,0 @@
-stargate-universe 1.0
-24 10.0
-curb-your-enthusiasm 9.0

@@ -1,3 +1,0 @@
-banshee 9.0
-red-widow 2.0
-bates-motel 6.0

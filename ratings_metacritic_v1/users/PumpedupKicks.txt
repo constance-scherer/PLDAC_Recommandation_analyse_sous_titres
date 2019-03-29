@@ -1,2 +1,0 @@
-the-blacklist 7.0
-narcos 9.0

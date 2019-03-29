@@ -1,2 +1,0 @@
-the-assets 8.0
-black-box 10.0

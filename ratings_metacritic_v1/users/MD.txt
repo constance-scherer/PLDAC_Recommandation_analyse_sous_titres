@@ -1,4 +1,0 @@
-six-degrees 5.0
-dexter 10.0
-studio-60-on-the-sunset-strip 5.0
-day-break 10.0

@@ -1,2 +1,0 @@
-hex 10.0
-lucky-louie 9.0

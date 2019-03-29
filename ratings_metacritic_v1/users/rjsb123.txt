@@ -1,4 +1,0 @@
-hawaii-five-0 10.0
-hawaii-five-0 10.0
-person-of-interest 10.0
-touch 10.0

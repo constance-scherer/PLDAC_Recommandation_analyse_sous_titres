@@ -1,4 +1,0 @@
-suburgatory 9.0
-enlightened 1.0
-dexter 10.0
-curb-your-enthusiasm 10.0

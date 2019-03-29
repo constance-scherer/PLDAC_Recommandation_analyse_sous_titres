@@ -1,3 +1,0 @@
-elementary 10.0
-the-penguins-of-madagascar 10.0
-salem 10.0

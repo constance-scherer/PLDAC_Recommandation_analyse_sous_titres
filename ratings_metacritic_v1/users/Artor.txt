@@ -1,2 +1,0 @@
-fargo 9.0
-the-last-kingdom 2.0

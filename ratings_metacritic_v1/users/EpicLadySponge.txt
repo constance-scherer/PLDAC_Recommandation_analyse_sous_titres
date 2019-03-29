@@ -1,9 +1,0 @@
-lights-out 8.0
-spongebob-squarepants 7.75
-avatar-the-last-airbender 9.0
-regular-show 8.0
-star-wars-the-clone-wars 7.0
-chozen 4.0
-star-wars-rebels 7.0
-better-call-saul 8.0
-mr-robot 8.0

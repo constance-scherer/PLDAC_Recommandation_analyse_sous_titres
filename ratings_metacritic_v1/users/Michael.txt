@@ -1,3 +1,0 @@
-extras 10.0
-the-sopranos 4.0
-big-love 10.0

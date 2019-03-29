@@ -1,2 +1,0 @@
-arrow 10.0
-defiance 9.0

@@ -1,6 +1,0 @@
-game-of-thrones 10.0
-glee 10.0
-backstrom 4.0
-the-last-man-on-earth 8.0
-fresh-off-the-boat 9.0
-unbreakable-kimmy-schmidt 10.0

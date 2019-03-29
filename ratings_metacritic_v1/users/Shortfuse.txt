@@ -1,2 +1,0 @@
-homeland 6.0
-prohibition 10.0

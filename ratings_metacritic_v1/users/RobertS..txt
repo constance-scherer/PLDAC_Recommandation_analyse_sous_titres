@@ -1,3 +1,0 @@
-californication 10.0
-cane 10.0
-tin-man 0.0

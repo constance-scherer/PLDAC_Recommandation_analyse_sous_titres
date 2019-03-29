@@ -1,2 +1,0 @@
-under-the-dome 10.0
-chicago-pd 10.0

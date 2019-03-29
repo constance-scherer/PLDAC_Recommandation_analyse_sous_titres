@@ -1,2 +1,0 @@
-suits 10.0
-the-affair 10.0

@@ -1,3 +1,0 @@
-house 8.0
-parks-and-recreation 8.0
-project-runway 7.0

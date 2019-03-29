@@ -1,6 +1,0 @@
-house-of-cards 10.0
-the-walking-dead 6.0
-black-mirror 1.0
-breaking-bad 3.0
-the-flash 1.0
-star-wars-rebels 10.0

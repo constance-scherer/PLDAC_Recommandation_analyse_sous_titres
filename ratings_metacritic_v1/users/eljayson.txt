@@ -1,2 +1,0 @@
-powers 8.0
-sense8 8.0

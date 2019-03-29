@@ -1,3 +1,0 @@
-john-adams 10.0
-fringe 8.0
-are-we-there-yet 0.0

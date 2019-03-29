@@ -1,2 +1,0 @@
-moonlight 10.0
-rookie-blue 10.0
