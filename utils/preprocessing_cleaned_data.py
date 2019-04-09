@@ -74,6 +74,8 @@ def getRidOfGrabInfo(path):
     filenames= sorted(os.listdir(path)) 
     # loop through all the files and folders
     for filename in filenames:
+        if filename[0] == '.' :
+            continue
     # check whether the current object is a folder or not (ie check if it's a show)
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
             path_folder = path+"/"+filename
@@ -88,13 +90,19 @@ def getRidOfNonEnglishEpisodes(path):
     filenames= sorted(os.listdir(path)) 
     # loop through all the files and folders
     for filename in filenames:
+        if filename[0] == '.' :
+            continue
          # check whether the current object is a folder or not (ie check if it's a show)
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
                 for season in sorted(os.listdir(show_path)):
+                    if season[0] == '.' :
+                        continue
                     season_path = show_path+"/"+season
                     for episode in sorted(os.listdir(season_path)):
+                        if episode[0] == '.' :
+                            continue
                         episode_path = season_path+"/"+episode
                         if not isEnglish(episode_path):
                             os.remove(episode_path)
@@ -114,13 +122,19 @@ def get_corpus_as_episodes(path):
 
     # loop through all the files and folders
     for filename in filenames:
+        if filename[0] == '.' :
+            continue
          # check whether the current object is a folder or not (ie check if it's a show)
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
                 for season in sorted(os.listdir(show_path)):
+                    if season[0] == '.' :
+                        continue
                     season_path = show_path+"/"+season
                     for episode in sorted(os.listdir(season_path)):
+                        if episode[0] == '.' :
+                            continue
                         episode_path = season_path+"/"+episode
     
                         f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
@@ -142,14 +156,20 @@ def get_corpus_as_seasons(path):
 
     # loop through all the files and folders
     for filename in filenames:
+        if filename[0] == '.' :
+            continue
          # check whether the current object is a folder or not (ie check if it's a show)
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
                 for season in sorted(os.listdir(show_path)):
+                    if season[0] == '.' :
+                        continue
                     season_path = show_path+"/"+season
                     text = ""
                     for episode in sorted(os.listdir(season_path)):
+                        if episode[0] == '.' :
+                            continue
                         episode_path = season_path+"/"+episode
     
                         f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
@@ -172,13 +192,19 @@ def get_corpus_as_shows(path):
 
     # loop through all the files and folders
     for filename in filenames:
+        if filename[0] == '.' :
+            continue
          # check whether the current object is a folder or not (ie check if it's a show)
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 text =""
                 show_path = path+"/"+filename
                 for season in sorted(os.listdir(show_path)):
+                    if season[0] == '.' :
+                        continue
                     season_path = show_path+"/"+season
                     for episode in sorted(os.listdir(season_path)):
+                        if episode[0] == '.' :
+                            continue
                         episode_path = season_path+"/"+episode
     
                         f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
@@ -206,14 +232,18 @@ def getDicts(path):
     j = 1
     filenames= sorted(os.listdir(path)) # get all files' and folders' names in the current directory
     for filename in filenames: # loop through all the files and folders
+        if filename[0] == '.' :
+            continue
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)): # check whether the current object is a folder or not
             show_path = path+"/"+filename
             l = []
             nb_saisons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
             for season in sorted(os.listdir(show_path)):
-                    season_path = show_path+"/"+season
-                    nb_eps_saison = len(fnmatch.filter(os.listdir(season_path), '*.txt'))
-                    l.append(nb_eps_saison)
+                if season[0] == '.' :
+                    continue
+                season_path = show_path+"/"+season
+                nb_eps_saison = len(fnmatch.filter(os.listdir(season_path), '*.txt'))
+                l.append(nb_eps_saison)
             seasons_list = list(range(1, nb_saisons+1))
             dico_serie = dict(zip(seasons_list, l))
             res[j] = dico_serie
@@ -229,13 +259,21 @@ def createCleanedData(path, new_dir):
     filenames= sorted(os.listdir(path)) 
     path_length = len(path)
     for filename in filenames:
+        if filename[0] == '.' :
+            continue
         if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
                 show_path = path+"/"+filename
                 nb_seasons = sum(os.path.isdir(os.path.join(show_path, i)) for i in sorted(os.listdir(show_path)))
                 for season in sorted(os.listdir(show_path)):
+                    if season[0] == '.' :
+                        continue
                     season_path = show_path+"/"+season
                     
                     for episode in sorted(os.listdir(season_path)):
+                        if episode == '.' :
+                            continue
+                        if episode[0] == '.' :
+                            continue
                         episode_path = season_path+"/"+episode
                         new_path = new_dir+episode_path[path_length:]
                         f = open(episode_path, 'r',encoding='utf-8', errors='ignore')
