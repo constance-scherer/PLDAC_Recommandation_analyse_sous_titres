@@ -9,6 +9,7 @@ from tkinter import *
 from collaborative import *
 from similarities import *
 import operator
+import pickle
 
 
 # ======== COLLABORATIVE ========
@@ -44,23 +45,33 @@ for s in liste_series :
 	liste_filenames.append(d_titre_filename[s])
 
 #path2 = "/Users/constancescherer/Desktop/addic7ed_clean"
-path2 = "/Vrac/PLDAC_addic7ed/addic7ed_clean_ok"
+#path2 = "/Vrac/PLDAC_addic7ed/addic7ed_clean_ok"
 new_path = "/Vrac/PLDAC_addic7ed/addic7ed_final"
-print("create clean data start")
-createCleanedData(path2, new_path)
-print("end create clean data")
+#print("create clean data start")
+#createCleanedData(path2, new_path)
+#print("end create clean data")
 #print("starting remove")
 #removeFilesAndFoldersThatNeedToGo(path2) 
 #print("Remove finished")
 
 
 # recommandation(username1, data, d_user, nb_pred, U_ksvd, I_ksvd)
-print("start similarite")
-similarities = similarities(new_path)
-print("end similarites")
-print("start most similar")
-most_similar = most_similar(new_path, similarities)
-print("end most similar")
+# print("start similarite")
+# similarities = similarities(new_path)
+# pickle.dump(similarities, open('pickle_similarities.p', 'wb'))
+# print("end similarites")
+# print("start most similar")
+# most_similar = most_similar(new_path, similarities)
+# pickle.dump(most_similar, open('pickle_most_similar.p', 'wb'))
+# print("end most similar")
+with open("pickle_similarities.p", 'rb') as pickle_file:
+    similarities = pickle.load(pickle_file)
+
+with open("pickle_most_similar.p", 'rb') as pickle_file:
+    most_similar = pickle.load(pickle_file)
+
+# similarities = pickle.load("pickle_similarities.p")
+# most_similar = pickle.load("pickle_most_similar.p")
 
 class Interface(Frame):
 	
@@ -145,7 +156,8 @@ class Interface(Frame):
 		top1_user = max(d_user[user_selectionne].items(), key=operator.itemgetter(1))[0]
 
 		show = d_titre_filename[top1_user]
-
+		if self.best_show != "" :
+			self.best_show.destroy()
 		self.best_show = Label(fenetre, text="best show : "+show)
 
 		top3_reco = most_similar[show]
@@ -164,7 +176,7 @@ class Interface(Frame):
 			self.liste3.insert(END, r)
 		self.message2.grid(row=5, column=1)
 		self.liste3.grid(row=6, column=1)
-		self.best_shoW.grid(row=7, column=4)
+		self.best_show.grid(row=7, column=2)
 
 
 fenetre = Tk()
