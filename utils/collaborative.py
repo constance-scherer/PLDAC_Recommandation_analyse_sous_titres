@@ -6,7 +6,7 @@ from scipy.sparse import dok_matrix
 import numpy as np
 import pandas as pd
 from sklearn.decomposition import NMF, TruncatedSVD
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os
 import re
 import pandas as pd
@@ -18,7 +18,7 @@ from scipy.spatial.distance import sqeuclidean, cosine
 import tensorflow as tf
 import math
 np.random.seed(0)
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 
@@ -79,8 +79,52 @@ def group_by_item(tuple_list):
     return r_dic
 
 
+def get_Uksvd_Iksvd(train, train_mat, num_user, num_item) :
+    model =TruncatedSVD(n_components=150)
 
-def pred_func_ksvd(U_ksvd, I_ksvd, uid,iid, mean, u_means, i_means):
+    # (1) compute means of training set
+    mean = np.mean([rating for (uid,iid),rating in train_mat.items()])
+
+    # user and item deviation to mean
+    u_means = {u:(np.mean(ratings - mean)) for u,ratings in group_by_user(train).items()}
+    i_means = {i:(np.mean(ratings) - mean) for i,ratings in group_by_item(train).items()}
+
+
+
+
+    # (2) normalize training matrix
+    tmn_k = dok_matrix((num_user, num_item), dtype=np.float32)
+
+    for (uid,iid), rating in train_mat.items():
+        tmn_k[uid,iid] = rating - mean - u_means.get(uid,0) - i_means.get(iid,0)
+        
+    # (3) factorize matrix
+    model_kor = TruncatedSVD(n_components=150)
+
+
+    U_ksvd = model.fit_transform(tmn_k)
+    I_ksvd = model.components_.transpose()
+
+    return mean, u_means, i_means, U_ksvd, I_ksvd
+
+
+
+def pred_func_ksvd(uid,iid, U_ksvd, I_ksvd, u_means, i_means, mean):
+    
+    Uu = U_ksvd[uid]
+    Ii = I_ksvd[iid]
+    Bu = u_means.get(uid,0)
+    Bi = i_means.get(iid, 0)
+    p = np.dot(Uu, Ii) + mean + Bu + Bi
+    #on ramène les notes au dessus de 10 à 10
+    if p > 10 :
+        p = 10
+    
+    return p
+
+
+
+def pred_func_ksvd2(U_ksvd, I_ksvd, uid,iid, mean, u_means, i_means):
     Uu = U_ksvd[uid]
     Ii = I_ksvd[iid]
     Bu = u_means.get(uid,0)
@@ -185,8 +229,84 @@ def predictions_NMF(train_mat,test, nb_comp, num_user, num_item) :
     #on remplace les ratings > 10 par 10
     prediction_tr = replace_sup10(prediction_tr)
     prediction_te = replace_sup10(prediction_te)
+
+    # rescale pour les notes au dessus de 10
+    # m_te = np.min(prediction_te)
+    # M_te = np.max(prediction_te)
+    # prediction_te_rescaled = np.array([(x - m_te)/(M_te - m_te) for x in prediction_te])
     
     return prediction_tr, prediction_te
+
+
+
+
+def create_reversed_dic(u_dic, i_dic) :
+    reversed_u_dic =  dict([[v,k] for k,v in u_dic.items()]) #{user id : username}
+    reversed_i_dic = dict([[v,k] for k,v in i_dic.items()]) #{item id: item title}
+    return reversed_u_dic, reversed_i_dic
+
+
+
+
+
+def plus_proche_voisin(username, d_username_id, Full) :
+    user_id = d_username_id[username]
+    f = Full[user_id].todense()
+    d_min = 1000
+    i_min = -1
+    for i in range(0, Full.shape[0]) :
+        if i != user_id :
+            fi = Full[i].todense()
+            d = cosine(f, fi)
+            if d < d_min :
+                i_min = i
+                d_min = d
+    return i_min
+
+
+
+def series_pas_en_commun(username1, username2, d_user, d_itemname_id) :
+    """id series que user2 a vu et pas user1"""
+    series_u1 = d_user[username1].keys()
+    series_u2 = d_user[username2].keys()
+    
+    s = set()
+    #for s1 in series_u1 :
+     #   if s1 not in series_u2 and d_user[username1][s1] >= 7:
+            
+      #      s.add(d_itemname_id[s1])
+            
+    for s2 in series_u2:
+        if s2 not in series_u1 and d_user[username2][s2] >= 7:
+            s.add(d_itemname_id[s2])
+            
+    return list(s)
+
+
+
+
+def recommandation(username1, data, d_user, nb_pred, U_ksvd, I_ksvd, u_means, i_means, mean) :
+    d_username_id, d_itemname_id, Full = create_sparse_mat(data)
+    reversed_u_dic, reversed_i_dic = create_reversed_dic(d_username_id, d_itemname_id)
+    ppv = plus_proche_voisin(username1, d_username_id, Full)
+    username2 = ""
+    for username, ID in d_username_id.items() :
+        if ID == ppv :
+            username2 = username
+            break
+    if username2 == "" :
+        print("problème avec le nom du plus proche voisin")
+        return
+
+    series_non_vues = series_pas_en_commun(username1, username2, d_user, d_itemname_id)
+
+    predictions =dict()
+    for i in series_non_vues:
+        predictions[i] = pred_func_ksvd(d_username_id[username1], i, U_ksvd, I_ksvd, u_means, i_means, mean)  #{id serie: note predite}
+    sorted_rec = [(k, predictions[k]) for k in sorted(predictions, key=predictions.get, reverse=True)]
+    res = [reversed_i_dic[sorted_rec[i][0]] for i in range(nb_pred)]
+    
+    return res, sorted_rec
 
 
 

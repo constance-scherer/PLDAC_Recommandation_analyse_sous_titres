@@ -229,7 +229,7 @@ def get_corpus(path, texts_as="episodes"):
 def getDicts(path):
     res = dict() #  keys : show id     values: dict(key:id season, value: nb  ep season)
     res2 = dict() # keys : show id     values: show title
-    j = 1
+    j = 0
     filenames= sorted(os.listdir(path)) # get all files' and folders' names in the current directory
     for filename in filenames: # loop through all the files and folders
         if filename[0] == '.' :
