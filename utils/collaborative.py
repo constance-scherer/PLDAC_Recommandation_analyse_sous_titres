@@ -147,7 +147,132 @@ def replace_sup10(l):
             res.append(l[i])
     return res
 
+def pred_func_bias(W, H, mean, user_bias, item_bias, u, i):
+    """
+    fonction de prediction avec biais pour la NMF
+    """
+    H_t = H.T
+    return np.dot(W[u], H_t[i])+mean+ user_bias[u]+item_bias[i]
 
+
+
+def predictions_NMF_biais(train_mat,test, nb_comp, num_user, num_item) :
+
+    truth_tr = np.array([rating for (uid,iid),rating in train_mat.items()])
+    truth_te = np.array([rating for uid,iid,rating in test])
+
+    train_mat_mean = np.array(list(train_mat.values())).mean() #moyenne des notes dans la matrice train
+    item_bias = [] #biais item : moyenne des notes reçues l'item - moyenne du dataset
+    user_bias = [] #biais user : moyenne des notes données par l'utilisateur - moyenne du dataset
+
+    for i in range(0, num_user):
+        user = train_mat[i]
+        user_mean = np.array(list(user.values())).mean()
+        bias = user_mean - train_mat_mean
+        if np.isnan(bias):
+            user_bias.append(0)
+        else:
+            user_bias.append(bias)
+
+    train_mat_T = train_mat.copy().transpose()
+    for i in range(0, num_item):
+        item = train_mat_T[i]
+        item_mean = np.array(list(item.values())).mean()
+        bias = item_mean - train_mat_mean
+        if np.isnan(bias):
+            item_bias.append(0)
+        else:
+            item_bias.append(bias)
+
+    train_bias = dok_matrix((num_user, num_item), dtype=np.float32)
+
+    for (u,i), rating in train_mat.items():
+        train_bias[u,i] = rating - train_mat_mean - user_bias[u] - item_bias[i]
+
+
+    A_orig = np.array(train_bias.todense())
+
+    #on remplace les zeros (notes absentes) par des NaN
+    for i in range(num_user):
+        for j in range(num_item):
+            if A_orig[i][j] == 0.0:
+                A_orig[i][j] = np.NaN
+                
+    A_df = pd.DataFrame(A_orig)
+
+    #on utilise un masque
+    np_mask = A_df.notnull()
+
+    # Boolean mask for computing cost only on valid (not missing) entries
+    tf_mask = tf.Variable(np_mask.values)
+
+    A = tf.constant(A_df.values)
+    shape = A_df.values.shape
+
+    #latent factors : nombre de dimensions latente
+    rank = 200
+
+    # Initializing random H and W
+    temp_H = np.random.randn(rank, shape[1]).astype(np.float32)
+    temp_H = np.divide(temp_H, temp_H.max())
+
+    temp_W = np.random.randn(shape[0], rank).astype(np.float32)
+    temp_W = np.divide(temp_W, temp_W.max())
+
+    H =  tf.Variable(temp_H)
+    W = tf.Variable(temp_W)
+    WH = tf.matmul(W, H)
+
+    #cost of Frobenius norm
+    cost = tf.reduce_sum(tf.pow(tf.boolean_mask(A, tf_mask) - tf.boolean_mask(WH, tf_mask), 2))
+
+    # Learning rate
+    lr = 0.001
+    # Number of steps
+    steps = 1000
+    train_step = tf.train.GradientDescentOptimizer(lr).minimize(cost)
+    init = tf.global_variables_initializer()
+
+    # Clipping operation. This ensure that W and H learnt are non-negative
+    clip_W = W.assign(tf.maximum(tf.zeros_like(W), W))
+    clip_H = H.assign(tf.maximum(tf.zeros_like(H), H))
+    clip = tf.group(clip_W, clip_H)
+
+    steps = 1000
+    with tf.Session() as sess:
+        sess.run(init)
+        for i in range(steps):
+            sess.run(train_step)
+            sess.run(clip)
+            #if i%100==0:
+                #print("\nCost: %f" % sess.run(cost))
+                #print("*"*40)
+        learnt_W = sess.run(W)
+        learnt_H = sess.run(H)
+
+    prediction_tr = np.array([pred_func_bias(learnt_W, learnt_H, train_mat_mean,  user_bias, item_bias, u, i,) for (u,i),rating in train_mat.items()])
+    prediction_te = np.array([pred_func_bias(learnt_W, learnt_H, train_mat_mean,  user_bias, item_bias, u, i) for u,i,rating in test])
+
+    #on arrondi les ratings predits
+    prediction_tr = prediction_tr.round()
+    prediction_te = prediction_te.round()
+
+    #on remplace les ratings > 10 par 10, < 1 par 1
+    prediction_tr = replace_sup10_inf1(prediction_tr)
+    prediction_te = replace_sup10_inf1(prediction_te)
+
+    return prediction_tr, prediction_te
+
+def replace_sup10_inf1(l):
+    res = []
+    for i in range(len(l)):
+        if l[i] > 10.0:
+            res.append(10.0)
+        elif l[i] < 1.0:
+            res.append(1.0)
+        else:
+            res.append(l[i])
+    return res
 
 def predictions_NMF(train_mat,test, nb_comp, num_user, num_item) :
     truth_tr = np.array([rating for (uid,iid),rating in train_mat.items()])
