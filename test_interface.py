@@ -12,6 +12,7 @@ import operator
 import pickle
 from collections import OrderedDict
 from utils.predictions_notes import *
+from utils.recommandation import *
 
 print("**************************************************")
 print("\n")
@@ -32,6 +33,7 @@ with open(path_d_user, 'rb') as pickle_file:
 # matrice des similarités cosinus
 with open(path_sim, 'rb') as pickle_file:
     similarities = pickle.load(pickle_file)
+sim = similarities
 
 # dictionnaire des séries les plus similaires
 with open(path_most_sim, 'rb') as pickle_file:
@@ -147,36 +149,28 @@ class Interface(Frame):
 		On change la valeur du label message."""
 		user_selectionne = reversed_u_dic[int(self.liste.curselection()[0])]
 		username = reversed_u_dic[int(self.liste.curselection()[0])]
-		print('user = ', username)
-
-		uid = d_username_id[username]
-		d_notes = dict()
-		for serie, iid in d_itemname_id.items() :
-		    if serie not in d_user[username].keys() :
-		        # prediction
-		        p = pred_func_ksvd(uid, iid, U_ksvd, I_ksvd, u_means, i_means, mean)
-		        if p > 10 :
-		        	p = 10
-		        d_notes[serie] = p 
-
-
-		sorted_x = sorted(d_notes.items(), key=lambda kv: kv[1])
-		sorted_x.reverse()
-
-		sorted_dict = OrderedDict(sorted_x)
-		reco = list(sorted_dict)
-		top3_reco = reco[:3]
+		print("username = ", username)
+		top_reco = reco_fc_kSVD(username, 
+					d_username_id, 
+					d_itemname_id, 
+					d_user,
+					U_ksvd,
+					I_ksvd,
+					u_means,
+					i_means,
+					mean)
+		
 		#top3_reco, p = recommandation(user_selectionne, data, d_user, 3, U_ksvd, I_ksvd, u_means, i_means, mean)
 		if self.message != "":
 			self.message.destroy()
 		if self.liste2 != "":
 			self.liste2.destroy()
 
-		self.message = Label(fenetre, text="Top 3 des recommandations (filtrage collaboratif)")
+		self.message = Label(fenetre, text="Top 10 des recommandations (filtrage collaboratif)")
 		
 		self.liste2 = Listbox(fenetre)
 		#self.liste2.pack()
-		for r in top3_reco :
+		for r in top_reco :
 			self.liste2.insert(END, r)
 		self.message.grid(row=5, column=3)
 		self.liste2.grid(row=6, column=3)
@@ -185,6 +179,19 @@ class Interface(Frame):
 
 	def content(self):
 		user_selectionne = reversed_u_dic[int(self.liste.curselection()[0])]
+		username = reversed_u_dic[int(self.liste.curselection()[0])]
+		print("username = ", username)
+		top_reco = reco_content(username,
+					d_username_id,
+					d_itemname_id,
+					d_name,
+					d_user,
+					d_ind, 
+					d_titre_filename, 
+					d_filename_titre, 
+					d_id_username, 
+					d_id_serie, 
+					sim)
 
 		top1_user = max(d_user[user_selectionne].items(), key=operator.itemgetter(1))[0]
 
@@ -193,11 +200,11 @@ class Interface(Frame):
 			self.best_show.destroy()
 		self.best_show = Label(fenetre, text="best show : "+show)
 
-		top3_reco = most_similar[show]
+		
 		if self.message2 != "":
 			self.message2.destroy()
 
-		self.message2 = Label(fenetre, text="Top 3 des recommandations (content)")
+		self.message2 = Label(fenetre, text="Top 10 des recommandations (content)")
 		self.message2.grid(row=5, column=1)
 
 		if self.liste3 != "":
@@ -205,7 +212,7 @@ class Interface(Frame):
 
 		self.liste3 = Listbox(fenetre)
 
-		for r in top3_reco :
+		for r in top_reco :
 			if r in d_filename_titre.keys() :
 				t = d_filename_titre[r]
 			else :
