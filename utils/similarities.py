@@ -17,6 +17,10 @@ def similarities(path, my_stopwords=stopwords_set) :
 	print("cosine similarity ok")
 	return similarities
 
+def similarities_from_sparse_mat(sparse_mat) :
+	similarities = cosine_similarity(sparse_mat)
+	return similarities
+
 
 def most_similar(path, similarities, nb_reco=3, my_stopwords=stopwords_set) :
 	print("reco par similarité start")
