@@ -290,25 +290,32 @@ def createCleanedData(path, new_dir):
                             f.write(text)
 
 
-def getTfidfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
-    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+def getTfidfDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
+    print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
     
-def getTfidfSparseMat(corpus, my_stopwords=None, my_tokenizer=None):
-    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
-    return vectorizer.fit_transform(corpus)
+def getTfidfSparseMat(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
+    X =vectorizer.fit_transform(corpus)
+    print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
+    return X
 
-def getTfDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
-    vectorizer = CountVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+def getTfDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+    vectorizer = CountVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
+    print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
     
-def getTfSparseMat(corpus, my_stopwords=None, my_tokenizer=None):
-    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
-    return vectorizer.fit_transform(corpus)
-    
-def getTfidfSparseMatAndDataFrame(corpus, my_stopwords=None, my_tokenizer=None):
-    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer)
+def getTfSparseMat(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
+    print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
+    return X
+            
+def getTfidfSparseMatAndDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+    vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
+    X = vectorizer.fit_transform(corpus)
+    print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return X, pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())           
