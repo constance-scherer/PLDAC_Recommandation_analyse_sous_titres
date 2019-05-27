@@ -1,10 +1,3 @@
-"""Premier exemple avec Tkinter.
-
-On crée une fenêtre simple qui souhaite la bienvenue à l'utilisateur.
-
-"""
-
-# On importe Tkinter
 from tkinter import *
 from utils.collaborative import *
 from utils.similarities import *
@@ -21,9 +14,14 @@ print("\n")
 # ======== PICKLE LOADS ========
 print('----- Start pickle loads -----')
 
-path_d_user = "/Users/constancescherer/Desktop/pickles/d_user.p"
-path_sim = "/Users/constancescherer/Desktop/pickles/sim.p"
-path_most_sim = "/Users/constancescherer/Desktop/pickles/most_sim.p"
+# path_d_user = "/Users/constancescherer/Desktop/pickles/d_user.p"
+# path_sim = "/Users/constancescherer/Desktop/pickles/sim.p"
+# path_most_sim = "/Users/constancescherer/Desktop/pickles/most_sim.p"
+
+path_d_user = "/Vrac/PLDAC_addic7ed/pickles/d_user.p"
+path_sim = "/Vrac/PLDAC_addic7ed/pickles/sim.p"
+path_most_sim = "/Vrac/PLDAC_addic7ed/pickles/most_sim.p"
+path_d_pop = "/Vrac/PLDAC_addic7ed/pickles/d_pop.p"
 
 # dictionnaire d_users
 # {username : {serie : rating}}
@@ -39,13 +37,17 @@ sim = similarities
 with open(path_most_sim, 'rb') as pickle_file:
     most_similar = pickle.load(pickle_file)
 
+# dictionnaire des popularités
+with open(path_d_pop, 'rb') as pickle_file:
+    d_pop = pickle.load(pickle_file)
+
 print('----- Pickle loads finished -----')
 
 # ======== COLLABORATIVE ========
 print('----- Start collaborative -----')
 
-path_ratings = "/Users/constancescherer/Desktop/ratings/ratings_imdb/users"
-#path_ratings = "/Vrac/PLDAC_addic7ed/ratings/ratings_imdb/users"
+#path_ratings = "/Users/constancescherer/Desktop/ratings/ratings_imdb/users"
+path_ratings = "/Vrac/PLDAC_addic7ed/ratings/ratings_imdb/users"
 
 liste_series = get_liste_series(d_user)
 data = get_data(d_user)
@@ -55,8 +57,8 @@ mean, u_means, i_means,U_ksvd, I_ksvd =  get_Uksvd_Iksvd(train, train_mat, num_u
 d_username_id, d_itemname_id, Full = create_sparse_mat(data)
 
 
-path_series = "/Users/constancescherer/Desktop/addic7ed_good_encoding"
-#path_series = '/Vrac/PLDAC_addic7ed/addic7ed_clean'
+#path_series = "/Users/constancescherer/Desktop/addic7ed_good_encoding"
+path_series = '/Vrac/PLDAC_addic7ed/addic7ed_clean'
 
 d_info, d_name = getDicts(path_series)
 d_ind = reverse_dict(d_name)
@@ -67,26 +69,9 @@ d_id_serie = reverse_dict(d_itemname_id)
 
 reversed_u_dic, reversed_i_dic = create_reversed_dic(d_username_id, d_itemname_id)
 
+W, H, user_bias, item_bias, mean_nmf = train_NMF(train_mat,test, num_user, num_item)
+
 print('----- Collaborative finished -----')
-
-# ======== CONTENT ========
-# liste_filenames = []
-# for s in liste_series : 
-# 	liste_filenames.append(d_titre_filename[s])
-
-#path2 = "/Vrac/PLDAC_addic7ed/addic7ed_clean_ok"
-#new_path = "/Vrac/PLDAC_addic7ed/addic7ed_final"
-# new_path = "/Users/constancescherer/Desktop/addic7ed_final"
-# print("create clean data start")
-# createCleanedData(path_series, new_path)
-# print("end create clean data")
-# print("starting remove")
-# removeFilesAndFoldersThatNeedToGo(path_series) 
-# print("Remove finished")
-
-
-
-
 
 
 class Interface(Frame):
@@ -149,16 +134,17 @@ class Interface(Frame):
 		On change la valeur du label message."""
 		user_selectionne = reversed_u_dic[int(self.liste.curselection()[0])]
 		username = reversed_u_dic[int(self.liste.curselection()[0])]
-		print("username = ", username)
-		top_reco = reco_fc_kSVD(username, 
-					d_username_id, 
-					d_itemname_id, 
-					d_user,
-					U_ksvd,
-					I_ksvd,
-					u_means,
-					i_means,
-					mean)
+		#print("username = ", username)
+		top_reco = reco_fc_NMF(username, 
+							d_username_id, 
+							d_itemname_id, 
+							d_user,
+							W, 
+							H, 
+							user_bias,
+							item_bias,
+							mean_nmf,
+							d_pop)
 		
 		#top3_reco, p = recommandation(user_selectionne, data, d_user, 3, U_ksvd, I_ksvd, u_means, i_means, mean)
 		if self.message != "":
@@ -180,7 +166,7 @@ class Interface(Frame):
 	def content(self):
 		user_selectionne = reversed_u_dic[int(self.liste.curselection()[0])]
 		username = reversed_u_dic[int(self.liste.curselection()[0])]
-		print("username = ", username)
+		#print("username = ", username)
 		top_reco = reco_content(username,
 					d_username_id,
 					d_itemname_id,
@@ -198,7 +184,7 @@ class Interface(Frame):
 		show = d_titre_filename[top1_user]
 		if self.best_show != "" :
 			self.best_show.destroy()
-		self.best_show = Label(fenetre, text="best show : "+show)
+		self.best_show = Label(fenetre, text="Série préférée : "+show)
 
 		
 		if self.message2 != "":

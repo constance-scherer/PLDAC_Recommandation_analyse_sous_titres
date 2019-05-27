@@ -6,7 +6,7 @@ from scipy.sparse import dok_matrix
 import numpy as np
 import pandas as pd
 from sklearn.decomposition import NMF, TruncatedSVD
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import os
 import re
 import pandas as pd
@@ -18,24 +18,7 @@ from scipy.spatial.distance import sqeuclidean, cosine
 import tensorflow as tf
 import math
 np.random.seed(0)
-#import matplotlib.pyplot as plt
 print("Import collaborative.py ok")
-
-
-
-def MSE_err(truth,pred):
-    """
-    computes MSE from real-pred difference
-    """
-    return np.mean((truth-pred)**2)
-
-def MAE_err(truth,pred):
-    """
-    computes MAE from real-pred difference
-    """
-    return np.mean(abs(np.array(truth-pred)))
-     
-
 
 
 def pred_func_svd(U_svd, I_svd, uid,iid):
@@ -47,7 +30,6 @@ def pred_func_svd(U_svd, I_svd, uid,iid):
 
 
 def pred_func_mean(uid,iid):
-    
     
     return mean
 
@@ -120,20 +102,10 @@ def pred_func_ksvd(uid,iid, U_ksvd, I_ksvd, u_means, i_means, mean):
     #on ramène les notes au dessus de 10 à 10
     if p > 10 :
         p = 10
-    
+    # on ramène les notes en dessous de 1 à 1
+    if p < 1 :
+        p = 1
     return p
-
-
-
-def pred_func_ksvd2(U_ksvd, I_ksvd, uid,iid, mean, u_means, i_means):
-    Uu = U_ksvd[uid]
-    Ii = I_ksvd[iid]
-    Bu = u_means.get(uid,0)
-    Bi = i_means.get(iid, 0)
-    return np.dot(Uu, Ii) + mean + Bu + Bi
-
-
-
 
 def pred_func(W, H, u, i):
     H_t = H.T
@@ -155,6 +127,100 @@ def pred_func_bias(W, H, mean, user_bias, item_bias, u, i):
     H_t = H.T
     return np.dot(W[u], H_t[i])+mean+ user_bias[u]+item_bias[i]
 
+def train_NMF(train_mat,test, num_user, num_item, nb_comp=200) :
+    truth_tr = np.array([rating for (uid,iid),rating in train_mat.items()])
+    truth_te = np.array([rating for uid,iid,rating in test])
+
+    train_mat_mean = np.array(list(train_mat.values())).mean() #moyenne des notes dans la matrice train
+    item_bias = [] #biais item : moyenne des notes reçues l'item - moyenne du dataset
+    user_bias = [] #biais user : moyenne des notes données par l'utilisateur - moyenne du dataset
+
+    for i in range(0, num_user):
+        user = train_mat[i]
+        user_mean = np.array(list(user.values())).mean()
+        bias = user_mean - train_mat_mean
+        if np.isnan(bias):
+            user_bias.append(0)
+        else:
+            user_bias.append(bias)
+
+    train_mat_T = train_mat.copy().transpose()
+    for i in range(0, num_item):
+        item = train_mat_T[i]
+        item_mean = np.array(list(item.values())).mean()
+        bias = item_mean - train_mat_mean
+        if np.isnan(bias):
+            item_bias.append(0)
+        else:
+            item_bias.append(bias)
+
+    train_bias = dok_matrix((num_user, num_item), dtype=np.float32)
+
+    for (u,i), rating in train_mat.items():
+        train_bias[u,i] = rating - train_mat_mean - user_bias[u] - item_bias[i]
+
+
+    A_orig = np.array(train_bias.todense())
+
+    #on remplace les zeros (notes absentes) par des NaN
+    for i in range(num_user):
+        for j in range(num_item):
+            if A_orig[i][j] == 0.0:
+                A_orig[i][j] = np.NaN
+                
+    A_df = pd.DataFrame(A_orig)
+
+    #on utilise un masque
+    np_mask = A_df.notnull()
+
+    # Boolean mask for computing cost only on valid (not missing) entries
+    tf_mask = tf.Variable(np_mask.values)
+
+    A = tf.constant(A_df.values)
+    shape = A_df.values.shape
+
+    #latent factors : nombre de dimensions latente
+    rank = 200
+
+    # Initializing random H and W
+    temp_H = np.random.randn(rank, shape[1]).astype(np.float32)
+    temp_H = np.divide(temp_H, temp_H.max())
+
+    temp_W = np.random.randn(shape[0], rank).astype(np.float32)
+    temp_W = np.divide(temp_W, temp_W.max())
+
+    H =  tf.Variable(temp_H)
+    W = tf.Variable(temp_W)
+    WH = tf.matmul(W, H)
+
+    #cost of Frobenius norm
+    cost = tf.reduce_sum(tf.pow(tf.boolean_mask(A, tf_mask) - tf.boolean_mask(WH, tf_mask), 2))
+
+    # Learning rate
+    lr = 0.001
+    # Number of steps
+    steps = 1000
+    train_step = tf.train.GradientDescentOptimizer(lr).minimize(cost)
+    init = tf.global_variables_initializer()
+
+    # Clipping operation. This ensure that W and H learnt are non-negative
+    clip_W = W.assign(tf.maximum(tf.zeros_like(W), W))
+    clip_H = H.assign(tf.maximum(tf.zeros_like(H), H))
+    clip = tf.group(clip_W, clip_H)
+
+    steps = 1000
+    with tf.Session() as sess:
+        sess.run(init)
+        for i in range(steps):
+            sess.run(train_step)
+            sess.run(clip)
+            #if i%100==0:
+                #print("\nCost: %f" % sess.run(cost))
+                #print("*"*40)
+        learnt_W = sess.run(W)
+        learnt_H = sess.run(H)
+
+    return learnt_W, learnt_H, user_bias, item_bias, train_mat_mean
 
 
 def predictions_NMF_biais(train_mat,test, nb_comp, num_user, num_item) :
@@ -363,17 +429,10 @@ def predictions_NMF(train_mat,test, nb_comp, num_user, num_item) :
     
     return prediction_tr, prediction_te
 
-
-
-
 def create_reversed_dic(u_dic, i_dic) :
     reversed_u_dic =  dict([[v,k] for k,v in u_dic.items()]) #{user id : username}
     reversed_i_dic = dict([[v,k] for k,v in i_dic.items()]) #{item id: item title}
     return reversed_u_dic, reversed_i_dic
-
-
-
-
 
 def plus_proche_voisin(username, d_username_id, Full) :
     user_id = d_username_id[username]
@@ -388,8 +447,6 @@ def plus_proche_voisin(username, d_username_id, Full) :
                 i_min = i
                 d_min = d
     return i_min
-
-
 
 def series_pas_en_commun(username1, username2, d_user, d_itemname_id) :
     """id series que user2 a vu et pas user1"""
@@ -407,9 +464,6 @@ def series_pas_en_commun(username1, username2, d_user, d_itemname_id) :
             s.add(d_itemname_id[s2])
             
     return list(s)
-
-
-
 
 def recommandation(username1, data, d_user, nb_pred, U_ksvd, I_ksvd, u_means, i_means, mean) :
     d_username_id, d_itemname_id, Full = create_sparse_mat(data)
@@ -433,8 +487,6 @@ def recommandation(username1, data, d_user, nb_pred, U_ksvd, I_ksvd, u_means, i_
     res = [reversed_i_dic[sorted_rec[i][0]] for i in range(nb_pred)]
     
     return res, sorted_rec
-
-
 
 def plot_courbes_erreur(n, train_mse, train_mae, test_mse, test_mae, t) :
     plt.plot(n, train_mse, label='train mse', color='darkorange')

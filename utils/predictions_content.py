@@ -12,8 +12,6 @@ from utils.predictions_notes import *
 import pickle
 print("Import predictions_content ok")
 
-
-
 def pred_content(uid, 
 	iid, 
 	d_name,
@@ -23,9 +21,20 @@ def pred_content(uid,
 	d_filename_titre, 
 	d_id_username, 
 	d_id_serie, 
-	similarities,
+	sim,
 	k=3) :
     """
+    uid : id de l'utilisateur 
+    iid : id de la serie
+    d_name : dict
+    d_user : dict 
+    d_ind : dict
+    d_titre_filename : dict 
+    d_filename_titre : dict
+    d_id_username : dict
+    d_id_serie : dict
+    sim : matrice de similarités entre les séries
+    k : nb de voisins à considérer
     prédire la note de l'utilisateur uid pour la serie iid 
     (moyenne sur les k ppv de iid chez uid)
     """
@@ -43,7 +52,7 @@ def pred_content(uid,
     if f in d_ind.keys() :
         n_iid = d_ind[f]
     
-    simil = similarities[n_iid]
+    simil = sim[n_iid]
     
     # on parcourt les séries que l'utilisateur a vu
     series_ind = []

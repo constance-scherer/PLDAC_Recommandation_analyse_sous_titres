@@ -6,6 +6,7 @@ import operator
 import pickle
 from collections import OrderedDict
 from utils.predictions_notes import *
+from utils.eval_reco import *
 print("Import recommandation ok")
 
 
@@ -18,6 +19,7 @@ def reco_fc_kSVD(username,
 	u_means,
 	i_means,
 	mean,
+	d_pop,
 	nb_reco=10):
 	"""
 	renvoie nb_reco recommandation pour l'utilisateur username
@@ -29,8 +31,7 @@ def reco_fc_kSVD(username,
 	    if serie not in d_user[username].keys() :
 	        # prediction
 	        p = pred_func_ksvd(uid, iid, U_ksvd, I_ksvd, u_means, i_means, mean)
-	        if p > 10 :
-	            p = 10
+
 	        d_notes[serie] = p 
 
 
@@ -39,9 +40,44 @@ def reco_fc_kSVD(username,
 
 	sorted_dict = OrderedDict(sorted_x)
 	reco = list(sorted_dict)
+	top_reco = tri_par_pop(reco, d_pop)
 	top_reco = reco[:nb_reco]
-		
+	
 	return top_reco
+
+def reco_fc_NMF(username, 
+	d_username_id, 
+	d_itemname_id, 
+	d_user,
+	W, 
+	H, 
+	user_bias,
+	item_bias,
+	mean,
+	d_pop,
+	nb_reco=10):
+	"""
+	"""
+	uid = d_username_id[username]
+	d_notes = dict()
+	for serie, iid in d_itemname_id.items() :
+	    if serie not in d_user[username].keys() :
+	        # prediction
+	        p = pred_func_bias(W, H, mean, user_bias, item_bias, uid, iid)
+
+	        d_notes[serie] = p 
+
+
+	sorted_x = sorted(d_notes.items(), key=lambda kv: kv[1])
+	sorted_x.reverse()
+
+	sorted_dict = OrderedDict(sorted_x)
+	reco = list(sorted_dict)
+	top_reco = tri_par_pop(reco, d_pop)
+	top_reco = reco[:nb_reco]
+	
+	return top_reco
+
 
 
 def reco_content(username,
