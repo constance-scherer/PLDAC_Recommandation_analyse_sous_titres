@@ -232,23 +232,62 @@ def getDicts(path):
     return res, res2
 
 def corpus_shows(path):
-"""entrée : un fichier par série
-	retourne liste des textes des séries complètes
-"""
-    c = []
-    cpt = 0
-    files = sorted(os.listdir(path))
-    for file in files:
-        with open(path+"/"+file) as f:
-            lines = f.readlines()
-            text =""
-            for line in lines :
-                line = line.lower()
-                if verifier_ligne(line):
-                    new_line = transformer_ligne(line)
-                    text += new_line
-            c.append(text)
-    return c
+	"""entrée : un fichier par série. retourne liste des textes des séries complètes"""
+	c = []
+	cpt = 0
+	files = sorted(os.listdir(path))
+	for file in files:
+		with open(path+"/"+file) as f:
+		    lines = f.readlines()
+		    text =""
+		    for line in lines :
+		        line = line.lower()
+		        if verifier_ligne(line):
+		            new_line = transformer_ligne(line)
+		            text += new_line
+		    c.append(text)
+	return c
+
+def del_ds_store(path):
+    # get all files' and folders' names in the current directory
+    filenames= sorted(os.listdir(path))
+    # loop through all the files and folders
+    for filename in filenames:
+         # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                show_path = path+"/"+filename
+                if filename.startswith(".DS_Store"):
+                    os.remove(show_path)
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
+                    if season.startswith(".DS_Store"):
+                        os.remove(season_path)
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
+                        if episode.startswith(".DS_Store"):
+                            os.remove(episode_path)
+
+def make_corpus(path):
+    show_dir ="/Vrac/PLDAC_reco/shows"
+    os.makedirs(show_dir, exist_ok=True)
+    # get all files' and folders' names in the current directory
+    filenames= sorted(os.listdir(path))
+    # loop through all the files and folders
+    for filename in filenames:
+         # check whether the current object is a folder or not (ie check if it's a show)
+        if os.path.isdir(os.path.join(os.path.abspath(path), filename)):
+                show_path = path+"/"+filename
+                text=""
+                for season in sorted(os.listdir(show_path)):
+                    season_path = show_path+"/"+season
+                    for episode in sorted(os.listdir(season_path)):
+                        episode_path = season_path+"/"+episode
+                        with open(episode_path, "r", encoding='utf-8', errors="ignore") as f:
+                            text += f.read()
+                ws = show_dir+"/"+filename+".txt"
+                with open(ws, "w") as f:
+                    f.write(text)
+
 
 def getTfidfDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
