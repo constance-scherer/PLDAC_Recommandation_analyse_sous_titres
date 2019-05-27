@@ -6,6 +6,7 @@ from scipy.sparse import dok_matrix
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import sqeuclidean, cosine
+print("Import predictions_notes ok")
 
 # take as input two lists of ratings
 

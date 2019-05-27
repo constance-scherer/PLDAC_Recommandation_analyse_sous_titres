@@ -6,6 +6,7 @@ import operator
 import pickle
 from collections import OrderedDict
 from utils.predictions_notes import *
+print("Import recommandation ok")
 
 
 def reco_fc_kSVD(username, 

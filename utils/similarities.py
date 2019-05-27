@@ -4,6 +4,7 @@ from utils.preprocessing_cleaned_data import *
 from utils.swSets import *
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split, cross_val_score
+print("Import similarities ok")
 
 
 def similarities(path, my_stopwords=stopwords_set) :

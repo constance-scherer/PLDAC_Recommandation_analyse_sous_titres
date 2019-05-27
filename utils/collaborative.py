@@ -19,6 +19,7 @@ import tensorflow as tf
 import math
 np.random.seed(0)
 #import matplotlib.pyplot as plt
+print("Import collaborative.py ok")
 
 
 

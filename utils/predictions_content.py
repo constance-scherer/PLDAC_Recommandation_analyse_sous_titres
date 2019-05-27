@@ -10,6 +10,7 @@ from collections import OrderedDict
 from utils.preprocessing_cleaned_data import *
 from utils.predictions_notes import *
 import pickle
+print("Import predictions_content ok")
 
 
 

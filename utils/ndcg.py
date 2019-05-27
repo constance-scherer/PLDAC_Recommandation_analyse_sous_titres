@@ -2,6 +2,7 @@ import pickle
 import math
 from collections import OrderedDict
 from utils.recommandation import *
+print("Import ndcg ok")
 
 
 def dcg(reco, user, d_pert_user) :
@@ -41,7 +42,7 @@ def ideal_reco(user, k, d_pert_user, d_user) :
     sorted_dict = OrderedDict(sorted_x)
     ideal_reco = []
     i = 0
-    while len(ideal_reco) < k or i < len(d_pert) :
+    while len(ideal_reco) < k and i < len(d_pert) :
         serie, pert = sorted_x[i]
         if serie not in series_vues :
             ideal_reco.append(serie)
