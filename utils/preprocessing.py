@@ -42,18 +42,21 @@ def transformer_ligne(ligne):
     return new_line
 
 def stemming_tokenizer(str_input):
+	"""return stem for str_input"""
     blob = TextBlob(str_input.lower())
     tokens = blob.words
     words = [token.stem() for token in tokens]
     return words
 
 def lemmatizing_tokenizer(str_input):
+	"""return lemme for str_input"""
     lemmatizer = WordNetLemmatizer()
     tokens = nltk.word_tokenize(str_input)
     words = [lemmatizer.lemmatize(word, pos="v") for word in tokens]
     return words
 
 def lemmatizing_tokenizer_v2(str_input):
+	"""return lemme for str_input"""
     words = []
     wnl = WordNetLemmatizer()
     tokens_tagged =pos_tag(word_tokenize(str_input))
@@ -71,6 +74,7 @@ def lemmatizing_tokenizer_v2(str_input):
     return words
 
 def getRidOfGrabInfo(path):
+	"""remove grab and info files"""
     filenames= sorted(os.listdir(path)) 
     # loop through all the files and folders
     for filename in filenames:
@@ -84,6 +88,7 @@ def getRidOfGrabInfo(path):
 
 
 def getRidOfNonEnglishEpisodes(path):
+	"""remove non english episodes"""
     # get all files' and folders' names in the current directory
     filenames= sorted(os.listdir(path)) 
     # loop through all the files and folders
@@ -100,13 +105,14 @@ def getRidOfNonEnglishEpisodes(path):
                             os.remove(episode_path)
 
 def removeFilesAndFoldersThatNeedToGo(path):
+	"""remove files and folder that need to go"""
     getRidOfGrabInfo(path)
     getRidOfNonEnglishEpisodes(path)
     removeEmptyFolders(path, removeRoot=True)
 
 
 def get_corpus_as_episodes(path):
-    """each text in corpus is an episode"""
+    """each document in corpus is an episode"""
     corpus = []
     
     # get all files' and folders' names in the current directory
@@ -137,7 +143,7 @@ def get_corpus_as_episodes(path):
     return corpus
 
 def get_corpus_as_seasons(path):
-    """each text in corpus is a season"""
+    """each document in corpus is a season"""
     corpus = []
     
     # get all files' and folders' names in the current directory
@@ -170,7 +176,7 @@ def get_corpus_as_seasons(path):
 
 
 def get_corpus_as_shows(path):
-    """each text in corpus is a show"""
+    """each document in corpus is a show"""
     corpus = []
     
     # get all files' and folders' names in the current directory
@@ -200,6 +206,7 @@ def get_corpus_as_shows(path):
     return corpus
 
 def get_corpus(path, texts_as="episodes"):
+	"""return corpus according to text_as argument"""
     if texts_as == "seasons":
         return get_corpus_as_seasons(path)
     if texts_as == "shows":
@@ -210,6 +217,9 @@ def get_corpus(path, texts_as="episodes"):
 
 
 def getDicts(path):
+	"""return the two following dictionnaries:
+		d_name = res2 = { serie id : serie title}
+		d_info = res = { serie id : {saison num : nb of episodes}}"""
     res = dict() #  keys : show id     values: dict(key:id season, value: nb  ep season)
     res2 = dict() # keys : show id     values: show title
     j = 0
@@ -249,6 +259,7 @@ def corpus_shows(path):
 	return c
 
 def del_ds_store(path):
+	"""remove ds store files"""
     # get all files' and folders' names in the current directory
     filenames= sorted(os.listdir(path))
     # loop through all the files and folders
@@ -268,6 +279,7 @@ def del_ds_store(path):
                             os.remove(episode_path)
 
 def make_corpus(path):
+	"""ecrit un fichier de sous titres par série"""
     show_dir ="/Vrac/PLDAC_reco/shows"
     os.makedirs(show_dir, exist_ok=True)
     # get all files' and folders' names in the current directory
@@ -290,36 +302,42 @@ def make_corpus(path):
 
 
 def getTfidfDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+	"""return TF-IDF dataframe for corpus"""
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
     print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
     
 def getTfidfSparseMat(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+	"""return TF-IDF sparse matrix for corpus"""
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X =vectorizer.fit_transform(corpus)
     print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return X
 
 def getTfDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+	"""return TF dataframe for corpus"""
     vectorizer = CountVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
     print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
     
 def getTfSparseMat(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+	"""return TF sparse matrix for corpus"""
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
     print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return X
 
 def getTfidfSparseMatAndDataFrame(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+    """return TF-IDF sparse matrix and dataframe for corpus"""
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X = vectorizer.fit_transform(corpus)
     print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
     return X, pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
     
 def getTfidfSparseMatVectorizer(corpus, my_stopwords=None, my_tokenizer=None, max_features=None, min_df=1, max_df=1.0):
+	"""return TF-IDF sparse matrix and vectorizer for corpus"""
     vectorizer = TfidfVectorizer(stop_words = my_stopwords, tokenizer=my_tokenizer, max_features=max_features, min_df=min_df, max_df=max_df)
     X =vectorizer.fit_transform(corpus)
     print("taille vocabulaire : ", len(vectorizer.get_feature_names()))
